@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import PortalDescription from './HomePage/PortalDescription';
 import Autors from './AutorsPage/Autors';
 import Architect from './Architectors/Architect';
-import ArchitectNav from './Architectors/ArchitectNav';
+import SearchByArchitects from './Architectors/SearchByArchitects';
 import { architects } from '../store';   
 
 
@@ -62,7 +62,7 @@ function GlobalNav() {
             />
             <Route exact
                 path="/architects"
-                render={() => <ArchitectNav />}
+                render={() => <SearchByArchitects />}
             />
 
             { createRouter() }
