@@ -6,6 +6,8 @@ const architects = [
     "deceased": "27 апреля 1999",
     "description": "Народный архитектор СССР (1981), заслуженный строитель Беларуси, академик Российской академии архитектуры и строительных наук, академик Белорусской академии архитектуры, лауреат Государственной премии СССР (1971).",
     "image": "http://bsa.by/ckfinder/userfiles/images/4(2).jpg",
+    "placeOfResidence": "Минск",
+    "placeOfBirth": "Гомель",
     "texts": [
       {
         "id": "thus-spoke-zarathustra",
@@ -51,6 +53,8 @@ const architects = [
     "deceased": "настоящее время",
     "description": "Белорусский советский архитектор. За свою творческую деятельность неоднократно награждалась грамотами Верховного Совета БССР, почетными грамотами и грамотами института 'Минскпроект', Союзов архитекторов СССР и БССР. В 1989 году Любовь Дмитриевна Усова занесена в книгу почета института 'Минскпроект'.",
     "image": "https://minsknews.by/wp-content/uploads/2014/10/Arhitektor-Usova-2.jpg",
+    "placeOfResidence": "Минск",
+    "placeOfBirth": "Гомель",
     "texts": [
       {
         "id": "thus-spoke-zarathustra",
@@ -102,6 +106,8 @@ const architects = [
     "deceased": "2 февраля 1968",
     "description": "Советский архитектор, действительный член Академии Архитектуры СССР (1950), академик АН БССР (1950; член-корреспондент с 1947). Педагог, профессор (с 1948). Лауреат Государственной премии Белорусской ССР (1968).",
     "image": "http://cn.flibusta.site/i/89/452389/img_84.jpg",
+    "placeOfResidence": "Минск",
+    "placeOfBirth": "Гомель",
     "texts": [
       {
         "id": "man-and-his-symbols",
@@ -145,6 +151,8 @@ const architects = [
     "deceased": "1 марта 2014",
     "description": "Заслуженный архитектор Республики Беларусь, Лауреат Ленинской премии и премии Ленинского комсомола, Лауреат премии Волгоградского Комсомола, дважды лауреат Государственной премии Республики Беларусь, лауреат многих престижных конкурсов и смотров архитектурных работ, Академик Международной и Белорусской Академий архитектуры, Председатель Союза белорусских еврейских общественных объединений и общин с 1991 года",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Levin_Leonid_Mendele.jpg/800px-Levin_Leonid_Mendele.jpg",
+    "placeOfResidence": "Минск",
+    "placeOfBirth": "Гомель",
     "texts": [
       {
         "id": "the-hero-with-a-thousand-faces",
@@ -184,6 +192,8 @@ const architects = [
     "deceased": "January 19, 1990",
     "description": "Indian spiritual guru, considered as a Godman and leader of the Rajneesh movement. During his lifetime he was viewed as a controversial mystic, guru, and spiritual teacher. He advocated a more open attitude towards human sexuality, earning him the nickname \"sex guru\" in the Indian and later international press, although this attitude became more acceptable with time.",
     "image": "http://www.sannyas.wiki/images/5/5f/Osho_HD_083.jpg",
+    "placeOfResidence": "Минск",
+    "placeOfBirth": "Гомель",
     "texts": [
       {
         "id": "the-book-of-secrets-112-meditations-to-discover-the-mystery-within",
@@ -219,6 +229,8 @@ const architects = [
     "deceased": "1798",
     "description": "Один из крупнейших архитекторов развитого барокко и классицизма, работавших на территории современной Беларуси, в XVIII веке. Придворный архитектор короля Станислава Августа Понятовского. Также работал в других регионах Речи Посполитой. В творчестве выделяются ансамбли дворцово-парковых резиденций.",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG/375px-%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG",
+    "placeOfResidence": "Минск",
+    "placeOfBirth": "Гомель",
     "texts": [
       {
         "id": "the-book-of-secrets-112-meditations-to-discover-the-mystery-within",
