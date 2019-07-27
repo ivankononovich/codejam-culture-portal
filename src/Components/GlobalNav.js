@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import PortalDescription from './HomePage/PortalDescription';
 import Autors from './AutorsPage/Autors';
-import Architect from './Architectors/Architect';
+import Architect from './ArchitectPage/Architect';
 import SearchByArchitects from './Architectors/SearchByArchitects';
 import { architects } from '../store';   
 
