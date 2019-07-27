@@ -165,7 +165,12 @@ const autors = [
     "github": "https://github.com/Dmitriy Parhomenko",
   }
 ]
-
-export { architects };
-export { autors };
-
+  
+export default {
+  architects,
+  autors,
+  architectsNav: "Архитекторы",
+  autorsNav: "Наша команда",
+  homePageLink: "Главная страница"
+}
+  

@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 
 import ArchitectNav from './ArchitectNav';
-import { architects } from '../../store';   
 
 class SearchByArchitects extends Component {
     state = {
-        searchResults: architects,
+        searchResults: this.props.architects,
         input: () => <input onChange={(event) => this.handleChange(event)} type="text"/>
     }
 
@@ -13,7 +12,7 @@ class SearchByArchitects extends Component {
         const matches = [];
         const regExp = new RegExp(searchText, 'gi');
 
-        architects.forEach((item) => {
+        this.props.architects.forEach((item) => {
             const criteria = [
                 item.name,
                 item.placeOfBirth,
