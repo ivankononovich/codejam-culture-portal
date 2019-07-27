@@ -7,8 +7,8 @@ const ActivityMap = (props) => {
         <Container>
             <YMaps>
                 <Map defaultState={props.data} width="100%" height="400px" >
-                <Placemark geometry={props.data.center} />
-                <ZoomControl options={{ float: 'right' }} />
+                    <Placemark geometry={props.data.center} />
+                    <ZoomControl options={{ float: 'right' }} />
                 </Map>
             </YMaps>
         </Container>
