@@ -192,6 +192,6 @@ export default {
   architects,
   developers,
   architectsNav: "Architects",
-  developersNav: "Development team",
+  developersList: "Development team",
   homePageLink: "Home page"
 }
