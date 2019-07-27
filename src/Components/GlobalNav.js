@@ -8,8 +8,10 @@ import Architect from './ArchitectPage/Architect';
 import SearchByArchitects from './Architectors/SearchByArchitects';
 
 import storeRU  from '../store/storeRU'; 
-import storeBY  from '../store/storeBY';   
-import storeEN  from '../store/storeEN';   
+
+// it will be used later
+// import storeBY  from '../store/storeBY';   
+// import storeEN  from '../store/storeEN';   
 
 
 class GlobalNav extends Component {
@@ -25,7 +27,7 @@ class GlobalNav extends Component {
     findAllName(obj, listCategory) {
         const names = [];
         
-        obj.map((item, index) => {
+        obj.forEach((item, index) => {
             const configItem = { index };
     
             listCategory.forEach((category) => {
