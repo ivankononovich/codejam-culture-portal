@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import PortalDescription from './HomePage/PortalDescription';
-import DevelopersNav from './DevelopersPage/DevelopersNav';
-import Developer from './DevelopersPage/Developer';
-import Architect from './ArchitectPage/Architect';
-import SearchByArchitects from './Architects/SearchByArchitects';
+import PortalDescription from '../HomePage/PortalDescription';
+import DevelopersNav from './DevelopersNav';
+import Developer from '../DevelopersPage/Developer';
+import Architect from '../ArchitectPage/Architect';
+import SearchByArchitects from '../ArchitectPage/SearchByArchitects';
 
-import storeRU  from '../store/storeRU';
+import storeRU  from '../../store/storeRU';
 
 // it will be used later
 // import storeBY  from '../store/storeBY';
@@ -45,7 +45,6 @@ class GlobalNav extends Component {
 
         listLink.forEach((item) => {
             const props = data[item.index];
-
             routers.push(
                 <Route exact
                     key={item.url}
@@ -63,7 +62,6 @@ class GlobalNav extends Component {
         const routers = [];
 
         const linksArchitects = this.findAllName(this.state.architects, ['url', 'name']);
-
         routers.push(...this.createRouters(
             linksArchitects,
             this.state.architects,
@@ -85,8 +83,7 @@ class GlobalNav extends Component {
                     <li><Link to="/architects">{this.state.architectsNav}</Link></li>
                 </ul>
 
-                <Route
-                    exact
+                <Route exact
                     path="/"
                     render={() => <PortalDescription />}
                 />

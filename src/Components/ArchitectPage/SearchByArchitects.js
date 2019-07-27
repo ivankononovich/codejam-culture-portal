@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import ArchitectNav from './ArchitectNav';
+import ArchitectNav from '../Navigation/ArchitectNav';
 
 class SearchByArchitects extends Component {
     state = {
