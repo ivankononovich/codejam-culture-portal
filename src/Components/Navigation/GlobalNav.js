@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import PortalDescription from '../HomePage/PortalDescription';
 import Developers from '../DevelopersPage/Developer';
 import Architect from '../ArchitectPage/Architect';
-import SearchByArchitects from '../Architects/SearchByArchitects';
+import SearchByArchitects from '../ArchitectPage/SearchByArchitects';
 
 import storeRU  from '../../store/storeRU';
 
