@@ -2,20 +2,24 @@ import React from 'react';
 import { Container, Typography  } from '@material-ui/core'
 import TimeLine from './TimeLine'
 import ActivityMap from './ActivityMap'
+import './Architect.css'
 
 function Architect(props) {
     return <>
-        <Container style={{textAlign: 'center', fontFamily: 'Roboto, Arial, sans-serif'}} maxWidth="md" justify="center">
-            <img src={props.image} alt="Фото" style={{height: '300px'}}/>
-            <Typography variant="h4" component="h2" style={{margin: 10}}>{props.name}</Typography>
-            <Typography variant="h6" style={{marginBottom: 10}}>Годы жизни: {props.born} - {props.deceased}</Typography>
-            <Typography paragraph={true} style={{marginBottom: 30}}>{props.description}</Typography>
-            <Typography variant="h4" component="h4">Биография</Typography>
+        <Container className="architectContainer" maxWidth="md" justify="center" style={{fontFamily: 'Roboto, sans-serif'}}>
+            <img className="architectImage" src={props.image} alt="Фото"/>
+            <Typography className="architectName" variant="h4" component="h2">{props.name}</Typography>
+            <Typography className="architectYears" variant="h6">Годы жизни: {props.born} - {props.deceased}</Typography>
+            <Typography className="architectDescription" paragraph={true}>{props.description}</Typography>
+            <Typography className="architectBio" variant="h4">Биография</Typography>
             <TimeLine data={props.bio}/>
-            <Typography variant="h4" component="h4"  style={{marginBottom: 50}}>Место основной деятельности</Typography>
+            <Typography className="architectMap" variant="h4">Место основной деятельности</Typography>
             <ActivityMap data={props.mapData}/>
+            <Typography className="architectGallery" variant="h4">Фотогалерея</Typography>
+            
         </Container>
     </>
 }
 
-export default Architect;
+export default Architect
+  
