@@ -6,7 +6,7 @@ function createNav(props) {
 
     props.links.forEach((item, index) => {
         nav.push(<li key={index} data-index={index}>
-            <Link to={`/${item.id}`}>{item.name}</Link>
+            <Link to={`/${item.url}`}>{item.name}</Link>
         </li>)
     });
 

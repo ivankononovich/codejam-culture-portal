@@ -2,39 +2,42 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import PortalDescription from './HomePage/PortalDescription';
-import Autors from './AutorsPage/Autors';
+import AutorsNav from './AutorsPage/AutorsNav';
+import Autor from './AutorsPage/Autor';
 import Architect from './ArchitectPage/Architect';
 import SearchByArchitects from './Architectors/SearchByArchitects';
 import { architects } from '../store';   
+import { autors } from '../store';
 
 
-function findAllName() {
+function findAllName(obj, listCategory) {
     const names = [];
+    
+    obj.map((item, index) => {
+        const configItem = { index };
 
-    architects.forEach((item, index) => {
-        names.push({
-            url: item.id,
-            name: item.name,
-            index
+        listCategory.forEach((category) => {
+            configItem[category] = item[category];
         });
+
+        names.push(configItem);
     });
 
     return names;
 }
 
-function createRouter() {
-    const links = findAllName();
+function createRoutrers(listLink, data, componentCb) {
     const routers = [];
 
-    links.forEach((item) => {
-        const architect = architects[item.index];
+    listLink.forEach((item) => {
+        const props = data[item.index];
         
         routers.push(
             <Route exact
                 key={item.url}
                 path={`/${item.url}`}
 
-                render={() => <Architect {...architect}/>}
+                render={() => componentCb(props)}
             />
         )
     });
@@ -43,6 +46,23 @@ function createRouter() {
 }
 
 function GlobalNav() {
+    const routers = [];
+
+    const linksArchitects = findAllName(architects, ['url', 'name']);
+
+    routers.push(...createRoutrers(
+        linksArchitects,
+        architects,
+        (architect) => <Architect {...architect}/>
+    ));
+
+    const linksAutors = findAllName(autors, ['url', 'name', 'github']);
+    routers.push(...createRoutrers(
+        linksAutors,
+        autors,
+        (autor) => <Autor {...autor}/>
+    ));
+
     return <>
         <Router>
             <ul>
@@ -58,14 +78,14 @@ function GlobalNav() {
             />
             <Route exact
                 path="/autors"
-                render={() => <Autors />}
+                render={() => <AutorsNav />}
             />
             <Route exact
                 path="/architects"
                 render={() => <SearchByArchitects />}
             />
 
-            { createRouter() }
+            { routers }
         </Router>
     </>
 }
