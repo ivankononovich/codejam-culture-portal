@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-function Autors(props) {
+function Developers(props) {
     return <>
         <ul>
-            {props.autors.map((item, index) => {
+            {props.developers.map((item, index) => {
                 return <li key={index}>
                     <Link key={item.url} to={item.url}>
                         {item.name}
@@ -15,4 +15,4 @@ function Autors(props) {
     </>
 }
 
-export default Autors;
+export default Developers;

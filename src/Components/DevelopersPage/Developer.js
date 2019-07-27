@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Autor(props) {
+function Developer(props) {
     return <>
         <h2>{props.name}</h2>
     </>
 }
 
-export default Autor;
+export default Developer;

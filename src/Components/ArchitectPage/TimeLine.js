@@ -17,11 +17,11 @@ const TimeLine = (props) => {
         >
             <p>{item.text}</p>
         </TimelineItem>
-    ))
+    ));
 
     return (
         <Timeline lineColor={'#ddd'}>{items}</Timeline>
     )
-}
+};
 
-export default TimeLine
+export default TimeLine;

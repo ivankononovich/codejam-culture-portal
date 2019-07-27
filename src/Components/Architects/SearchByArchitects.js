@@ -6,7 +6,7 @@ class SearchByArchitects extends Component {
     state = {
         searchResults: this.props.architects,
         input: () => <input onChange={(event) => this.handleChange(event)} type="text"/>
-    }
+    };
 
     findArchitects(searchText) {
         const matches = [];
@@ -17,7 +17,7 @@ class SearchByArchitects extends Component {
                 item.name,
                 item.placeOfBirth,
                 item.placeOfResidence,
-            ] 
+            ];
             let fit = false;
 
             criteria.forEach((text) => {

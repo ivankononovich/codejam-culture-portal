@@ -13,7 +13,7 @@ const ActivityMap = (props) => {
             </YMaps>
         </Container>
     )
-}
+};
 
-export default ActivityMap
+export default ActivityMap;
 
