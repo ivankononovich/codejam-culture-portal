@@ -148,31 +148,43 @@ const developers = [
     "id": "D1",
     "name": "Иван Кононович",
     "github": "https://github.com/ivankononovich",
+    "image": "https://avatars0.githubusercontent.com/u/41195901?s=400&v=4",
+    "contribution":"in progress...",
   },
   {
     "id": "D2",
     "name": "Евгений Матвеёнок",
     "github": "https://github.com/ins21",
+    "image": "https://avatars0.githubusercontent.com/u/43145988?s=400&v=4",
+    "contribution":"in progress...",
   },
   {
     "id": "D3",
     "name": "Катерина Жадько",
     "github": "https://github.com/cathzetjo",
+    "image": "https://avatars3.githubusercontent.com/u/44948376?s=460&v=4",
+    "contribution":"in progress...",
   },
   {
     "id": "D4",
     "name": "Артур Рубченко",
     "github": "https://github.com/Arthur199212",
+    "image": "https://avatars0.githubusercontent.com/u/46008463?s=460&v=4",
+    "contribution":"in progress...",
   },
   {
     "id": "D5",
     "name": "Дмитрий Пархоменко",
     "github": "https://github.com/DmitriyParhomenko",
+    "image": "https://avatars0.githubusercontent.com/u/37816988?s=460&v=4",
+    "contribution":"in progress...",
   },
   {
     "id": "D6",
     "name": "Павел Хомич",
     "github": "https://github.com/pashax0",
+    "image": "https://avatars3.githubusercontent.com/u/17899361?s=460&v=4",
+    "contribution":"in progress...",
   }
 ];
 

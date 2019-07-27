@@ -1,5 +1,6 @@
 const architects = [
   {
+    "id": "A1",
     "url": "zaborsky",
     "name": "Заборский Георгий Владимирович",
     "born": "11 ноября 1909",
@@ -23,6 +24,7 @@ const architects = [
   },
 
   {
+    "id": "A2",
     "url": "usova",
     "name": "Усова Любовь Дмитриевна",
     "born": "6 сентября 1921",
@@ -52,6 +54,7 @@ const architects = [
   },
 
   {
+    "id": "A3",
     "url": "parusnikov",
     "name": "Парусников Михаил Павлович",
     "born": "12 ноября 1893",
@@ -73,7 +76,7 @@ const architects = [
   },
 
   {
-
+    "id": "A4",
     "url": "leonid-mendelevich",
     "name": "Леониид Менделевич Левин",
     "born": "25 июля 1936",
@@ -98,6 +101,7 @@ const architects = [
   },
 
   {
+    "id": "A5",
     "url": "osho",
     "name": "Rajneesh (Osho)",
     "born": "December 11, 1931",
@@ -118,6 +122,7 @@ const architects = [
   },
 
   {
+    "id": "A6",
     "url": "sacco",
     "name": "Джузеппе де Сакко",
     "born": "1735",
@@ -140,28 +145,46 @@ const architects = [
 
 const developers = [
   {
+    "id": "D1",
     "name": "Іван Канановіч",
     "github": "https://github.com/ivankononovich",
+    "image": "https://avatars0.githubusercontent.com/u/41195901?s=400&v=4",
+    "contribution":"in progress...",
   },
   {
+    "id": "D2",
     "name": "Яўген Матвеёнак",
     "github": "https://github.com/ins21",
+    "image": "https://avatars0.githubusercontent.com/u/43145988?s=400&v=4",
+    "contribution":"in progress...",
   },
   {
+    "id": "D3",
     "name": "Кацярына Жадзько",
     "github": "https://github.com/cathzetjo",
+    "image": "https://avatars3.githubusercontent.com/u/44948376?s=460&v=4",
+    "contribution":"in progress...",
   },
   {
+    "id": "D4",
     "name": "Артур Рубченко",
     "github": "https://github.com/Arthur199212",
+    "image": "https://avatars0.githubusercontent.com/u/46008463?s=460&v=4",
+    "contribution":"in progress...",
   },
   {
+    "id": "D5",
     "name": "Дзмітрый Пархоменка",
     "github": "https://github.com/DmitriyParhomenko",
+    "image": "https://avatars0.githubusercontent.com/u/37816988?s=460&v=4",
+    "contribution":"in progress...",
   },
   {
+    "id": "D6",
     "name": "Павел Хоміч",
     "github": "https://github.com/pashax0",
+    "image": "https://avatars3.githubusercontent.com/u/17899361?s=460&v=4",
+    "contribution":"in progress...",
   }
 ];
 
