@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Typography  } from '@material-ui/core'
-import TimeLine from '../ArchitectPage/TimeLine'
+import TimeLine from './TimeLine'
 
 function Architect(props) {
     return <> 
