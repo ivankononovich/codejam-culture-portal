@@ -7,7 +7,7 @@ const architects = [
     "description": "Народный архитектор СССР (1981), заслуженный строитель Беларуси, академик Российской академии архитектуры и строительных наук, академик Белорусской академии архитектуры, лауреат Государственной премии СССР (1971).",
     "image": "http://bsa.by/ckfinder/userfiles/images/4(2).jpg",
     "placeOfResidence": "Минск",
-    "placeOfBirth": "Минск",    
+    "placeOfBirth": "Минск",
     "bio": [
       {date: '1909', text: 'Георгий Заборский родился в Минске в семье Владимира Георгиевича Заборского, бухгалтера Московско-Брестской железной дороги, и Елены Ивановны Заборской (Зеглинг).'},
       {date: '1930', text: 'Поступил в Минскую профтехшколу крестьянского огнеупорного строительства. Первую практику Г. Заборский проходил на строительной площадке здания Дома правительства. Здесь же произошло его знакомство с архитектором И. Лангбардом.'},
@@ -59,7 +59,7 @@ const architects = [
     "description": "Советский архитектор, действительный член Академии Архитектуры СССР (1950), академик АН БССР (1950; член-корреспондент с 1947). Педагог, профессор (с 1948). Лауреат Государственной премии Белорусской ССР (1968).",
     "image": "http://cn.flibusta.site/i/89/452389/img_84.jpg",
     "placeOfResidence": "Москва",
-    "placeOfBirth": "Москва",    
+    "placeOfBirth": "Москва",
     "bio": [
       {date: '1913 - 1918', text: 'Обучался в МУЖВЗ (его отец был настоятелем соседнего храма), затем до 1924 года во ВХУТЕМАСе.'},
       {date: '1924', text: 'Работал в архитектурно-проектных организациях Москвы и одновременно преподавал (1934—1941 годах, с 1948 года — профессор) в МАРХИ.'},
@@ -72,7 +72,7 @@ const architects = [
     },
   },
 
-  { 
+  {
 
     "url": "leonid-mendelevich",
     "name": "Леониид Менделевич Левин",
@@ -136,43 +136,45 @@ const architects = [
       zoom: 12,
     },
   },
-]
+];
 
-const autors = [
+const developers = [
   {
-    "url": "ivan",
-    "name": "Ivan",
-    "github": "https://github.com/IvanKononovich",
+    "url": "Ivan_Kononovich",
+    "name": "Иван Кононович",
+    "github": "https://github.com/ivankononovich",
   },
   {
-    "url": "ins",
-    "name": "Ins",
+    "url": "Yauheni_Matveyenak",
+    "name": "Евгений Матвеёнок",
     "github": "https://github.com/ins21",
   },
   {
-    "url": "cathzetjo",
-    "name": "Cathzetjo",
-    "github": "https://github.com/Cathzetjo",
+    "url": "Katerina_Zhadko",
+    "name": "Катерина Жадько",
+    "github": "https://github.com/cathzetjo",
   },
   {
-    "url": "arthur_rubchenko",
-    "name": "Arthur_Rubchenko",
-    "github": "https://github.com/Arthur_Rubchenko",
+    "url": "Arthur_Rubchenko",
+    "name": "Артур Рубченко",
+    "github": "https://github.com/Arthur199212",
   },
   {
-    "url": "dmitriy_parhomenko",
-    "name": "Dmitriy Parhomenko",
-    "github": "https://github.com/Dmitriy Parhomenko",
+    "url": "Dzmitry_Parkhomenka",
+    "name": "Дмитрий Пархоменко",
+    "github": "https://github.com/DmitriyParhomenko",
+  },
+  {
+    "url": "Pavel_Khomich",
+    "name": "Павел Хомич",
+    "github": "https://github.com/pashax0",
   }
-]
+];
 
 export default {
   architects,
-  autors,
+  developers,
   architectsNav: "Архитекторы",
-  autorsNav: "Наша команда",
+  developersNav: "Команда разработчиков",
   homePageLink: "Главная страница"
 }
-
-
-  
