@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Typography  } from '@material-ui/core'
 import TimeLine from './TimeLine'
+import ActivityMap from './ActivityMap'
 
 function Architect(props) {
     return <> 
@@ -11,6 +12,8 @@ function Architect(props) {
             <Typography paragraph={true} style={{marginBottom: 30}}>{props.description}</Typography>
             <Typography variant="h4" component="h4">Биография</Typography>
             <TimeLine data={props.bio}/>
+            <Typography variant="h4" component="h4"  style={{marginBottom: 50}}>Место основной деятельности</Typography>
+            <ActivityMap data={props.mapData}></ActivityMap>
         </Container>
     </>
 }
