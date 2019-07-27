@@ -1,6 +1,6 @@
 const architects = [
   {
-    "id": "zaborsky",
+    "url": "zaborsky",
     "name": "Заборский Георгий Владимирович",
     "born": "11 ноября 1909",
     "deceased": "27 апреля 1999",
@@ -23,7 +23,7 @@ const architects = [
   },
 
   {
-    "id": "usova",
+    "url": "usova",
     "name": "Усова Любовь Дмитриевна",
     "born": "6 сентября 1921",
     "deceased": "настоящее время",
@@ -52,7 +52,7 @@ const architects = [
   },
 
   {
-    "id": "parusnikov",
+    "url": "parusnikov",
     "name": "Парусников Михаил Павлович",
     "born": "12 ноября 1893",
     "deceased": "2 февраля 1968",
@@ -73,7 +73,8 @@ const architects = [
   },
 
   { 
-    "id": "levin",
+
+    "url": "leonid-mendelevich",
     "name": "Леониид Менделевич Левин",
     "born": "25 июля 1936",
     "deceased": "1 марта 2014",
@@ -97,7 +98,7 @@ const architects = [
   },
 
   {
-    "id": "osho",
+    "url": "osho",
     "name": "Rajneesh (Osho)",
     "born": "December 11, 1931",
     "deceased": "January 19, 1990",
@@ -117,7 +118,7 @@ const architects = [
   },
 
   {
-    "id": "sacco",
+    "url": "sacco",
     "name": "Джузеппе де Сакко",
     "born": "1735",
     "deceased": "1798",
@@ -139,22 +140,27 @@ const architects = [
 
 const autors = [
   {
+    "url": "ivan",
     "name": "Ivan",
     "github": "https://github.com/IvanKononovich",
   },
   {
+    "url": "ins",
     "name": "Ins",
     "github": "https://github.com/ins21",
   },
   {
+    "url": "cathzetjo",
     "name": "Cathzetjo",
     "github": "https://github.com/Cathzetjo",
   },
   {
+    "url": "arthur_rubchenko",
     "name": "Arthur_Rubchenko",
     "github": "https://github.com/Arthur_Rubchenko",
   },
   {
+    "url": "dmitriy_parhomenko",
     "name": "Dmitriy Parhomenko",
     "github": "https://github.com/Dmitriy Parhomenko",
   }
