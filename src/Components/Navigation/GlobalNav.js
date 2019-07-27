@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import PortalDescription from './HomePage/PortalDescription';
-import Developers from './DevelopersPage/Developers';
-import Architect from './ArchitectPage/Architect';
-import SearchByArchitects from './Architects/SearchByArchitects';
+import PortalDescription from '../HomePage/PortalDescription';
+import Developers from '../DevelopersPage/Developer';
+import Architect from '../ArchitectPage/Architect';
+import SearchByArchitects from '../Architects/SearchByArchitects';
 
-import storeRU  from '../store/storeRU';
+import storeRU  from '../../store/storeRU';
 
 // it will be used later
 // import storeBY  from '../store/storeBY';
