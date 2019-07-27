@@ -1,7 +1,7 @@
 const architects = [
   {
     "url": "zaborsky",
-    "name": "Заборский Георгий Владимирович",
+    "name": "Заборский Георгий Владимирович EN",
     "born": "11 ноября 1909",
     "deceased": "27 апреля 1999",
     "description": "Народный архитектор СССР (1981), заслуженный строитель Беларуси, академик Российской академии архитектуры и строительных наук, академик Белорусской академии архитектуры, лауреат Государственной премии СССР (1971).",
@@ -175,6 +175,6 @@ export default {
   architects,
   developers,
   architectsNav: "Architects",
-  autorsNav: "Development team",
+  developersNav: "Development team",
   homePageLink: "Home page"
 }

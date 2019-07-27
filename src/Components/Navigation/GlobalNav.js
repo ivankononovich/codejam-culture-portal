@@ -6,22 +6,31 @@ import DevelopersNav from './DevelopersNav';
 import Developer from '../DevelopersPage/Developer';
 import Architect from '../ArchitectPage/Architect';
 import SearchByArchitects from '../ArchitectPage/SearchByArchitects';
+import LanguageController from '../Language/LanguageController';
 
 import storeRU  from '../../store/storeRU';
-
-// it will be used later
-// import storeBY  from '../store/storeBY';
-// import storeEN  from '../store/storeEN';
+import storeBY  from '../../store/storeBY';
+import storeEN  from '../../store/storeEN';
 
 
 class GlobalNav extends Component {
     state = {
-        language: 'RU',
-        architects: storeRU.architects,
-        developers: storeRU.developers,
-        architectsNav: storeRU.architectsNav,
-        developersNav: storeRU.developersNav,
-        homePageLink: storeRU.homePageLink,
+        allDataLanguage: [
+            {
+                name: 'ru',
+                data: storeRU,
+            },
+            {
+                name: 'by',
+                data: storeBY,
+            },
+            {
+                name: 'en',
+                data: storeEN,
+            },
+        ],
+        language: 'ru',
+        activeStore: storeRU,
     };
 
     findAllName(obj, listCategory) {
@@ -58,30 +67,57 @@ class GlobalNav extends Component {
         return routers;
     }
 
+    handleClick(event) {
+        const target = event.target;
+        const language = target.dataset.language;
+
+        if (this.state.language !== language) {
+            this.dataSearchForActiveLanguage(language);
+        }
+    }
+
+    dataSearchForActiveLanguage(newLanguage) {
+        const data = this.state.allDataLanguage;
+        
+        data.forEach((item) => {
+            if (item.name === newLanguage) {
+                const newStore = item.data;
+
+                this.setState({
+                    activeStore: newStore,
+                    language: newLanguage,
+                });
+            }
+        });
+    }
+
     render() {
         const routers = [];
+        const activeStore = this.state.activeStore;
 
-        const linksArchitects = this.findAllName(this.state.architects, ['url', 'name']);
+        const linksArchitects = this.findAllName(activeStore.architects, ['url', 'name']);
         routers.push(...this.createRouters(
             linksArchitects,
-            this.state.architects,
+            activeStore.architects,
             (architect) => <Architect {...architect}/>
         ));
 
-        const linksDevelopers = this.findAllName(this.state.developers, ['url', 'name', 'github']);
+        const linksDevelopers = this.findAllName(activeStore.developers, ['url', 'name', 'github']);
         routers.push(...this.createRouters(
             linksDevelopers,
-            this.state.developers,
+            activeStore.developers,
             (developer) => <Developer {...developer}/>
         ));
-
+        
         return <>
             <Router>
                 <ul>
-                    <li><Link to="/">{this.state.homePageLink}</Link></li>
-                    <li><Link to="/developers">{this.state.developersNav}</Link></li>
-                    <li><Link to="/architects">{this.state.architectsNav}</Link></li>
+                    <li><Link to="/">{activeStore.homePageLink}</Link></li>
+                    <li><Link to="/developers">{activeStore.developersNav}</Link></li>
+                    <li><Link to="/architects">{activeStore.architectsNav}</Link></li>
                 </ul>
+
+                <LanguageController onClick={(event) => this.handleClick(event)}/>
 
                 <Route exact
                     path="/"
@@ -89,11 +125,11 @@ class GlobalNav extends Component {
                 />
                 <Route exact
                     path="/developers"
-                    render={() => <DevelopersNav developers={this.state.developers}/>}
+                    render={() => <DevelopersNav developers={activeStore.developers}/>}
                 />
                 <Route exact
                     path="/architects"
-                    render={() => <SearchByArchitects architects={this.state.architects}/>}
+                    render={() => <SearchByArchitects architects={activeStore.architects}/>}
                 />
 
                 { routers }
