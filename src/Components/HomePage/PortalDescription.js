@@ -1,11 +1,9 @@
 import React from 'react';
 
-function PortalDescription() {
+function PortalDescription(props) {
     return <>
-        <h1>Культурный портал.</h1>
-        <p>
-            Вы находитесь на культурном портале, тематика сайта - Архитекторы Беларуси.
-        </p>
+        <h1>{props.title}</h1>
+        <p>{props.description}</p>
     </>
 }
 

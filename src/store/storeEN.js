@@ -188,9 +188,15 @@ const developers = [
   }
 ];
 
+const portalDescription = {
+  "title": "Cultural portal.",
+  "description": "You are on the cultural portal, the theme of the site is Architects of Belarus."
+}
+
 export default {
   architects,
   developers,
+  portalDescription,
   architectsNav: "Architects",
   developersList: "Development team",
   homePageLink: "Home page"

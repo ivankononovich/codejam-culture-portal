@@ -188,9 +188,15 @@ const developers = [
   }
 ];
 
+const portalDescription = {
+  "title": "Культурны партал.",
+  "description": "Вы знаходзіцеся на культурным партале, тэматыка сайта - Архітэктары Беларусі."
+}
+
 export default {
   architects,
   developers,
+  portalDescription,
   architectsNav: "Архітэктары",
   developersList: "Каманда распрацоўнікаў",
   homePageLink: "Галоўная старонка"

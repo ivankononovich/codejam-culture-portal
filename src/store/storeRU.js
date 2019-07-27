@@ -188,9 +188,15 @@ const developers = [
   }
 ];
 
+const portalDescription = {
+  "title": "Культурный портал.",
+  "description": "Вы находитесь на культурном портале, тематика сайта - Архитекторы Беларуси."
+}
+
 export default {
   architects,
   developers,
+  portalDescription,
   architectsNav: "Архитекторы",
   developersList: "Команда разработчиков",
   homePageLink: "Главная страница"
