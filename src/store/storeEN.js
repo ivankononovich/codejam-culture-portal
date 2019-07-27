@@ -140,32 +140,26 @@ const architects = [
 
 const developers = [
   {
-    "url": "Ivan_Kononovich",
     "name": "Ivan Kononovich",
     "github": "https://github.com/ivankononovich",
   },
   {
-    "url": "Yauheni_Matveyenak",
     "name": "Eugeniy Matveenok",
     "github": "https://github.com/ins21",
   },
   {
-    "url": "Katerina_Zhadko",
     "name": "Katerina Zhadko",
     "github": "https://github.com/cathzetjo",
   },
   {
-    "url": "Arthur_Rubchenko",
     "name": "Arthur Rubchenko",
     "github": "https://github.com/Arthur199212",
   },
   {
-    "url": "Dzmitry_Parkhomenka",
     "name": "Dmitriy_Porhomenko",
     "github": "https://github.com/DmitriyParhomenko",
   },
   {
-    "url": "Pavel_Khomich",
     "name": "Pavel Homich",
     "github": "https://github.com/pashax0",
   }
@@ -175,6 +169,6 @@ export default {
   architects,
   developers,
   architectsNav: "Architects",
-  autorsNav: "Development team",
+  developersList: "Development team",
   homePageLink: "Home page"
 }

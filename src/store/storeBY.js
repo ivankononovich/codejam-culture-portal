@@ -140,32 +140,26 @@ const architects = [
 
 const developers = [
   {
-    "url": "Ivan_Kononovich",
     "name": "Іван Канановіч",
     "github": "https://github.com/ivankononovich",
   },
   {
-    "url": "Yauheni_Matveyenak",
     "name": "Яўген Матвеёнак",
     "github": "https://github.com/ins21",
   },
   {
-    "url": "Katerina_Zhadko",
     "name": "Кацярына Жадзько",
     "github": "https://github.com/cathzetjo",
   },
   {
-    "url": "Arthur_Rubchenko",
     "name": "Артур Рубченко",
     "github": "https://github.com/Arthur199212",
   },
   {
-    "url": "Dzmitry_Parkhomenka",
     "name": "Дзмітрый Пархоменка",
     "github": "https://github.com/DmitriyParhomenko",
   },
   {
-    "url": "Pavel_Khomich",
     "name": "Павел Хоміч",
     "github": "https://github.com/pashax0",
   }
@@ -175,6 +169,6 @@ export default {
   architects,
   developers,
   architectsNav: "Архітэктары",
-  autorsNav: "Каманда распрацоўнікаў",
+  developersList: "Каманда распрацоўнікаў",
   homePageLink: "Галоўная старонка"
 }

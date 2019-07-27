@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import PortalDescription from './HomePage/PortalDescription';
-import DevelopersNav from './DevelopersPage/DevelopersNav';
-import Developer from './DevelopersPage/Developer';
+import Developers from './DevelopersPage/Developers';
 import Architect from './ArchitectPage/Architect';
 import SearchByArchitects from './Architects/SearchByArchitects';
 
@@ -20,7 +19,7 @@ class GlobalNav extends Component {
         architects: storeRU.architects,
         developers: storeRU.developers,
         architectsNav: storeRU.architectsNav,
-        developersNav: storeRU.developersNav,
+        developersList: storeRU.developersList,
         homePageLink: storeRU.homePageLink,
     };
 
@@ -48,8 +47,8 @@ class GlobalNav extends Component {
 
             routers.push(
                 <Route exact
-                    key={item.url}
-                    path={`/${item.url}`}
+                    key={item.id}
+                    path={`/${item.id}`}
 
                     render={() => componentCb(props)}
                 />
@@ -62,7 +61,7 @@ class GlobalNav extends Component {
     render() {
         const routers = [];
 
-        const linksArchitects = this.findAllName(this.state.architects, ['url', 'name']);
+        const linksArchitects = this.findAllName(this.state.architects, ['id', 'url', 'name']);
 
         routers.push(...this.createRouters(
             linksArchitects,
@@ -70,18 +69,18 @@ class GlobalNav extends Component {
             (architect) => <Architect {...architect}/>
         ));
 
-        const linksDevelopers = this.findAllName(this.state.developers, ['url', 'name', 'github']);
+        const linksDevelopers = this.findAllName(this.state.developers, ['id', 'name', 'github']);
         routers.push(...this.createRouters(
             linksDevelopers,
             this.state.developers,
-            (developer) => <Developer {...developer}/>
+            (developer) => <Developers {...developer}/>
         ));
 
         return <>
             <Router>
                 <ul>
                     <li><Link to="/">{this.state.homePageLink}</Link></li>
-                    <li><Link to="/developers">{this.state.developersNav}</Link></li>
+                    <li><Link to="/developers">{this.state.developersList}</Link></li>
                     <li><Link to="/architects">{this.state.architectsNav}</Link></li>
                 </ul>
 
@@ -92,7 +91,7 @@ class GlobalNav extends Component {
                 />
                 <Route exact
                     path="/developers"
-                    render={() => <DevelopersNav developers={this.state.developers}/>}
+                    render={() => <Developers developers={this.state.developers}/>}
                 />
                 <Route exact
                     path="/architects"
