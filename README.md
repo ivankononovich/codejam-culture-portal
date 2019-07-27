@@ -1,6 +1,3 @@
-# react-router-practice
+# Codejam Culture-portal
 
-[Link](https://arthur199212.github.io/react-router-practice/)
-"# codejam-culture-portal" 
-"# codejam-culture-portal" 
-"# codejam-culture-portal" 
+[Link on gh-pages](http://ivankononovich.github.io/codejam-culture-portal)
