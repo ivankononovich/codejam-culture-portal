@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/codejam-culture-portal/precache-manifest.574c74d270b53e9fd3e13be9c73ee4a4.js"
+  "/codejam-culture-portal/precache-manifest.ff5b42880739dccfa2c665909e3550dd.js"
 );
 
 workbox.clientsClaim();
