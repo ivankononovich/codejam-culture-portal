@@ -53,14 +53,13 @@ class SearchByArchitects extends Component {
     }
 
     render() {
-        
         return <>
             <input 
                 ref={this.inputRef}
                 onChange={(event) => this.handleChange(event)} 
                 type="text"
             />
-            
+
             <ArchitectNav links={this.state.searchResults} />
         </>
     }

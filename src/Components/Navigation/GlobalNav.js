@@ -13,6 +13,7 @@ import storeBY  from '../../store/storeBY';
 import storeEN  from '../../store/storeEN';
 
 
+
 class GlobalNav extends Component {
     state = {
         allDataLanguage: [
@@ -54,11 +55,11 @@ class GlobalNav extends Component {
 
         listLink.forEach((item) => {
             const props = data[item.index];
+          
             routers.push(
                 <Route exact
                     key={item.url}
                     path={`/${item.url}`}
-
                     render={() => componentCb(props)}
                 />
             )
