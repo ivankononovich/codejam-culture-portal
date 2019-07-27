@@ -5,7 +5,7 @@ function Developers(props) {
   return <>
     <Container style={{ display: "flex", flexWrap: "wrap", textAlign: 'center'}} justify="center">
       {props.developers.map((item, index) => {
-        return  <div style={{ backgroundColor: '#cfe8fc', fontFamily: 'Roboto, Arial, sans-serif'}}>
+        return <div key={index} style={{ backgroundColor: '#cfe8fc', fontFamily: 'Roboto, Arial, sans-serif'}}>
           <img src={item.image} alt="Developer" style={{height: '150px', borderRadius: '15px'}}/>
           <Typography paragraph={true} style={{marginBottom: 30}}>{item.name}</Typography>
           <a href={item.github}>{item.github}</a>

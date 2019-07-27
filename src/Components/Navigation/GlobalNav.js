@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import PortalDescription from '../HomePage/PortalDescription';
-import DevelopersNav from './DevelopersNav';
-import Developer from '../DevelopersPage/Developer';
+// import DevelopersNav from './DevelopersNav';
+import Developers from '../DevelopersPage/Developers';
 import Architect from '../ArchitectPage/Architect';
 import SearchByArchitects from '../ArchitectPage/SearchByArchitects';
 import LanguageController from '../Language/LanguageController';
@@ -53,9 +53,9 @@ class GlobalNav extends Component {
     createRouters(listLink, data, componentCb) {
         const routers = [];
 
-        listLink.forEach((item) => {
+        listLink.forEach((item, index) => {
             const props = data[item.index];
-          
+
             routers.push(
                 <Route exact
                     key={item.url}
@@ -102,19 +102,12 @@ class GlobalNav extends Component {
             activeStore.architects,
             (architect) => <Architect {...architect}/>
         ));
-
-        const linksDevelopers = this.findAllName(activeStore.developers, ['url', 'name', 'github']);
-        routers.push(...this.createRouters(
-            linksDevelopers,
-            activeStore.developers,
-            (developer) => <Developer {...developer}/>
-        ));
         
         return <>
             <Router>
                 <ul>
                     <li><Link to="/">{activeStore.homePageLink}</Link></li>
-                    <li><Link to="/developers">{activeStore.developersNav}</Link></li>
+                    <li><Link to="/developers">{activeStore.developersList}</Link></li>
                     <li><Link to="/architects">{activeStore.architectsNav}</Link></li>
                 </ul>
 
@@ -126,7 +119,7 @@ class GlobalNav extends Component {
                 />
                 <Route exact
                     path="/developers"
-                    render={() => <DevelopersNav developers={activeStore.developers}/>}
+                    render={() => <Developers developers={activeStore.developers}/>}
                 />
                 <Route exact
                     path="/architects"

@@ -192,6 +192,6 @@ export default {
   architects,
   developers,
   architectsNav: "Архітэктары",
-  developersNav: "Каманда распрацоўнікаў",
+  developersList: "Каманда распрацоўнікаў",
   homePageLink: "Галоўная старонка"
 }
