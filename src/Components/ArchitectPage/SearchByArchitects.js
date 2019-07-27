@@ -3,10 +3,11 @@ import React, { Component } from 'react';
 import ArchitectNav from '../Navigation/ArchitectNav';
 
 class SearchByArchitects extends Component {
+    inputRef = React.createRef();
+
     state = {
         searchResults: this.props.architects,
-        input: () => <input onChange={(event) => this.handleChange(event)} type="text"/>
-    };
+    }
 
     findArchitects(searchText) {
         const matches = [];
@@ -36,7 +37,6 @@ class SearchByArchitects extends Component {
 
     handleChange(event) {
         const searchText = event.target.value;
-
         const searchResults = this.findArchitects(searchText);
 
         this.setState({
@@ -44,9 +44,22 @@ class SearchByArchitects extends Component {
         });
     }
 
+    componentWillReceiveProps(props) {
+        this.inputRef.current.value = '';
+
+        this.setState({
+            searchResults: props.architects,
+        });
+    }
+
     render() {
         return <>
-            { this.state.input() }
+            <input 
+                ref={this.inputRef}
+                onChange={(event) => this.handleChange(event)} 
+                type="text"
+            />
+
             <ArchitectNav links={this.state.searchResults} />
         </>
     }
