@@ -1,9 +1,14 @@
 import React from 'react';
 
-function PortalDescription(props) {
+import ArchitectOfTheDay from './ArchitectOfTheDay'
+
+function PortalDescription({portalDescription, architects}) {
+    const { title, description } = portalDescription;
+
     return <>
-        <h1>{props.title}</h1>
-        <p>{props.description}</p>
+        <h1>{title}</h1>
+        <p>{description}</p>
+        <ArchitectOfTheDay portalDescription={portalDescription} architects={architects} />
     </>
 }
 

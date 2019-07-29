@@ -115,7 +115,7 @@ class GlobalNav extends Component {
 
                 <Route exact
                     path="/"
-                    render={() => <PortalDescription {...activeStore.portalDescription}/>}
+                    render={() => <PortalDescription {...activeStore}/>}
                 />
                 <Route exact
                     path="/developers"
