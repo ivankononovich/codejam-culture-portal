@@ -176,27 +176,30 @@ const architects = [
   {
     "id": "A6",
     "url": "sacco",
-    "name": "Джузеппе де Сакко",
+    "name": "Giuseppe de Sacco",
     "born": "1735",
     "deceased": "1798",
-    "description": "Один из крупнейших архитекторов развитого барокко и классицизма, работавших на территории современной Беларуси, в XVIII веке. Придворный архитектор короля Станислава Августа Понятовского. Также работал в других регионах Речи Посполитой. В творчестве выделяются ансамбли дворцово-парковых резиденций.",
+    "yearsTitle": "Years of life",
+    "description": "One of the greatest architects of developed Baroque and Classicism, who worked on the territory of modern Belarus in the XVIII century. The court architect of the king Stanislaw August Poniatowski. Also worked in other regions of the The Polish–Lithuanian Commonwealth. The ensembles of palace and park residences stand out in his works.",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG/375px-%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG",
     "placeOfResidence": "Гродно",
     "placeOfBirth": "Верона",
     "bio": [
-      {date: '1768', text: 'Был приглашён в Варшаву, где занимался художественным катафалком (сastrum doloris) королевы Марии Лещинской и проектом перестройки костёла святого Яна.'},
-      {date: '1771', text: 'Стал архитектором Скарбовой комиссии ВКЛ. Был рекомендован гродненскому старосте Антонию Тизенгаузу и принят на службу, в качестве королевского архитектора, с установленным окладом в 600 злотых. В Речи Посполитой Сакко получает ряд воинских званий ВКЛ.'},
-      {date: '1771-1780', text: 'Выполнил ряд заказов местных магнатов, спроектировав несколько известных дворцово-парковых ансамблей и городских резиденций, в частности: Святский дворец магнатов Воловичей, Щорсовский дворец Хрептовичей, дворцы Тизенгауза в Поставах и Вильнюсе (предположительно).'}
+      {date: '1768', text: 'Was invited to Warsaw, where he studied the Castrum Doloris of Queen Marie Leszczyńska and the rebuilding project of the St.Jan church.'},
+      {date: '1771', text: 'Became an architect of the Skarbovaya commission of The Grand Duchy of Lithuania. Was recommended to the Grodno headman Anthony Tizengauz and was hired as a royal architect, with a fixed salary of 600 zlotys. In The Polish–Lithuanian Commonwealth de Sacco receives a number of military titles of The Grand Duchy of Lithuania.'},
+      {date: '1771 - 1780', text: 'Completed a number of orders from local magnates, having designed several well-known palace and park ensembles and city residences, in particular: the Volovichi magnates Palace in Svyatsk, the Khreptovichi Palace in Shchorsy, the Tizengauz Palaces in Postavy and Vilnius (presumably).'}
     ],
     "projectHeader": {
       columnOne: 'Projects', 
       columnTwo: 'Creation date'
     },
     "project": [
-      {date: '1952', text: 'Project 1'},
-      {date: '1954', text: 'Project 2'},
-      {date: '1962', text: 'Project 3'},
-      {date: '1969', text: 'Project 4'},
+      {date: 'XVIII century', text: 'The Palace in Tsyonzheni'},
+      {date: 'XVIII century', text: 'The Khreptovichi Palace in Shchorsy'},
+      {date: 'XVIII century', text: 'The Tizengauz theater'},
+      {date: 'XVIII century', text: 'The Palace in Svyatsk'},      
+      {date: 'XVIII century', text: 'The Tizengauz Palace'},
+      {date: 'XVIII century', text: 'The Palace in Mosar'},
     ],
     "mapData": {
       center: [53.684727, 23.834317],
