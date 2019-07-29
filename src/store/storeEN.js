@@ -3,6 +3,7 @@ const architects = [
     "id": "A1",
     "url": "zaborsky",
     "name": "Заборский Георгий Владимирович EN",
+    "bornDate": "11/11/1909",
     "born": "11 ноября 1909",
     "deceased": "27 апреля 1999",
     "description": "Народный архитектор СССР (1981), заслуженный строитель Беларуси, академик Российской академии архитектуры и строительных наук, академик Белорусской академии архитектуры, лауреат Государственной премии СССР (1971).",
@@ -37,6 +38,7 @@ const architects = [
     "id": "A2",
     "url": "usova",
     "name": "Усова Любовь Дмитриевна",
+    "bornDate": "9/6/1921",
     "born": "6 сентября 1921",
     "deceased": "настоящее время",
     "description": "Белорусский советский архитектор. За свою творческую деятельность неоднократно награждалась грамотами Верховного Совета БССР, почетными грамотами и грамотами института 'Минскпроект', Союзов архитекторов СССР и БССР. В 1989 году Любовь Дмитриевна Усова занесена в книгу почета института 'Минскпроект'.",
@@ -77,6 +79,7 @@ const architects = [
     "id": "A3",
     "url": "parusnikov",
     "name": "Mikhail Pavlovich Parusnikov",
+    "bornDate": "11/12/1893",
     "born": "November 12, 1893",
     "deceased": "February 2, 1968",
     "description": "Soviet architect, full member of the Academy of Architecture of the USSR (1950), academician of the BSSR (1950; corresponding member since 1947). Teacher, Professor (since 1948). Laureate of the State prize of the Belarusian SSR (1968).",
@@ -111,6 +114,7 @@ const architects = [
     "id": "A4",
     "url": "leonid-mendelevich",
     "name": "Леониид Менделевич Левин",
+    "bornDate": "7/25/1936",
     "born": "25 июля 1936",
     "deceased": "1 марта 2014",
     "description": "Заслуженный архитектор Республики Беларусь, Лауреат Ленинской премии и премии Ленинского комсомола, Лауреат премии Волгоградского Комсомола, дважды лауреат Государственной премии Республики Беларусь, лауреат многих престижных конкурсов и смотров архитектурных работ, Академик Международной и Белорусской Академий архитектуры, Председатель Союза белорусских еврейских общественных объединений и общин с 1991 года",
@@ -146,6 +150,7 @@ const architects = [
     "id": "A5",
     "url": "osho",
     "name": "Rajneesh (Osho)",
+    "bornDate": "12/11/1931",
     "born": "December 11, 1931",
     "deceased": "January 19, 1990",
     "description": "Indian spiritual guru, considered as a Godman and leader of the Rajneesh movement. During his lifetime he was viewed as a controversial mystic, guru, and spiritual teacher. He advocated a more open attitude towards human sexuality, earning him the nickname \"sex guru\" in the Indian and later international press, although this attitude became more acceptable with time.",
@@ -177,6 +182,7 @@ const architects = [
     "id": "A6",
     "url": "sacco",
     "name": "Джузеппе де Сакко",
+    "bornDate": "12/11/1735",
     "born": "1735",
     "deceased": "1798",
     "description": "Один из крупнейших архитекторов развитого барокко и классицизма, работавших на территории современной Беларуси, в XVIII веке. Придворный архитектор короля Станислава Августа Понятовского. Также работал в других регионах Речи Посполитой. В творчестве выделяются ансамбли дворцово-парковых резиденций.",
@@ -252,7 +258,8 @@ const developers = [
 
 const portalDescription = {
   "title": "Cultural portal.",
-  "description": "You are on the cultural portal, the theme of the site is Architects of Belarus."
+  "description": "You are on the cultural portal, the theme of the site is Architects of Belarus.",
+  "architectOfTheDay": "Architect Of The Day",
 }
 
 export default {
