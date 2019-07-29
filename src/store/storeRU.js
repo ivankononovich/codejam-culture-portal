@@ -193,10 +193,12 @@ const architects = [
       columnTwo: 'Дата создания'
     },
     "project": [
-      {date: '1952', text: 'Проект 1'},
-      {date: '1954', text: 'Проект 2'},
-      {date: '1962', text: 'Проект 3'},
-      {date: '1969', text: 'Проект 4'},
+      {date: 'XVIII век', text: 'Дворец в Цёнжени'},
+      {date: 'XVIII век', text: 'Дворец Хрептовичей в Щорсах'},
+      {date: 'XVIII век', text: 'Театр Тизенгауза'},
+      {date: 'XVIII век', text: 'Святский дворец'},
+      {date: 'XVIII век', text: 'Дворец Тизенгауза'},
+      {date: 'XVIII век', text: 'Мосарский дворец'},
     ],
     "mapData": {
       center: [53.684727, 23.834317],
