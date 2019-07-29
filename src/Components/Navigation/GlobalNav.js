@@ -69,8 +69,8 @@ class GlobalNav extends Component {
     }
 
     handleClick(event) {
-        const target = event.target;
-        const language = target.dataset.language;
+        const { target } = event;
+        const { language } = target.dataset;
 
         if (this.state.language !== language) {
             this.dataSearchForActiveLanguage(language);
@@ -94,36 +94,43 @@ class GlobalNav extends Component {
 
     render() {
         const routers = [];
-        const activeStore = this.state.activeStore;
+        const { 
+            activeStore: { 
+                architects, developersList, architectsNav, homePageLink, developers, portalDescription
+            } } = this.state;
 
-        const linksArchitects = this.findAllName(activeStore.architects, ['url', 'name']);
+        const linksArchitects = this.findAllName(architects, ['url', 'name']);
         routers.push(...this.createRouters(
             linksArchitects,
-            activeStore.architects,
+            architects,
             (architect) => <Architect {...architect}/>
         ));
         
         return <>
             <Router>
                 <ul>
-                    <li><Link to="/">{activeStore.homePageLink}</Link></li>
-                    <li><Link to="/developers">{activeStore.developersList}</Link></li>
-                    <li><Link to="/architects">{activeStore.architectsNav}</Link></li>
+                    <li><Link to="/">{homePageLink}</Link></li>
+                    <li><Link to="/developers">{developersList}</Link></li>
+                    <li><Link to="/architects">{architectsNav}</Link></li>
                 </ul>
 
                 <LanguageController onClick={(event) => this.handleClick(event)}/>
 
                 <Route exact
                     path="/"
-                    render={() => <PortalDescription {...activeStore}/>}
+                    render={() => 
+                    <PortalDescription 
+                        portalDescription={portalDescription}
+                        architects={architects}
+                    />}
                 />
                 <Route exact
                     path="/developers"
-                    render={() => <Developers developers={activeStore.developers}/>}
+                    render={() => <Developers developers={developers} />}
                 />
                 <Route exact
                     path="/architects"
-                    render={() => <SearchByArchitects architects={activeStore.architects}/>}
+                    render={() => <SearchByArchitects architects={architects} />}
                 />
 
                 { routers }
