@@ -17,6 +17,16 @@ const architects = [
       {date: '1945-1964', text: 'Георгий Заборский руководит архитектурно-конструкторскими мастерскими проектных институтов Белгоспроект и Минскпроект и одновременно преподает на архитектурном отделении Белорусского политехнического института (ныне УО «Белорусский национальный технический университет»).'},
       {date: '1993', text: 'Закончил творческую деятельность. Одной из последних его работ стал проект памятника жертвам массовых репрессий в Куропатах под Минском.'},
     ],
+    "projectHeader": {
+      columnOne: 'Projects', 
+      columnTwo: 'Creation date'
+    },
+    "project": [
+      {date: '1952', text: 'Designed a house for the family of J. Kolas.'},
+      {date: '1954', text: 'Monument monument on Victory square.'},
+      {date: '1962', text: 'According to the designs of the architect, the Pioneer cinema and the Museum of the Great Patriotic War were built.'},
+      {date: '1969', text: 'The memorial complex "Zislov" was opened.'},
+    ],
     "mapData": {
       center: [53.906840, 27.571457],
       zoom: 12,
@@ -47,6 +57,16 @@ const architects = [
       {date: '1970-1980', text: ' Выполняла архитектурно-планировочную часть Минского водного каскада — водохранилищ Дрозды и Криница.'},
       {date: '1989', text: 'Занесена в книгу почета института «Минскпроект».'},
     ],
+    "projectHeader": {
+      columnOne: 'Projects', 
+      columnTwo: 'Creation date'
+    },
+    "project": [
+      {date: '1952', text: 'Project 1'},
+      {date: '1954', text: 'Project 2'},
+      {date: '1962', text: 'Project 3'},
+      {date: '1969', text: 'Project 4'},
+    ],
     "mapData": {
       center: [53.906840, 27.571457],
       zoom: 12,
@@ -56,18 +76,30 @@ const architects = [
   {
     "id": "A3",
     "url": "parusnikov",
-    "name": "Парусников Михаил Павлович",
-    "born": "12 ноября 1893",
-    "deceased": "2 февраля 1968",
-    "description": "Советский архитектор, действительный член Академии Архитектуры СССР (1950), академик АН БССР (1950; член-корреспондент с 1947). Педагог, профессор (с 1948). Лауреат Государственной премии Белорусской ССР (1968).",
+    "name": "Mikhail Pavlovich Parusnikov",
+    "born": "November 12, 1893",
+    "deceased": "February 2, 1968",
+    "description": "Soviet architect, full member of the Academy of Architecture of the USSR (1950), academician of the BSSR (1950; corresponding member since 1947). Teacher, Professor (since 1948). Laureate of the State prize of the Belarusian SSR (1968).",
     "image": "http://cn.flibusta.site/i/89/452389/img_84.jpg",
-    "placeOfResidence": "Москва",
-    "placeOfBirth": "Москва",
+    "placeOfResidence": "Moscow",
+    "placeOfBirth": "Moscow",
     "bio": [
-      {date: '1913 - 1918', text: 'Обучался в МУЖВЗ (его отец был настоятелем соседнего храма), затем до 1924 года во ВХУТЕМАСе.'},
-      {date: '1924', text: 'Работал в архитектурно-проектных организациях Москвы и одновременно преподавал (1934—1941 годах, с 1948 года — профессор) в МАРХИ.'},
-      {date: '1941 - 1944', text: 'Старший научный сотрудник Академии архитектуры СССР.'},
-      {date: '1944 - 1948', text: 'Руководитель архитектурно-проектных мастерских Комитета по делам архитектуры СССР.'},
+      {date: '1913 - 1918', text: 'He studied at the MUZHVZ (his father was rector of a nearby temple), then until 1924 in VKhUTEMAS.'},
+      {date: '1924', text: 'He worked in architectural and design organizations of Moscow and at the same time taught (1934-1941, from 1948 — Professor) in MARHI .'},
+      {date: '1941 - 1944', text: 'Senior researcher of the Academy of architecture of the USSR'},
+      {date: '1944 - 1948', text: 'Head of architectural design workshops of the Committee on architecture of the USSR.'},
+    ],
+    "projectHeader": {
+      columnOne: 'Projects', 
+      columnTwo: 'Creation date'
+    },
+    "project": [
+      {date: '1930', text: 'Author of the project planning and development of Astrakhan '},
+      {date: '1923', text: 'Machine building pavilion and audience at the all-Russian agricultural and handicraft industrial exhibition in Moscow'},
+      {date: '1936', text: 'A number of houses on Prospekt Mira in Moscow "Houses with an arch" in Yaroslavl, including the house on red square'},
+      {date: '1945—1947', text: 'Administrative building — KGB of Belarus'},
+      {date: '1950', text: 'The state Bank of the USSR'},
+      {date: '1946—1954', text: 'Houses and bridge over the river Svisloch, Sports complex "Dynamo"'},
     ],
     "mapData": {
       center: [55.7558, 37.6173],
@@ -94,6 +126,16 @@ const architects = [
       {date: '1997', text: "Директор собственной творческой мастерской УП «Творческая мастерская архитектора Л. Левина»"},
       {date: "1 марта 2014", text: "Похоронен 4 марта 2014 года на Центральной аллее Восточного кладбища в Минске"},
     ],
+    "projectHeader": {
+      columnOne: 'Projects', 
+      columnTwo: 'Creation date'
+    },
+    "project": [
+      {date: '1952', text: 'Project 1'},
+      {date: '1954', text: 'Project 2'},
+      {date: '1962', text: 'Project 3'},
+      {date: '1969', text: 'Project 4'},
+    ],
     "mapData": {
       center: [53.906840, 27.571457],
       zoom: 12,
@@ -115,6 +157,16 @@ const architects = [
       {date: '1112', text: 'пункт биографии2'},
       {date: '1113', text: 'пункт биографии3'},
     ],
+    "projectHeader": {
+      columnOne: 'Projects', 
+      columnTwo: 'Creation date'
+    },
+    "project": [
+      {date: '1952', text: 'Project 1'},
+      {date: '1954', text: 'Project 2'},
+      {date: '1962', text: 'Project 3'},
+      {date: '1969', text: 'Project 4'},
+    ],
     "mapData": {
       center: [53.684727, 23.834317],
       zoom: 12,
@@ -135,6 +187,16 @@ const architects = [
       {date: '1768', text: 'Был приглашён в Варшаву, где занимался художественным катафалком (сastrum doloris) королевы Марии Лещинской и проектом перестройки костёла святого Яна.'},
       {date: '1771', text: 'Стал архитектором Скарбовой комиссии ВКЛ. Был рекомендован гродненскому старосте Антонию Тизенгаузу и принят на службу, в качестве королевского архитектора, с установленным окладом в 600 злотых. В Речи Посполитой Сакко получает ряд воинских званий ВКЛ.'},
       {date: '1771-1780', text: 'Выполнил ряд заказов местных магнатов, спроектировав несколько известных дворцово-парковых ансамблей и городских резиденций, в частности: Святский дворец магнатов Воловичей, Щорсовский дворец Хрептовичей, дворцы Тизенгауза в Поставах и Вильнюсе (предположительно).'}
+    ],
+    "projectHeader": {
+      columnOne: 'Projects', 
+      columnTwo: 'Creation date'
+    },
+    "project": [
+      {date: '1952', text: 'Project 1'},
+      {date: '1954', text: 'Project 2'},
+      {date: '1962', text: 'Project 3'},
+      {date: '1969', text: 'Project 4'},
     ],
     "mapData": {
       center: [53.684727, 23.834317],
