@@ -1,16 +1,40 @@
 import React from 'react';
-import {Container, Typography} from "@material-ui/core";
+import { Container, Typography, Button, Card, CardActionArea, CardActions, CardContent, CardMedia} from '@material-ui/core';
+import useStyles from './makeStyles';
 
 function Developers(props) {
+
+  const classes = useStyles();
+
   return <>
-    <Container style={{ display: "flex", flexWrap: "wrap", textAlign: 'center'}} justify="center">
+    <Container className={classes.container}>
       {props.developers.map((item, index) => {
-        return <div key={index} style={{ backgroundColor: '#cfe8fc', fontFamily: 'Roboto, Arial, sans-serif'}}>
-          <img src={item.image} alt="Developer" style={{height: '150px', borderRadius: '15px'}}/>
-          <Typography paragraph={true} style={{marginBottom: 30}}>{item.name}</Typography>
-          <a href={item.github}>{item.github}</a>
-          <Typography paragraph={true} style={{marginTop: 30}}>{item.contribution}</Typography>
-        </div>
+        return (
+         <Card key={item.id} className={classes.card}>
+           <CardActionArea>
+             <CardMedia
+              className={classes.img}
+              component="img"
+              alt="Developer"
+              image={item.image}
+              title={item.name}
+             />
+             <CardContent>
+               <Typography className={classes.name} gutterBottom variant="h5" component="h2">
+                 {item.name}
+               </Typography>
+               <Typography className={classes.contribution} variant="body2" color="textSecondary" component="p">
+                 {item.contribution}
+               </Typography>
+             </CardContent>
+           </CardActionArea>
+           <CardActions className={classes.actions}>
+             <Button className={classes.button} variant="outlined" color="primary" href={item.github} target='_blank'>
+               github
+             </Button>
+           </CardActions>
+         </Card>
+        );
       })}
     </Container>
   </>

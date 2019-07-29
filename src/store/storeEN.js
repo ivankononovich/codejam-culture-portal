@@ -155,7 +155,7 @@ const developers = [
     "id": "D2",
     "name": "Eugeniy Matveenok",
     "github": "https://github.com/ins21",
-    "image": "https://avatars0.githubusercontent.com/u/43145988?s=400&v=4",
+    "image": "https://ins21.github.io/rsschool-2019Q1-cv/assets/images/1.png",
     "contribution":"in progress...",
   },
   {
