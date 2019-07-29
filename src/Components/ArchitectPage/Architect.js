@@ -13,7 +13,7 @@ function Architect(props) {
         <Container className={classes.container} maxWidth="md" justify="center">
             <CardMedia className={classes.img} component="img" image={props.image} title={props.name} alt="Photo" />
             <Typography className={classes.name} variant="h4" component="h2">{props.name}</Typography>
-            <Typography className={classes.years} variant="h6">{props.yearsTitle}: {props.born} - {props.deceased}</Typography>
+            <Typography className={classes.years} variant="h6">Годы жизни: {props.born} - {props.deceased}</Typography>
             <Typography className={classes.description} paragraph={true}>{props.description}</Typography>
             <Typography className={classes.bio} variant="h4">Биография</Typography>
             <TimeLine data={props.bio} />

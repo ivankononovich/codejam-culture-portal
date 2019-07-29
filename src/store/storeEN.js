@@ -179,7 +179,6 @@ const architects = [
     "name": "Giuseppe de Sacco",
     "born": "1735",
     "deceased": "1798",
-    "yearsTitle": "Years of life",
     "description": "One of the greatest architects of developed Baroque and Classicism, who worked on the territory of modern Belarus in the XVIII century. The court architect of the king Stanislaw August Poniatowski. Also worked in other regions of the The Polish–Lithuanian Commonwealth. The ensembles of palace and park residences stand out in his works.",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG/375px-%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG",
     "placeOfResidence": "Гродно",
