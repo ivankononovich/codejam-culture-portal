@@ -129,7 +129,7 @@ class GlobalNav extends Component {
 
         return (
             <>
-                <Router>
+            <Router>
                 <AppBar position="static">
                     <Toolbar style={styles.menuBar}>
                         <div style={styles.linkContainer}>
@@ -169,15 +169,13 @@ class GlobalNav extends Component {
                     <Route exact
                         path="/architects"
                         render={() => (
-                      <SearchByArchitects
-                        architects={activeStore.architects}
-                        searchPlaceholder={activeStore.searchLabel}
-                      />
-                      )}
+                        <SearchByArchitects
+                            architects={this.state.activeStore.architects}
+                            searchPlaceholder={this.state.activeStore.searchLabel}
+                        />)}
                     />
-
                     {routers}
-                </Router>
+            </Router>
             </>
         )
       }
