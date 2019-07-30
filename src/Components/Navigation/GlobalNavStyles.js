@@ -14,7 +14,9 @@ const styles = {
   },
   link: {
       cursor: 'pointer',
-      color: '#fff'
+      color: '#fff',
+      textDecoration: 'none',
+      textTransform: 'capitalize',
   },
 }
 

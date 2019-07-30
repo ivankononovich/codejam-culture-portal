@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { AppBar, Toolbar, Typography } from '@material-ui/core';
+import { AppBar, Toolbar, Typography, Button } from '@material-ui/core';
 
 import styles from './GlobalNavStyles';
 import PortalDescription from '../HomePage/PortalDescription';
@@ -133,15 +133,15 @@ class GlobalNav extends Component {
                 <AppBar position="static">
                     <Toolbar style={styles.menuBar}>
                         <div style={styles.linkContainer}>
-                            <Typography style={styles.linkBox} variant="body1" >
+                            <Button style={styles.linkBox} variant="body1" >
                                 <Link style={styles.link} to="/">{homePageLink}</Link>
-                            </Typography>
-                            <Typography style={styles.linkBox} variant="body1" >
+                            </Button>
+                            <Button style={styles.linkBox} variant="body1" >
                                 <Link style={styles.link} to="/architects">{architectsNav}</Link>
-                            </Typography>
-                            <Typography style={styles.linkBox} variant="body1" >
+                            </Button>
+                            <Button style={styles.linkBox} variant="body1" >
                                 <Link style={styles.link} to="/developers">{developersList}</Link>
-                            </Typography>
+                            </Button>
                         </div>
 
                         <LanguageController 
