@@ -1,32 +1,36 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-
-const useStyles = makeStyles({
-    card: {
-      maxWidth: '90vw',
-    },
-});
+import { Link as RouterLink } from 'react-router-dom';
+import { Container, Link, List, ListItem, ListItemAvatar, ListItemText, Avatar } from '@material-ui/core';
 
 export default (props) => {
     const architects = props.links;
-    const classes = useStyles();
-    return <>
-        <ul >
-        {architects.map((architector, i) =>
-            <li
-                style={{listStyle: 'none'}}
-                key={i}
-            >
-                <Link
-                    to={`/${architector.url}`}
+    return (
+    <>
+        <Container maxWidth="lg">
+            <List>
+            {architects.map((architector, i) =>
+                <ListItem
+                    key={i}
                 >
-                    <Card className={classes.card}>
-                    {architector.name}
-                    </Card>
-                </Link>
-            </li>)}
-        </ul>
+                    <ListItemAvatar>
+                        <Avatar
+                            alt={architector.name}
+                            src={architector.image}
+                        />
+                    </ListItemAvatar>
+                    <Link
+                        component={RouterLink}
+                        to={`/${architector.url}`}
+                        underline="hover"
+                    >
+                        <ListItemText
+                            primary={architector.name}
+                        />
+                    </Link>
+                </ListItem>
+            )}
+            </List>
+        </Container>
     </>
+    )
 }
