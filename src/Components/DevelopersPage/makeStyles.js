@@ -6,6 +6,7 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
+    maxWidth: 1260,
   },
   card: {
     display: 'grid',

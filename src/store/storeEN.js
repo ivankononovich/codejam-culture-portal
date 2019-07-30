@@ -19,7 +19,7 @@ const architects = [
       {date: '1993', text: 'He finished his activities. One of his last work was the project of a monument to victims of mass repressions in Kurapaty near Minsk.'},
     ],
     "projectHeader": {
-      columnOne: 'Projects', 
+      columnOne: 'Projects',
       columnTwo: 'Creation date'
     },
     "project": [
@@ -31,48 +31,152 @@ const architects = [
     "mapData": {
       center: [53.906840, 27.571457],
       zoom: 12,
-    }
+    },
+    "photos": [
+      {
+        num: 1,
+        src: "https://naviny.by/media/2015.09_w1/yacub.jpg",
+        width: 4,
+        height: 3,
+        title: 'Памятник Якубу Колосу',
+        text: 'Памятник писателю Якубу Колосу. Построен в каком-то там году  к какому-то там событию.'
+      },
+      {
+        num: 2,
+        src: "https://minsknews.by/wp-content/uploads/2018/05/APD_8846-1.jpg",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 3,
+        src: "https://minsk-old-new.com/assets/images/Image/streets/krasnoarmeyskaya/krasnoarmeyskaya-024.jpg",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 4,
+        src: "https://planetabelarus.by/upload/resize_cache/iblock/901/1330_887_18e21fe612b4afb807a26ecc22279a1d9/901c0376763ffee6a3fb245ea62fba25.jpg",
+        width: 4,
+        height: 3,
+        title: '',
+        text:''
+      },
+    ],
   },
 
   {
     "id": "A2",
     "url": "usova",
-    "name": "Усова Любовь Дмитриевна",
+    "name": "Lyubov Usova",
     "bornDate": "9/6/1921",
-    "born": "6 сентября 1921",
-    "deceased": "настоящее время",
-    "description": "Белорусский советский архитектор. За свою творческую деятельность неоднократно награждалась грамотами Верховного Совета БССР, почетными грамотами и грамотами института 'Минскпроект', Союзов архитекторов СССР и БССР. В 1989 году Любовь Дмитриевна Усова занесена в книгу почета института 'Минскпроект'.",
-    "image": "https://minsknews.by/wp-content/uploads/2014/10/Arhitektor-Usova-2.jpg",
-    "placeOfResidence": "Минск",
-    "placeOfBirth": "Иркутск",
+    "born": "6 September 1921",
+    "deceased": "Present",
+    "description": "Lyubov Usova - a person known in architectural circles. First of all, she known as one of the developers of the new post-war general plan of the Minsk city. With her direct participation there were erected a lot of significant objects. For her creative work she was repeatedly awarded with the certificates of the Supreme Council of the BSSR, certificates of honor and certificates of the Minsk Project Institute, as well as the Unions of Architects of the USSR and the BSSR. She was inducted into the Minsk Project Institute's Book of Honor.",
+    "image": "https://minsknews.by/wp-content/uploads/2014/10/Arhitektor-Usova-3.jpg",
+    "placeOfResidence": "Minsk, Belarus",
+    "placeOfBirth": "Irkutsk, Russia",
     "bio": [
-      {date: '1921', text: 'Родилась в Иркутске в семье служащих.'},
-      {date: '1930', text: 'Cемья переехала в Москву, где Любовь после окончания школы поступила в Московский архитектурный институт.'},
-      {date: '1941-1945', text: 'Во время Великой отечественной войны находилась в эвакуации в Ташкенте.'},
-      {date: '1947', text: 'Защитила с отличием дипломный проект, после чего по распределению направлена на работу в Минск в архитектурно-планировочную мастерскую при Мингоркомкоме, где работал ее муж Василий Иосифович Геращенко.'},
-      {date: '1950', text: 'Проектировала и восстанавливала главный корпус БПИ (БНТУ).'},
-      {date: '1952', text: 'Спроектировала Дворец пионеров и школьников.'},
-      {date: '1954', text: 'Спроектировала здание обкома КПБ.'},
-      {date: '1956', text: 'Спроектировала Белорусский республиканский театр юного зрителя.'},
-      {date: '1960-1970', text: 'Выполнила ряд работ по привязке и реконструкции школ, детских садов, проектировала жилые дома совместно с мужем в районе Привокзальной площади, для рабочих Мотовелозавода, жилые кварталы заводов. Принимала участие в создании сквера возле театра оперы и балета парка Победы, занималась реконструкцией детского парка имени М. Горького.'},
-      {date: '1968', text: 'Спроектировала республиканский дом юного техника.'},
-      {date: '1970-1980', text: ' Выполняла архитектурно-планировочную часть Минского водного каскада — водохранилищ Дрозды и Криница.'},
-      {date: '1989', text: 'Занесена в книгу почета института «Минскпроект».'},
+      {date: '1921', text: 'Was born in Irkutsk.'},
+      {date: '1930', text: 'When she was nine, her family moved to Moscow where she attended high school and then entered the Moscow Institute of Architecture.'},
+      {date: '1941-1945', text: 'During the Great Patriotic War was evacuated in Tashkent.'},
+      {date: '1947', text: 'She graduated with honors in 1947 with a degree in architecture and soon moved to Minsk, where her husband was working.'},
+      {date: '1989', text: 'Was inducted into the Minsk Project Institute\'s Book of Honor['},
     ],
     "projectHeader": {
-      columnOne: 'Projects', 
+      columnOne: 'Projects',
       columnTwo: 'Creation date'
     },
     "project": [
-      {date: '1952', text: 'Project 1'},
-      {date: '1954', text: 'Project 2'},
-      {date: '1962', text: 'Project 3'},
-      {date: '1969', text: 'Project 4'},
+      {date: '1950', text: 'Designed and restored the main building of BPI (BNTU).'},
+      {date: '1952', text: 'Designed the Palace of Pioneers and schoolchildren.'},
+      {date: '1954', text: 'Designed the PBC regional committee building.'},
+      {date: '1956', text: 'Designed the Belorussian Republican Youth Theater.'},
+      {date: '1960-1970', text: 'Reconstructed some of the schools and kindergartens, designed residential buildings together with her husband in the area near Real station Square, residential quarters of some factories. She took part in the creation of a public garden near the Opera and Ballet Theater and the Victory Park, was engaged in the reconstruction of the Gorky Children\'s Park as well.'},
+      {date: '1968', text: 'Designed the republican palace of the young technicians.'},
+      {date: '1970-1980', text: 'She did the architectural planning work of the Minsk water cascade - the Drozdy and Krynytsya reservoirs.'},
     ],
     "mapData": {
       center: [53.906840, 27.571457],
       zoom: 12,
-    }
+    },
+    "photos": [
+      {
+        num: 1,
+        src: "http://arcp.by/sites/arcp.by/files/styles/660/public/articlefoto/rsg-13-2014_final_stranica_5_izobrazhenie_0002.jpg",
+        width: 4,
+        height: 3,
+        title: 'Lyubov Usova',
+        text: 'Lyubov Usova (on the right) with colleagues at work on the project of the cinema "Star".'
+      },
+      {
+        num: 2,
+        src: "http://arcp.by/sites/arcp.by/files/styles/660/public/articlefoto/rsg-13-2014_final_stranica_5_izobrazhenie_0004.jpg",
+        width: 2,
+        height: 2 ,
+        title: 'With the husband',
+        text: 'Lyubov Usova with her husband Vasily Gerashchenko.'
+      },
+      {
+        num: 3,
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Minsk_CIS_executive_committee.JPG/800px-Minsk_CIS_executive_committee.JPG",
+        width: 2,
+        height: 2,
+        title: 'Building of the regional security committee',
+        text: 'Building of the regional security committee'
+      },
+      {
+        num: 4,
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Belarus-Minsk-Railway_Station_Square-4.jpg/800px-Belarus-Minsk-Railway_Station_Square-4.jpg",
+        width: 2,
+        height: 2,
+        title: 'Railway Station Square, Minsk',
+        text:'Gate at Railway Station Square.'
+      },
+      {
+        num: 5,
+        src: "https://farm4.static.flickr.com/3286/2958042964_43082c0ef6_o.jpg",
+        width: 4,
+        height: 3,
+        title: 'Republican Palace of Pioneers and Schoolchildren',
+        text:'Republican Palace of Pioneers and Schoolchildren.'
+      },
+      {
+        num: 6,
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Enhie%C4%BAsa_Street_26.jpg/1024px-Enhie%C4%BAsa_Street_26.jpg",
+        width: 2,
+        height: 2,
+        title: 'Theater of the young spectator',
+        text:'Belorussian State Academic Theater of the Young Spectator.'
+      },
+      {
+        num: 7,
+        src: "https://upload.wikimedia.org/wikipedia/commons/9/9d/BNTU.JPG",
+        width: 4,
+        height: 3,
+        title: 'Belorussian Polytechnic Institute.',
+        text:'Belorussian Polytechnic Institute.'
+      },
+      {
+        num: 8,
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Alleya_of_Opera_and_Ballet_Theatre%2C_Minsk.JPG/1024px-Alleya_of_Opera_and_Ballet_Theatre%2C_Minsk.JPG",
+        width: 2,
+        height: 2,
+        title: 'Park at the The National Academic Grand Opera and Ballet Theatre',
+        text:'Park at the The National Academic Grand Opera and Ballet Theatre of the Republic of Belarus'
+      },
+      {
+        num: 9,
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%B8%D1%8E_%D0%9A%D0%BE%D1%80%D0%BD%D0%B5%D0%B5%D0%B2%D1%83%2C_Minsk%2C_Belarus_-_panoramio_%281%29.jpg/1280px-%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%B8%D1%8E_%D0%9A%D0%BE%D1%80%D0%BD%D0%B5%D0%B5%D0%B2%D1%83%2C_Minsk%2C_Belarus_-_panoramio_%281%29.jpg",
+        width: 2,
+        height: 2,
+        title: 'Maksim Gorky Central Children\'s Park',
+        text:'Maksim Gorky Central Children\'s Park. Bridge over the embankment of Svisloch river'
+      },
+    ],
   },
 
   {
@@ -93,7 +197,7 @@ const architects = [
       {date: '1944 - 1948', text: 'Head of architectural design workshops of the Committee on architecture of the USSR.'},
     ],
     "projectHeader": {
-      columnOne: 'Projects', 
+      columnOne: 'Projects',
       columnTwo: 'Creation date'
     },
     "project": [
@@ -108,42 +212,114 @@ const architects = [
       center: [55.7558, 37.6173],
       zoom: 12,
     },
+    "photos": [
+      {
+        num: 1,
+        src: "",
+        width: 4,
+        height: 3,
+        title: '',
+        text: ''
+      },
+      {
+        num: 2,
+        src: "",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 3,
+        src: "",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 4,
+        src: "",
+        width: 4,
+        height: 3,
+        title: '',
+        text:''
+      },
+    ],
   },
 
   {
     "id": "A4",
     "url": "leonid-mendelevich",
-    "name": "Леониид Менделевич Левин",
-    "bornDate": "7/25/1936",
-    "born": "25 июля 1936",
-    "deceased": "1 марта 2014",
-    "description": "Заслуженный архитектор Республики Беларусь, Лауреат Ленинской премии и премии Ленинского комсомола, Лауреат премии Волгоградского Комсомола, дважды лауреат Государственной премии Республики Беларусь, лауреат многих престижных конкурсов и смотров архитектурных работ, Академик Международной и Белорусской Академий архитектуры, Председатель Союза белорусских еврейских общественных объединений и общин с 1991 года",
+    "name": "Leonid Mendelevich Levin",
+    "bornDate": "07/25/1936",
+    "born": "July 25, 1936",
+    "deceased": "March 1, 2014",
+    "description": "The distinguished architect of the Republic of Belarus, winner of the Lenin Prize and the Lenin Komsomol Prize, winner of the Volgograd Komsomol Prize, twice winner of the State Prize of the Republic of Belarus, laureate of many prestigious competitions and architectural works reviews, Chairman of the Union of Belarusian Jewish public associations and communities since 1991.",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Levin_Leonid_Mendele.jpg/800px-Levin_Leonid_Mendele.jpg",
     "placeOfResidence": "Минск",
     "placeOfBirth": "Минск",
     "bio": [
-      {date: "1954—1960", text: "Учёба в Белорусском политехническом институте."},
-      {date: '1960', text: 'Работа в Институте «Минскпроект» (от архитектора до руководителя Мастерской по застройке центра Минска)'},
-      {date: '1960—1967', text: "Участие в создании парка им. 50-летия Советской власти."},
-      {date: '1968', text: "Участие в создании выставочного павильона ВДНХ БССР в Минске."},
-      {date: '1970', text: "В составе авторского коллектива был удостоен Ленинской премии за мемориальный комплекс 1968—1969 гг. «Хатынь»"},
-      {date: '1997', text: "Директор собственной творческой мастерской УП «Творческая мастерская архитектора Л. Левина»"},
-      {date: "1 марта 2014", text: "Похоронен 4 марта 2014 года на Центральной аллее Восточного кладбища в Минске"},
+      {date: "1954 - 1960", text: "Study at the Belarusian Polytechnic Institute."},
+      {date: '1960', text: 'Work at the Minskproject Institute (from architect to the head of the Minsk Construction Center Workshop).'},
+      {date: '1960 - 1967', text: "Participation in the creation of the 50th anniversary of Soviet power park."},
+      {date: '1968', text: "Participation in the creation of the VDNH BSSR exhibition pavilion in Minsk."},
+      {date: '1970', text: "As a part of the group of authors, was awarded the Lenin Prize for the Khatyn Memorial Complex."},
+      {date: '1997', text: "Director of the own creative workshop «Creative workshop of the architect L. Levin»."},
+      {date: "March 4, 2014", text: "Was buried at the Central Avenue of the Eastern Cemetery in Minsk."},
     ],
     "projectHeader": {
-      columnOne: 'Projects', 
+      columnOne: 'Projects',
       columnTwo: 'Creation date'
     },
     "project": [
-      {date: '1952', text: 'Project 1'},
-      {date: '1954', text: 'Project 2'},
-      {date: '1962', text: 'Project 3'},
-      {date: '1969', text: 'Project 4'},
+      {date: '1969', text: 'Memorial complex «Khatyn»'},
+      {date: '1972', text: 'Yanka Kupala monument'},
+      {date: '1972', text: 'Yakub Kolas monument'},
+      {date: '1979', text: 'Shunevka (memorial complex "Curse to Fascism")'},
+      {date: '1980 - 1986', text: 'Reconstruction of the historical part of Minsk - «The Troitsky suburb»'},
+      {date: '1984', text: 'Authorship of Minsk metro station «Lenin Square»'},
+      {date: '1990', text: 'Authorship of Minsk metro station «Nemiga»'},
+      {date: '2004', text: 'Memorial complex to the murdered Jews in Gorodeya'},
     ],
     "mapData": {
       center: [53.906840, 27.571457],
       zoom: 12,
     },
+    "photos": [
+      {
+        num: 1,
+        src: "",
+        width: 4,
+        height: 3,
+        title: '',
+        text: ''
+      },
+      {
+        num: 2,
+        src: "",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 3,
+        src: "",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 4,
+        src: "",
+        width: 4,
+        height: 3,
+        title: '',
+        text:''
+      },
+    ],
   },
 
   {
@@ -163,7 +339,7 @@ const architects = [
       {date: '1113', text: 'пункт биографии3'},
     ],
     "projectHeader": {
-      columnOne: 'Projects', 
+      columnOne: 'Projects',
       columnTwo: 'Creation date'
     },
     "project": [
@@ -176,6 +352,40 @@ const architects = [
       center: [53.684727, 23.834317],
       zoom: 12,
     },
+    "photos": [
+      {
+        num: 1,
+        src: "",
+        width: 4,
+        height: 3,
+        title: '',
+        text: ''
+      },
+      {
+        num: 2,
+        src: "",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 3,
+        src: "",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 4,
+        src: "",
+        width: 4,
+        height: 3,
+        title: '',
+        text:''
+      },
+    ],
   },
 
   {
@@ -195,14 +405,14 @@ const architects = [
       {date: '1771 - 1780', text: 'Completed a number of orders from local magnates, having designed several well-known palace and park ensembles and city residences, in particular: the Volovichi magnates Palace in Svyatsk, the Khreptovichi Palace in Shchorsy, the Tizengauz Palaces in Postavy and Vilnius (presumably).'}
     ],
     "projectHeader": {
-      columnOne: 'Projects', 
+      columnOne: 'Projects',
       columnTwo: 'Creation date'
     },
     "project": [
       {date: 'XVIII century', text: 'The Palace in Tsyonzheni'},
       {date: 'XVIII century', text: 'The Khreptovichi Palace in Shchorsy'},
       {date: 'XVIII century', text: 'The Tizengauz theater'},
-      {date: 'XVIII century', text: 'The Palace in Svyatsk'},      
+      {date: 'XVIII century', text: 'The Palace in Svyatsk'},
       {date: 'XVIII century', text: 'The Tizengauz Palace'},
       {date: 'XVIII century', text: 'The Palace in Mosar'},
     ],
@@ -210,6 +420,48 @@ const architects = [
       center: [53.684727, 23.834317],
       zoom: 12,
     },
+    "photos": [
+      {
+        num: 1,
+        src: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ci%C4%85%C5%BCe%C5%84_-_pa%C5%82ac_biskup%C3%B3w_pozna%C5%84skich_03.jpg",
+        width: 4,
+        height: 3,
+        title: 'The Palace in Tsyonzheni',
+        text: 'The Palace in Tsyonzheni'
+      },
+      {
+        num: 2,
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE.JPG/1920px-%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE.JPG",
+        width: 2,
+        height: 2,
+        title: 'Stanislavovo (manor house)',
+        text:'Stanislavovo (manor house)'
+      },
+      {
+        num: 3,
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG/1280px-%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG",
+        width: 2,
+        height: 2,
+        title: 'The Tizengauz square',
+        text:'The Tizengauz square'
+      },
+      {
+        num: 4,
+        src: "https://upload.wikimedia.org/wikipedia/commons/9/97/%C5%9Aviacak._%D0%A1%D1%8C%D0%B2%D1%8F%D1%86%D0%B0%D0%BA_%282006%29.jpg",
+        width: 4,
+        height: 3,
+        title: 'The Palace in Svyatsk',
+        text:'The Palace in Svyatsk'
+      },
+      {
+        num: 5,        
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG/1280px-%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG",
+        width: 4,
+        height: 3,
+        title: 'The Tizengauz theater',
+        text:'The Tizengauz theater'
+      },
+    ],
   },
 ];
 
@@ -223,7 +475,7 @@ const developers = [
   },
   {
     "id": "D2",
-    "name": "Eugeniy Matveenok",
+    "name": "Evgeni Matveyonok",
     "github": "https://github.com/ins21",
     "image": "https://ins21.github.io/rsschool-2019Q1-cv/assets/images/1.png",
     "contribution":"in progress...",
@@ -262,7 +514,7 @@ const portalDescription = {
   "title": "Cultural portal.",
   "description": "You are on the cultural portal, the theme of the site is Architects of Belarus.",
   "architectOfTheDay": "Architect Of The Day",
-}
+};
 
 export default {
   architects,
