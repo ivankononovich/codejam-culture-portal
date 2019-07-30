@@ -512,5 +512,6 @@ export default {
   architectPageLanguage,
   architectsNav: "Архитекторы",
   developersList: "Разработчики",
-  homePageLink: "Главная"
+  homePageLink: "Главная",
+  searchLabel: "Имя, место или проект",
 }

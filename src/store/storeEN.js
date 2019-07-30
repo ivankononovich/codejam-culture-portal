@@ -511,5 +511,6 @@ export default {
   architectPageLanguage,
   architectsNav: "Architects",
   developersList: "Developers",
-  homePageLink: "Home"
+  homePageLink: "Home",
+  searchLabel: "Name, place or project",
 }

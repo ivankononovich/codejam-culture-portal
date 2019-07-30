@@ -155,7 +155,7 @@ class GlobalNav extends Component {
                 </AppBar>
 
                 <Route exact
-                        path="/"
+                  path="/"
                         render={() =>
                             <PortalDescription
                                 portalDescription={portalDescription}
@@ -168,14 +168,19 @@ class GlobalNav extends Component {
                     />
                     <Route exact
                         path="/architects"
-                        render={() => <SearchByArchitects architects={architects} />}
+                        render={() => (
+                      <SearchByArchitects
+                        architects={activeStore.architects}
+                        searchPlaceholder={activeStore.searchLabel}
+                      />
+                      )}
                     />
 
                     {routers}
                 </Router>
             </>
         )
-    }
+      }
 }
 
 export default GlobalNav;

@@ -523,5 +523,6 @@ export default {
   architectPageLanguage,
   architectsNav: "Архітэктары",
   developersList: "Распрацоўнікi",
-  homePageLink: "Галоўная"
+  homePageLink: "Галоўная",
+  searchLabel: "Назва, месца альбо праект",
 }
