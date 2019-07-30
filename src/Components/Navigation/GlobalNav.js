@@ -69,8 +69,6 @@ class GlobalNav extends Component {
     }
 
     handleClick = (event) => {
-        console.log('work');
-
         const { target } = event;
         const { language } = target.dataset;
 
