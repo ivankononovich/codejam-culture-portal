@@ -9,7 +9,7 @@ const useStyles = makeStyles(() => ({
     height: 'auto',
     maxHeight: 300,
     width: 'auto',
-    margin: '0 auto 20px auto',
+    margin: '40px auto 20px auto',
     borderRadius: 10,
   },
   name: {
@@ -32,6 +32,9 @@ const useStyles = makeStyles(() => ({
     margin: 50,
     color: '#3ac14c',
   },
+  projects: {
+    color: '#3ac14c',
+  }
 }));
 
 export default useStyles;

@@ -5,6 +5,10 @@ import { Card, CardContent, CardMedia, Typography } from '@material-ui/core';
 import GetArchitectOfTheDay from './GetArchitectOfTheDay';
 
 const useStyles = makeStyles(theme => ({
+  container: {
+    margin: '0 auto',
+    maxWidth: '90%',
+  },
   header: {
     marginBottom: 15,
   },
