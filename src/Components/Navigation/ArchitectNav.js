@@ -4,11 +4,12 @@ import { Container, Link, List, ListItem, ListItemAvatar, ListItemText, Avatar }
 
 export default (props) => {
     const architects = props.links;
+    const architectsSorted = architects.sort((a, b) => {return a.name > b.name ? 1 : -1} );
     return (
     <>
         <Container maxWidth="lg">
             <List>
-            {architects.map((architector, i) =>
+            {architectsSorted.map((architector, i) =>
                 <ListItem
                     key={i}
                 >
