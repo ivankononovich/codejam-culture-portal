@@ -25,6 +25,7 @@ function PhotoGallery(props) {
              currentIndex={currentImage}
              views={props.data.map(x => ({
                ...x,
+               key: x.num,
                srcset: x.srcSet,
                caption: x.text,
              }))}

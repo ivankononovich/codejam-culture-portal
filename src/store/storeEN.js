@@ -2,26 +2,22 @@ const architects = [
   {
     "id": "A1",
     "url": "zaborsky",
-    "name": "Заборский Георгий Владимирович EN",
+    "name": "Zaborsky Georgiy Vladimirovich",
     "bornDate": "11/11/1909",
-    "born": "11 ноября 1909",
-    "deceased": "27 апреля 1999",
-    "description": "Народный архитектор СССР (1981), заслуженный строитель Беларуси, академик Российской академии архитектуры и строительных наук, академик Белорусской академии архитектуры, лауреат Государственной премии СССР (1971).",
+    "born": "November 11, 1909",
+    "deceased": "April 27, 1999",
+    "description": "National Architect of the USSR (1981), Honored Builder of Belarus, Academician of the Russian Academy of Architecture and Construction Sciences, Academician of the Belarusian Academy of Architecture, winner of the USSR State Prize (1971).",
     "image": "http://bsa.by/ckfinder/userfiles/images/4(2).jpg",
-    "placeOfResidence": "Минск",
-    "placeOfBirth": "Минск",
+    "placeOfResidence": "Minsk",
+    "placeOfBirth": "Minsk",
     "bio": [
-      {date: '1909', text: 'Георгий Заборский родился в Минске в семье Владимира Георгиевича Заборского, бухгалтера Московско-Брестской железной дороги, и Елены Ивановны Заборской (Зеглинг).'},
-      {date: '1930', text: 'Поступил в Минскую профтехшколу крестьянского огнеупорного строительства. Первую практику Г. Заборский проходил на строительной площадке здания Дома правительства. Здесь же произошло его знакомство с архитектором И. Лангбардом.'},
-      {date: '1939', text: 'Окончил Академию искусств. По конкурсу попал в Москву, но работал там недолго и быстро получил направление в Минск. Здесь он был назначен руководителем научной экспедиции по изучению памятников архитектуры и искусства Гомельской и Полесской областей.'},
-      {date: '1941-1945', text: 'Пошел на фронт добровольцем, но в боях под Смоленском был тяжело ранен и оказался в госпитале уральского городка Троицка, где выполнил ряд проектов-эскизов памятников, посвященных героической победе советского народа в Великой Отечественной войне.'},
-      {date: '1945-1964', text: 'Георгий Заборский руководит архитектурно-конструкторскими мастерскими проектных институтов Белгоспроект и Минскпроект и одновременно преподает на архитектурном отделении Белорусского политехнического института (ныне УО «Белорусский национальный технический университет»).'},
-      {date: '1993', text: 'Закончил творческую деятельность. Одной из последних его работ стал проект памятника жертвам массовых репрессий в Куропатах под Минском.'},
+      {date: '1909', text: 'Georgy Zaborsky was born in Minsk to the family of Vladimir Georgievich Zaborsky, an accountant of the Moscow-Brest Railway, and Elena Ivanovna Zaborskaya (Zegling).'},
+      {date: '1930', text: 'Entered the Minsk Vocational School of peasant refractory construction. The first practice of G. Zaborsky was held at the construction site of the Government House. Here he met with the architect I. Langbard.'},
+      {date: '1939', text: 'He graduated from the Academy of Arts. He entered the contest in Moscow, but he worked there for a short time and quickly received a referral to Minsk. Here he was appointed head of a scientific expedition to study the monuments of architecture and art of the Gomel and Polesye regions.'},
+      {date: '1941-1945', text: 'He went to the front as a volunteer, but in the battles near Smolensk he was seriously wounded and ended up in the hospital of the Ural town of Troitsk, where he completed a number of projects-sketches of monuments dedicated to the heroic victory of the Soviet people in the Great Patriotic War.'},
+      {date: '1945-1964', text: 'Georgiy Zaborsky headed the architectural design workshops of design institutes Belgosproek and Minskproekt and at the same time teached at the architectural department of the Belarusian Polytechnic Institute (now the Belarusian National Technical University).'},
+      {date: '1993', text: 'He finished his activities. One of his last work was the project of a monument to victims of mass repressions in Kurapaty near Minsk.'},
     ],
-    "projectHeader": {
-      columnOne: 'Projects',
-      columnTwo: 'Creation date'
-    },
     "project": [
       {date: '1952', text: 'Designed a house for the family of J. Kolas.'},
       {date: '1954', text: 'Monument monument on Victory square.'},
@@ -86,10 +82,6 @@ const architects = [
       {date: '1947', text: 'She graduated with honors in 1947 with a degree in architecture and soon moved to Minsk, where her husband was working.'},
       {date: '1989', text: 'Was inducted into the Minsk Project Institute\'s Book of Honor['},
     ],
-    "projectHeader": {
-      columnOne: 'Projects',
-      columnTwo: 'Creation date'
-    },
     "project": [
       {date: '1950', text: 'Designed and restored the main building of BPI (BNTU).'},
       {date: '1952', text: 'Designed the Palace of Pioneers and schoolchildren.'},
@@ -196,10 +188,6 @@ const architects = [
       {date: '1941 - 1944', text: 'Senior researcher of the Academy of architecture of the USSR'},
       {date: '1944 - 1948', text: 'Head of architectural design workshops of the Committee on architecture of the USSR.'},
     ],
-    "projectHeader": {
-      columnOne: 'Projects',
-      columnTwo: 'Creation date'
-    },
     "project": [
       {date: '1930', text: 'Author of the project planning and development of Astrakhan '},
       {date: '1923', text: 'Machine building pavilion and audience at the all-Russian agricultural and handicraft industrial exhibition in Moscow'},
@@ -268,10 +256,6 @@ const architects = [
       {date: '1997', text: "Director of the own creative workshop «Creative workshop of the architect L. Levin»."},
       {date: "March 4, 2014", text: "Was buried at the Central Avenue of the Eastern Cemetery in Minsk."},
     ],
-    "projectHeader": {
-      columnOne: 'Projects',
-      columnTwo: 'Creation date'
-    },
     "project": [
       {date: '1969', text: 'Memorial complex «Khatyn»'},
       {date: '1972', text: 'Yanka Kupala monument'},
@@ -337,11 +321,7 @@ const architects = [
       {date: '1111', text: 'пункт биографии1'},
       {date: '1112', text: 'пункт биографии2'},
       {date: '1113', text: 'пункт биографии3'},
-    ],
-    "projectHeader": {
-      columnOne: 'Projects',
-      columnTwo: 'Creation date'
-    },
+    ],    
     "project": [
       {date: '1952', text: 'Project 1'},
       {date: '1954', text: 'Project 2'},
@@ -403,11 +383,7 @@ const architects = [
       {date: '1768', text: 'Was invited to Warsaw, where he studied the Castrum Doloris of Queen Marie Leszczyńska and the rebuilding project of the St.Jan church.'},
       {date: '1771', text: 'Became an architect of the Skarbovaya commission of The Grand Duchy of Lithuania. Was recommended to the Grodno headman Anthony Tizengauz and was hired as a royal architect, with a fixed salary of 600 zlotys. In The Polish–Lithuanian Commonwealth de Sacco receives a number of military titles of The Grand Duchy of Lithuania.'},
       {date: '1771 - 1780', text: 'Completed a number of orders from local magnates, having designed several well-known palace and park ensembles and city residences, in particular: the Volovichi magnates Palace in Svyatsk, the Khreptovichi Palace in Shchorsy, the Tizengauz Palaces in Postavy and Vilnius (presumably).'}
-    ],
-    "projectHeader": {
-      columnOne: 'Projects',
-      columnTwo: 'Creation date'
-    },
+    ],    
     "project": [
       {date: 'XVIII century', text: 'The Palace in Tsyonzheni'},
       {date: 'XVIII century', text: 'The Khreptovichi Palace in Shchorsy'},
@@ -423,35 +399,43 @@ const architects = [
     "photos": [
       {
         num: 1,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ci%C4%85%C5%BCe%C5%84_-_pa%C5%82ac_biskup%C3%B3w_pozna%C5%84skich_03.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text: ''
+        title: 'The Palace in Tsyonzheni',
+        text: 'The Palace in Tsyonzheni'
       },
       {
         num: 2,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE.JPG/1920px-%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE.JPG",
         width: 2,
         height: 2,
-        title: '',
-        text:''
+        title: 'Stanislavovo (manor house)',
+        text:'Stanislavovo (manor house)'
       },
       {
         num: 3,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG/1280px-%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG",
         width: 2,
         height: 2,
-        title: '',
-        text:''
+        title: 'The Tizengauz square',
+        text:'The Tizengauz square'
       },
       {
         num: 4,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/9/97/%C5%9Aviacak._%D0%A1%D1%8C%D0%B2%D1%8F%D1%86%D0%B0%D0%BA_%282006%29.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text:''
+        title: 'The Palace in Svyatsk',
+        text:'The Palace in Svyatsk'
+      },
+      {
+        num: 5,        
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG/1280px-%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG",
+        width: 4,
+        height: 3,
+        title: 'The Tizengauz theater',
+        text:'The Tizengauz theater'
       },
     ],
   },
@@ -467,7 +451,7 @@ const developers = [
   },
   {
     "id": "D2",
-    "name": "Eugeniy Matveenok",
+    "name": "Evgeni Matveyonok",
     "github": "https://github.com/ins21",
     "image": "https://ins21.github.io/rsschool-2019Q1-cv/assets/images/1.png",
     "contribution":"in progress...",
@@ -508,12 +492,25 @@ const portalDescription = {
   "architectOfTheDay": "Architect Of The Day",
 };
 
+const architectPageLanguage = {
+  "years": "Years of life", 
+  "bio": "Biography",
+  "projects": "Projects",
+  "projectHeader": {
+    "columnOne": 'Projects',
+    "columnTwo": 'Creation date'
+  },
+  "map": "Place of major activity",
+  "gallery": "Photo Gallery",
+};
+
 export default {
   architects,
   developers,
   portalDescription,
+  architectPageLanguage,
   architectsNav: "Architects",
-  developersList: "Development team",
-  homePageLink: "Home page",
+  developersList: "Developers",
+  homePageLink: "Home",
   searchLabel: "Name, place or project",
 }

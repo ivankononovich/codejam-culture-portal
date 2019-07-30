@@ -2,7 +2,7 @@ const architects = [
   {
     "id": "A1",
     "url": "zaborsky",
-    "name": "Заборский Георгий Владимирович RU",
+    "name": "Заборский Георгий Владимирович",
     "bornDate": "11/11/1909",
     "born": "11 ноября 1909",
     "deceased": "27 апреля 1999",
@@ -18,10 +18,6 @@ const architects = [
       {date: '1945-1964', text: 'Георгий Заборский руководит архитектурно-конструкторскими мастерскими проектных институтов Белгоспроект и Минскпроект и одновременно преподает на архитектурном отделении Белорусского политехнического института (ныне УО «Белорусский национальный технический университет»).'},
       {date: '1993', text: 'Закончил творческую деятельность. Одной из последних его работ стал проект памятника жертвам массовых репрессий в Куропатах под Минском.'},
     ],
-    "projectHeader": {
-      columnOne: 'Проекты',
-      columnTwo: 'Дата создания'
-    },
     "project": [
       {date: '1952', text: 'Спроектировал дом для семьи Я. Коласа.'},
       {date: '1954', text: 'Памятник-монумент на пл. Победы.'},
@@ -86,10 +82,6 @@ const architects = [
       {date: '1947', text: 'Защитила с отличием дипломный проект, после чего по распределению направлена на работу в Минск в архитектурно-планировочную мастерскую при Мингоркомкоме, где работал ее муж Василий Иосифович Геращенко.'},
       {date: '1989', text: 'Занесена в книгу почета института «Минскпроект».'},
     ],
-    "projectHeader": {
-      columnOne: 'Проекты',
-      columnTwo: 'Дата создания'
-    },
     "project": [
       {date: '1950', text: 'Проектировала и восстанавливала главный корпус БПИ (БНТУ).'},
       {date: '1952', text: 'Спроектировала Дворец пионеров и школьников.'},
@@ -204,10 +196,6 @@ const architects = [
       {date: '1950', text: 'Госбанк БССР'},
       {date: '1946—1954', text: 'Жилые дома и мост через р. Свислочь, Спортивный комплекс «Динамо».'},
     ],
-    "projectHeader": {
-      columnOne: 'Проекты',
-      columnTwo: 'Дата создания'
-    },
     "mapData": {
       center: [55.7558, 37.6173],
       zoom: 12,
@@ -268,10 +256,7 @@ const architects = [
       {date: '1997', text: "Директор собственной творческой мастерской УП «Творческая мастерская архитектора Л. Левина»"},
       {date: "4 марта 2014", text: "Похоронен 4 марта 2014 года на Центральной аллее Восточного кладбища в Минске"},
     ],
-    "projectHeader": {
-      columnOne: 'Проекты',
-      columnTwo: 'Дата создания'
-    },
+    
     "project": [
       {date: '1969', text: 'Мемориальный комплекс «Хатынь»'},
       {date: '1972', text: 'Памятник Янке Купале'},
@@ -338,10 +323,6 @@ const architects = [
       {date: '1112', text: 'пункт биографии2'},
       {date: '1113', text: 'пункт биографии3'},
     ],
-    "projectHeader": {
-      columnOne: 'Проекты',
-      columnTwo: 'Дата создания'
-    },
     "project": [
       {date: '1952', text: 'Проект 1'},
       {date: '1954', text: 'Проект 2'},
@@ -404,10 +385,6 @@ const architects = [
       {date: '1771', text: 'Стал архитектором Скарбовой комиссии ВКЛ. Был рекомендован гродненскому старосте Антонию Тизенгаузу и принят на службу, в качестве королевского архитектора, с установленным окладом в 600 злотых. В Речи Посполитой Сакко получает ряд воинских званий ВКЛ.'},
       {date: '1771-1780', text: 'Выполнил ряд заказов местных магнатов, спроектировав несколько известных дворцово-парковых ансамблей и городских резиденций, в частности: Святский дворец магнатов Воловичей, Щорсовский дворец Хрептовичей, дворцы Тизенгауза в Поставах и Вильнюсе (предположительно).'}
     ],
-    "projectHeader": {
-      columnOne: 'Проекты',
-      columnTwo: 'Дата создания'
-    },
     "project": [
       {date: 'XVIII век', text: 'Дворец в Цёнжени'},
       {date: 'XVIII век', text: 'Дворец Хрептовичей в Щорсах'},
@@ -423,35 +400,43 @@ const architects = [
     "photos": [
       {
         num: 1,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ci%C4%85%C5%BCe%C5%84_-_pa%C5%82ac_biskup%C3%B3w_pozna%C5%84skich_03.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text: ''
+        title: 'Дворец в Цёнжени',
+        text: 'Дворец в Цёнжени'
       },
       {
         num: 2,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE.JPG/1920px-%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE.JPG",
         width: 2,
         height: 2,
-        title: '',
-        text:''
+        title: 'Станиславово (усадьба)',
+        text:'Станиславово (усадьба)'
       },
       {
         num: 3,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG/1280px-%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG",
         width: 2,
         height: 2,
-        title: '',
-        text:''
+        title: 'Ансамбль площади Тизенгауза',
+        text:'Ансамбль площади Тизенгауза'
       },
       {
         num: 4,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/9/97/%C5%9Aviacak._%D0%A1%D1%8C%D0%B2%D1%8F%D1%86%D0%B0%D0%BA_%282006%29.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text:''
+        title: 'Святский дворец',
+        text:'Святский дворец'
+      },
+      {
+        num: 5,        
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG/1280px-%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG",
+        width: 4,
+        height: 3,
+        title: 'Театр Тизенгауза',
+        text:'Театр Тизенгауза'
       },
     ],
   },
@@ -508,12 +493,25 @@ const portalDescription = {
   "architectOfTheDay": "Архитектор дня",
 };
 
-export default {
+const architectPageLanguage = {
+  "years": "Годы жизни", 
+  "bio": "Биография",
+  "projects": "Проекты",
+  "projectHeader": {
+    "columnOne": 'Проекты',
+    "columnTwo": 'Дата создания'
+  },
+  "map": "Место основной деятельности",
+  "gallery": "Фотогалерея",
+};
+
+export default {  
   architects,
   developers,
   portalDescription,
+  architectPageLanguage,
   architectsNav: "Архитекторы",
-  developersList: "Команда разработчиков",
-  homePageLink: "Главная страница",
+  developersList: "Разработчики",
+  homePageLink: "Главная",
   searchLabel: "Имя, место или проект",
 }
