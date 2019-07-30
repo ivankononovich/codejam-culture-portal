@@ -268,6 +268,6 @@ export default {
   developers,
   portalDescription,
   architectsNav: "Архітэктары",
-  developersList: "Каманда распрацоўнікаў",
-  homePageLink: "Галоўная старонка"
+  developersList: "Распрацоўнікаў",
+  homePageLink: "Галоўная"
 }

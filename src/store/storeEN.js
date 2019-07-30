@@ -269,6 +269,6 @@ export default {
   developers,
   portalDescription,
   architectsNav: "Architects",
-  developersList: "Development team",
-  homePageLink: "Home page"
+  developersList: "Developers",
+  homePageLink: "Home"
 }
