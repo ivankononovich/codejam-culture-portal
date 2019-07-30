@@ -18,7 +18,7 @@ const architects = [
       {date: '1993', text: 'Закончил творческую деятельность. Одной из последних его работ стал проект памятника жертвам массовых репрессий в Куропатах под Минском.'},
     ],
     "projectHeader": {
-      columnOne: 'Проекты', 
+      columnOne: 'Проекты',
       columnTwo: 'Дата создания'
     },
     "project": [
@@ -30,7 +30,41 @@ const architects = [
     "mapData": {
       center: [53.906840, 27.571457],
       zoom: 12,
-    }
+    },
+    "photos": [
+      {
+        num: 1,
+        src: "https://naviny.by/media/2015.09_w1/yacub.jpg",
+        width: 4,
+        height: 3,
+        title: 'Памятник Я.Колосу',
+        text: 'Памятник писателю Якубу Колосу.'
+      },
+      {
+        num: 2,
+        src: "https://minsknews.by/wp-content/uploads/2018/05/APD_8846-1.jpg",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 3,
+        src: "https://minsk-old-new.com/assets/images/Image/streets/krasnoarmeyskaya/krasnoarmeyskaya-024.jpg",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 4,
+        src: "https://planetabelarus.by/upload/resize_cache/iblock/901/1330_887_18e21fe612b4afb807a26ecc22279a1d9/901c0376763ffee6a3fb245ea62fba25.jpg",
+        width: 4,
+        height: 3,
+        title: '',
+        text:''
+      },
+    ],
   },
 
   {
@@ -39,8 +73,8 @@ const architects = [
     "name": "Усова Любовь Дмитриевна",
     "born": "6 сентября 1921",
     "deceased": "настоящее время",
-    "description": "Белорусский советский архитектор. За свою творческую деятельность неоднократно награждалась грамотами Верховного Совета БССР, почетными грамотами и грамотами института 'Минскпроект', Союзов архитекторов СССР и БССР. В 1989 году Любовь Дмитриевна Усова занесена в книгу почета института 'Минскпроект'.",
-    "image": "https://minsknews.by/wp-content/uploads/2014/10/Arhitektor-Usova-2.jpg",
+    "description": "Любовь Дмитриевна Усова – личность в архитектурных кругах известная. Прежде всего она вошла в строительную летопись Беларуси как один из разработчиков нового послевоенного генплана города Минска. При ее непосредственном участии в столице возведены многие знаковые объекты. За свою творческую деятельность неоднократно награждалась грамотами Верховного Совета БССР, почетными грамотами и грамотами института 'Минскпроект', а твакже  Союзов архитекторов СССР и БССР. Занесена в книгу почета института 'Минскпроект'.",
+    "image": "https://minsknews.by/wp-content/uploads/2014/10/Arhitektor-Usova-3.jpg",
     "placeOfResidence": "Минск",
     "placeOfBirth": "Иркутск",
     "bio": [
@@ -48,29 +82,99 @@ const architects = [
       {date: '1930', text: 'Cемья переехала в Москву, где Любовь после окончания школы поступила в Московский архитектурный институт.'},
       {date: '1941-1945', text: 'Во время Великой отечественной войны находилась в эвакуации в Ташкенте.'},
       {date: '1947', text: 'Защитила с отличием дипломный проект, после чего по распределению направлена на работу в Минск в архитектурно-планировочную мастерскую при Мингоркомкоме, где работал ее муж Василий Иосифович Геращенко.'},
+      {date: '1989', text: 'Занесена в книгу почета института «Минскпроект».'},
+    ],
+    "projectHeader": {
+      columnOne: 'Проекты',
+      columnTwo: 'Дата создания'
+    },
+    "project": [
       {date: '1950', text: 'Проектировала и восстанавливала главный корпус БПИ (БНТУ).'},
       {date: '1952', text: 'Спроектировала Дворец пионеров и школьников.'},
       {date: '1954', text: 'Спроектировала здание обкома КПБ.'},
       {date: '1956', text: 'Спроектировала Белорусский республиканский театр юного зрителя.'},
       {date: '1960-1970', text: 'Выполнила ряд работ по привязке и реконструкции школ, детских садов, проектировала жилые дома совместно с мужем в районе Привокзальной площади, для рабочих Мотовелозавода, жилые кварталы заводов. Принимала участие в создании сквера возле театра оперы и балета парка Победы, занималась реконструкцией детского парка имени М. Горького.'},
       {date: '1968', text: 'Спроектировала республиканский дом юного техника.'},
-      {date: '1970-1980', text: ' Выполняла архитектурно-планировочную часть Минского водного каскада — водохранилищ Дрозды и Криница.'},
-      {date: '1989', text: 'Занесена в книгу почета института «Минскпроект».'},
-    ],
-    "projectHeader": {
-      columnOne: 'Проекты', 
-      columnTwo: 'Дата создания'
-    },
-    "project": [
-      {date: '1952', text: 'Проект 1'},
-      {date: '1954', text: 'Проект 2'},
-      {date: '1962', text: 'Проект 3'},
-      {date: '1969', text: 'Проект 4'},
+      {date: '1970-1980', text: 'Выполняла архитектурно-планировочную часть Минского водного каскада — водохранилищ Дрозды и Криница.'},
     ],
     "mapData": {
       center: [53.906840, 27.571457],
       zoom: 12,
-    }
+    },
+    "photos": [
+      {
+        num: 1,
+        src: "http://arcp.by/sites/arcp.by/files/styles/660/public/articlefoto/rsg-13-2014_final_stranica_5_izobrazhenie_0002.jpg",
+        width: 4,
+        height: 3,
+        title: 'Любовь Усова с коллегами',
+        text: 'Любовь Усова (справа) с коллегами за работой над проектом кинотеатра "Зорька".'
+      },
+      {
+        num: 2,
+        src: "http://arcp.by/sites/arcp.by/files/styles/660/public/articlefoto/rsg-13-2014_final_stranica_5_izobrazhenie_0004.jpg",
+        width: 2,
+        height: 2 ,
+        title: 'Вместе с мужем',
+        text: 'Любовь Усова вместе с мужем Василием Геращенко.'
+      },
+      {
+        num: 3,
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Minsk_CIS_executive_committee.JPG/800px-Minsk_CIS_executive_committee.JPG",
+        width: 2,
+        height: 2,
+        title: 'Здание обкома КПБ г.Минска',
+        text: 'Здание обкома КПБ г.Минска.'
+      },
+      {
+        num: 4,
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Belarus-Minsk-Railway_Station_Square-4.jpg/800px-Belarus-Minsk-Railway_Station_Square-4.jpg",
+        width: 2,
+        height: 2,
+        title: 'Привокзальная площадь г.Минска',
+        text:'Ворота Минска на Привокзальной площади.'
+      },
+      {
+        num: 5,
+        src: "https://minsknews.by/wp-content/uploads/2014/09/Dvorets-Pionerov-i-shkolnikov.jpg",
+        width: 4,
+        height: 3,
+        title: 'Республикаский Дворец пионеров и школьников г.Минска',
+        text:'Республикаский Дворец пионеров и школьников.'
+      },
+      {
+        num: 6,
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Enhie%C4%BAsa_Street_26.jpg/1024px-Enhie%C4%BAsa_Street_26.jpg",
+        width: 2,
+        height: 2,
+        title: 'Театр юного зрителя',
+        text:'Белорусский государственный академический театр юного зрителя.'
+      },
+      {
+        num: 7,
+        src: "https://upload.wikimedia.org/wikipedia/commons/9/9d/BNTU.JPG",
+        width: 4,
+        height: 3,
+        title: 'Главный корпус БНТУ',
+        text:'Главный корпус Белорусского национального технического университета.'
+      },
+      {
+        num: 8,
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Alleya_of_Opera_and_Ballet_Theatre%2C_Minsk.JPG/1024px-Alleya_of_Opera_and_Ballet_Theatre%2C_Minsk.JPG",
+        width: 2,
+        height: 2,
+        title: 'Троицкая гора',
+        text:'Сквер вокруг Национального акадэмического Большого театра оперы и балета Республики Беларусь.'
+      },
+      {
+        num: 9,
+        src: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Gorki_park%2C_Minsk14.JPG",
+        width: 2,
+        height: 2,
+        title: 'Парк им. М.Горького',
+        text:'Центральный детский парк имени Максима Горького.'
+      },
+    ],
   },
 
   {
@@ -98,13 +202,47 @@ const architects = [
       {date: '1946—1954', text: 'Жилые дома и мост через р. Свислочь, Спортивный комплекс «Динамо».'},
     ],
     "projectHeader": {
-      columnOne: 'Проекты', 
+      columnOne: 'Проекты',
       columnTwo: 'Дата создания'
     },
     "mapData": {
       center: [55.7558, 37.6173],
       zoom: 12,
     },
+    "photos": [
+      {
+        num: 1,
+        src: "",
+        width: 4,
+        height: 3,
+        title: '',
+        text: ''
+      },
+      {
+        num: 2,
+        src: "",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 3,
+        src: "",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 4,
+        src: "",
+        width: 4,
+        height: 3,
+        title: '',
+        text:''
+      },
+    ],
   },
 
   {
@@ -127,7 +265,7 @@ const architects = [
       {date: "1 марта 2014", text: "Похоронен 4 марта 2014 года на Центральной аллее Восточного кладбища в Минске"},
     ],
     "projectHeader": {
-      columnOne: 'Проекты', 
+      columnOne: 'Проекты',
       columnTwo: 'Дата создания'
     },
     "project": [
@@ -140,6 +278,40 @@ const architects = [
       center: [53.906840, 27.571457],
       zoom: 12,
     },
+    "photos": [
+      {
+        num: 1,
+        src: "",
+        width: 4,
+        height: 3,
+        title: '',
+        text: ''
+      },
+      {
+        num: 2,
+        src: "",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 3,
+        src: "",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 4,
+        src: "",
+        width: 4,
+        height: 3,
+        title: '',
+        text:''
+      },
+    ],
   },
 
   {
@@ -158,7 +330,7 @@ const architects = [
       {date: '1113', text: 'пункт биографии3'},
     ],
     "projectHeader": {
-      columnOne: 'Проекты', 
+      columnOne: 'Проекты',
       columnTwo: 'Дата создания'
     },
     "project": [
@@ -171,6 +343,40 @@ const architects = [
       center: [53.684727, 23.834317],
       zoom: 12,
     },
+    "photos": [
+      {
+        num: 1,
+        src: "",
+        width: 4,
+        height: 3,
+        title: '',
+        text: ''
+      },
+      {
+        num: 2,
+        src: "",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 3,
+        src: "",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 4,
+        src: "",
+        width: 4,
+        height: 3,
+        title: '',
+        text:''
+      },
+    ],
   },
 
   {
@@ -189,7 +395,7 @@ const architects = [
       {date: '1771-1780', text: 'Выполнил ряд заказов местных магнатов, спроектировав несколько известных дворцово-парковых ансамблей и городских резиденций, в частности: Святский дворец магнатов Воловичей, Щорсовский дворец Хрептовичей, дворцы Тизенгауза в Поставах и Вильнюсе (предположительно).'}
     ],
     "projectHeader": {
-      columnOne: 'Проекты', 
+      columnOne: 'Проекты',
       columnTwo: 'Дата создания'
     },
     "project": [
@@ -202,6 +408,40 @@ const architects = [
       center: [53.684727, 23.834317],
       zoom: 12,
     },
+    "photos": [
+      {
+        num: 1,
+        src: "",
+        width: 4,
+        height: 3,
+        title: '',
+        text: ''
+      },
+      {
+        num: 2,
+        src: "",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 3,
+        src: "",
+        width: 2,
+        height: 2,
+        title: '',
+        text:''
+      },
+      {
+        num: 4,
+        src: "",
+        width: 4,
+        height: 3,
+        title: '',
+        text:''
+      },
+    ],
   },
 ];
 
@@ -253,7 +493,7 @@ const developers = [
 const portalDescription = {
   "title": "Культурный портал.",
   "description": "Вы находитесь на культурном портале, тематика сайта - Архитекторы Беларуси."
-}
+};
 
 export default {
   architects,
