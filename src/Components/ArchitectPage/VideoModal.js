@@ -2,13 +2,9 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 
-function rand() {
-  return Math.round(Math.random() * 20) - 10;
-}
-
 function getModalStyle() {
-  const top = 50 + rand();
-  const left = 50 + rand();
+  const top = 50;
+  const left = 50;
 
   return {
     top: `${top}%`,
@@ -34,13 +30,24 @@ const useStyles = makeStyles(theme => ({
       boxShadow: theme.shadows[5],
     },
   },
+  сloseVideo: {
+    position: 'absolute',
+    top: '-35px',
+    right: '-35px',
+    fontSize: '30px',
+    backgroundColor: 'transparent',
+    cursor: 'pointer',
+    border: 'none',
+    outline: 'none',
+  },
   video: {
     width: '100%',
     height: '100%',
   },
   paper: {
-    position: 'absolute',
-    width: 400,
+    position: 'relative',
+    width: 800,
+    height: 500,
     backgroundColor: '#000',
     border: '2px solid #000',
     boxShadow: theme.shadows[5],
@@ -52,8 +59,15 @@ const YouTubeVideo = () => {
   const classes = useStyles();
   return (
     // eslint-disable-next-line jsx-a11y/iframe-has-title
-    <iframe className={classes.video} src="https://www.youtube.com/embed/mrfadR51D0I?autoplay=1&amp" frameborder="0" allowfullscreen></iframe>
-  )
+    <iframe className={classes.video} src="https://www.youtube.com/embed/mrfadR51D0I?autoplay=1&amp" frameBorder="0" allowFullScreen></iframe>
+  );
+};
+
+const ButtonCloseVideo = ({handleClick}) => {
+  const classes = useStyles();
+  return (
+    <button className={classes.сloseVideo} onClick={handleClick}>✖</button>
+  );
 };
 
 const VideoModal = () => {
@@ -82,6 +96,7 @@ const VideoModal = () => {
       >
         <div style={modalStyle} className={classes.paper}>
           <YouTubeVideo />
+          <ButtonCloseVideo handleClick={handleClose}/>
         </div>
       </Modal>
     </div>
