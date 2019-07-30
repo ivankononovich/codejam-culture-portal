@@ -115,7 +115,7 @@ class GlobalNav extends Component {
         const {
             activeStore: {
                 architects, developersList, architectsNav, homePageLink,
-                developers, portalDescription
+                developers, portalDescription, architectPageLanguage
             },
             anchorEl
         } = this.state;
@@ -124,7 +124,7 @@ class GlobalNav extends Component {
         routers.push(...this.createRouters(
             linksArchitects,
             architects,
-            (architect) => <Architect {...architect} />
+            (architect) => <Architect {...architect} lang={architectPageLanguage}/>
         ));
 
         const open = Boolean(anchorEl);
