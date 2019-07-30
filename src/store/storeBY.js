@@ -522,6 +522,6 @@ export default {
   portalDescription,
   architectPageLanguage,
   architectsNav: "Архітэктары",
-  developersList: "Распрацоўнікаў",
+  developersList: "Распрацоўнікi",
   homePageLink: "Галоўная"
 }
