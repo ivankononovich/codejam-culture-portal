@@ -2,7 +2,7 @@ const architects = [
   {
     "id": "A1",
     "url": "zaborsky",
-    "name": "Заборский Георгий Владимирович RU",
+    "name": "Заборский Георгий Владимирович",
     "bornDate": "11/11/1909",
     "born": "11 ноября 1909",
     "deceased": "27 апреля 1999",
@@ -521,6 +521,6 @@ export default {
   developers,
   portalDescription,
   architectsNav: "Архитекторы",
-  developersList: "Команда разработчиков",
-  homePageLink: "Главная страница"
+  developersList: "Разработчики",
+  homePageLink: "Главная"
 }
