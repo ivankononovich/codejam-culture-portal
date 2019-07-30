@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { TextField, Container } from '@material-ui/core';
 import ArchitectNav from '../Navigation/ArchitectNav';
 
 class SearchByArchitects extends Component {
@@ -7,6 +7,12 @@ class SearchByArchitects extends Component {
 
     state = {
         searchResults: this.props.architects,
+    }
+
+    componentDidUpdate(prevProps, prevState) {
+        if (prevState !== this.state) {
+            console.log('differ');
+        }
     }
 
     findArchitects(searchText) {
@@ -35,13 +41,17 @@ class SearchByArchitects extends Component {
         return matches;
     }
 
-    handleChange(event) {
-        const searchText = event.target.value;
-        const searchResults = this.findArchitects(searchText);
-
-        this.setState({
-            searchResults,
-        });
+    handleSearch(value) {
+        const searchResults = this.findArchitects(value);
+        if (value !== '') {
+            this.setState({
+                searchResults,
+            });
+        } else {
+            this.setState({
+                searchResults: this.props.architects,
+            });
+        }
     }
 
     componentWillReceiveProps(props) {
@@ -54,13 +64,19 @@ class SearchByArchitects extends Component {
 
     render() {
         return <>
-            <input 
-                ref={this.inputRef}
-                onChange={(event) => this.handleChange(event)} 
-                type="text"
-            />
-
-            <ArchitectNav links={this.state.searchResults} />
+            <Container maxWidth="lg">
+                <form noValidate autoComplete="off">
+                    <TextField
+                        id="outlined-full-width"
+                        label="Name, place or project"
+                        fullWidth
+                        onChange={(ev) => this.handleSearch(ev.target.value)}
+                        margin="normal"
+                        variant="outlined"
+                    />
+                </form>
+                <ArchitectNav links={this.state.searchResults} />
+            </Container>
         </>
     }
 }
