@@ -10,10 +10,11 @@ const useStyles = makeStyles(() => ({
     maxHeight: 300,
     width: 'auto',
     margin: '0 auto 20px auto',
+    borderRadius: 10,
   },
   name: {
     margin: 10,
-  },    
+  },
   bio: {
     color: '#3ac14c',
   },

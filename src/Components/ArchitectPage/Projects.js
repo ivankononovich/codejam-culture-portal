@@ -44,7 +44,6 @@ const ProjectRow = (props) => {
 };
 
 const Projects = (props) => {
-  console.log(props);
   const classes = useStyles();
   return (
     <>
