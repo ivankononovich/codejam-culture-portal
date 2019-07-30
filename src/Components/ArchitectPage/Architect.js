@@ -18,7 +18,7 @@ function Architect(props) {
             <Typography className={classes.description} paragraph={true}>{props.description}</Typography>
             <Typography className={classes.bio} variant="h4">Биография</Typography>
             <TimeLine data={props.bio} />
-            <Typography style={{ color: '#3ac14c' }} variant="h4">Проекты</Typography>
+            <Typography className={classes.projects} variant="h4">Проекты</Typography>
             <Projects data={props.project} column={props.projectHeader}/>
             <Typography className={classes.map} variant="h4">Место основной деятельности</Typography>
             <ActivityMap data={props.mapData}/>

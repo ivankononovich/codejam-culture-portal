@@ -32,6 +32,9 @@ const useStyles = makeStyles(() => ({
     margin: 50,
     color: '#3ac14c',
   },
+  projects: {
+    color: '#3ac14c',
+  }
 }));
 
 export default useStyles;
