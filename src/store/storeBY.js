@@ -543,5 +543,6 @@ export default {
   portalDescription,
   architectsNav: "Архітэктары",
   developersList: "Каманда распрацоўнікаў",
-  homePageLink: "Галоўная старонка"
+  homePageLink: "Галоўная старонка",
+  searchLabel: "Назва, месца альбо праект",
 }

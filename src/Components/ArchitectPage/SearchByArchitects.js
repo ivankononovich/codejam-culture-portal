@@ -3,15 +3,15 @@ import { TextField, Container } from '@material-ui/core';
 import ArchitectNav from '../Navigation/ArchitectNav';
 
 class SearchByArchitects extends Component {
-    inputRef = React.createRef();
-
     state = {
         searchResults: this.props.architects,
     }
 
-    componentDidUpdate(prevProps, prevState) {
-        if (prevState !== this.state) {
-            console.log('differ');
+    componentDidUpdate(prevProps) {
+        if (prevProps.searchPlaceholder !== this.props.searchPlaceholder) {
+            this.setState({
+                searchResults: this.props.architects,
+            });
         }
     }
 
@@ -42,8 +42,8 @@ class SearchByArchitects extends Component {
     }
 
     handleSearch(value) {
-        const searchResults = this.findArchitects(value);
         if (value !== '') {
+            const searchResults = this.findArchitects(value);
             this.setState({
                 searchResults,
             });
@@ -54,21 +54,14 @@ class SearchByArchitects extends Component {
         }
     }
 
-    componentWillReceiveProps(props) {
-        this.inputRef.current.value = '';
-
-        this.setState({
-            searchResults: props.architects,
-        });
-    }
-
     render() {
         return <>
             <Container maxWidth="lg">
                 <form noValidate autoComplete="off">
                     <TextField
                         id="outlined-full-width"
-                        label="Name, place or project"
+                        label='search'
+                        placeholder={this.props.searchPlaceholder}
                         fullWidth
                         onChange={(ev) => this.handleSearch(ev.target.value)}
                         margin="normal"

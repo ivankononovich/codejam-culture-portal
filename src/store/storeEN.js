@@ -514,5 +514,6 @@ export default {
   portalDescription,
   architectsNav: "Architects",
   developersList: "Development team",
-  homePageLink: "Home page"
+  homePageLink: "Home page",
+  searchLabel: "Name, place or project",
 }

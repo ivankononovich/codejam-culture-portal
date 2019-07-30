@@ -123,7 +123,12 @@ class GlobalNav extends Component {
                 />
                 <Route exact
                     path="/architects"
-                    render={() => <SearchByArchitects architects={activeStore.architects}/>}
+                    render={() => (
+                    <SearchByArchitects
+                        architects={activeStore.architects}
+                        searchPlaceholder={activeStore.searchLabel}
+                    />
+                    )}
                 />
 
                 { routers }
