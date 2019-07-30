@@ -18,10 +18,6 @@ const architects = [
       {date: '1945-1964', text: 'Georgiy Zaborsky headed the architectural design workshops of design institutes Belgosproek and Minskproekt and at the same time teached at the architectural department of the Belarusian Polytechnic Institute (now the Belarusian National Technical University).'},
       {date: '1993', text: 'He finished his activities. One of his last work was the project of a monument to victims of mass repressions in Kurapaty near Minsk.'},
     ],
-    "projectHeader": {
-      columnOne: 'Projects',
-      columnTwo: 'Creation date'
-    },
     "project": [
       {date: '1952', text: 'Designed a house for the family of J. Kolas.'},
       {date: '1954', text: 'Monument monument on Victory square.'},
@@ -86,10 +82,6 @@ const architects = [
       {date: '1947', text: 'She graduated with honors in 1947 with a degree in architecture and soon moved to Minsk, where her husband was working.'},
       {date: '1989', text: 'Was inducted into the Minsk Project Institute\'s Book of Honor['},
     ],
-    "projectHeader": {
-      columnOne: 'Projects',
-      columnTwo: 'Creation date'
-    },
     "project": [
       {date: '1950', text: 'Designed and restored the main building of BPI (BNTU).'},
       {date: '1952', text: 'Designed the Palace of Pioneers and schoolchildren.'},
@@ -196,10 +188,6 @@ const architects = [
       {date: '1941 - 1944', text: 'Senior researcher of the Academy of architecture of the USSR'},
       {date: '1944 - 1948', text: 'Head of architectural design workshops of the Committee on architecture of the USSR.'},
     ],
-    "projectHeader": {
-      columnOne: 'Projects',
-      columnTwo: 'Creation date'
-    },
     "project": [
       {date: '1930', text: 'Author of the project planning and development of Astrakhan '},
       {date: '1923', text: 'Machine building pavilion and audience at the all-Russian agricultural and handicraft industrial exhibition in Moscow'},
@@ -268,10 +256,6 @@ const architects = [
       {date: '1997', text: "Director of the own creative workshop «Creative workshop of the architect L. Levin»."},
       {date: "March 4, 2014", text: "Was buried at the Central Avenue of the Eastern Cemetery in Minsk."},
     ],
-    "projectHeader": {
-      columnOne: 'Projects',
-      columnTwo: 'Creation date'
-    },
     "project": [
       {date: '1969', text: 'Memorial complex «Khatyn»'},
       {date: '1972', text: 'Yanka Kupala monument'},
@@ -337,11 +321,7 @@ const architects = [
       {date: '1111', text: 'пункт биографии1'},
       {date: '1112', text: 'пункт биографии2'},
       {date: '1113', text: 'пункт биографии3'},
-    ],
-    "projectHeader": {
-      columnOne: 'Projects',
-      columnTwo: 'Creation date'
-    },
+    ],    
     "project": [
       {date: '1952', text: 'Project 1'},
       {date: '1954', text: 'Project 2'},
@@ -403,11 +383,7 @@ const architects = [
       {date: '1768', text: 'Was invited to Warsaw, where he studied the Castrum Doloris of Queen Marie Leszczyńska and the rebuilding project of the St.Jan church.'},
       {date: '1771', text: 'Became an architect of the Skarbovaya commission of The Grand Duchy of Lithuania. Was recommended to the Grodno headman Anthony Tizengauz and was hired as a royal architect, with a fixed salary of 600 zlotys. In The Polish–Lithuanian Commonwealth de Sacco receives a number of military titles of The Grand Duchy of Lithuania.'},
       {date: '1771 - 1780', text: 'Completed a number of orders from local magnates, having designed several well-known palace and park ensembles and city residences, in particular: the Volovichi magnates Palace in Svyatsk, the Khreptovichi Palace in Shchorsy, the Tizengauz Palaces in Postavy and Vilnius (presumably).'}
-    ],
-    "projectHeader": {
-      columnOne: 'Projects',
-      columnTwo: 'Creation date'
-    },
+    ],    
     "project": [
       {date: 'XVIII century', text: 'The Palace in Tsyonzheni'},
       {date: 'XVIII century', text: 'The Khreptovichi Palace in Shchorsy'},
@@ -516,10 +492,23 @@ const portalDescription = {
   "architectOfTheDay": "Architect Of The Day",
 };
 
+const architectPageLanguage = {
+  "years": "Years of life", 
+  "bio": "Biography",
+  "projects": "Projects",
+  "projectHeader": {
+    "columnOne": 'Projects',
+    "columnTwo": 'Creation date'
+  },
+  "map": "Place of major activity",
+  "gallery": "Photo Gallery",
+};
+
 export default {
   architects,
   developers,
   portalDescription,
+  architectPageLanguage,
   architectsNav: "Architects",
   developersList: "Developers",
   homePageLink: "Home"
