@@ -3,6 +3,7 @@ const architects = [
     "id": "A1",
     "url": "zaborsky",
     "name": "Заборский Георгий Владимирович EN",
+    "bornDate": "11/11/1909",
     "born": "11 ноября 1909",
     "deceased": "27 апреля 1999",
     "description": "Народный архитектор СССР (1981), заслуженный строитель Беларуси, академик Российской академии архитектуры и строительных наук, академик Белорусской академии архитектуры, лауреат Государственной премии СССР (1971).",
@@ -71,6 +72,7 @@ const architects = [
     "id": "A2",
     "url": "usova",
     "name": "Усова Любовь Дмитриевна",
+    "bornDate": "9/6/1921",
     "born": "6 сентября 1921",
     "deceased": "настоящее время",
     "description": "Белорусский советский архитектор. За свою творческую деятельность неоднократно награждалась грамотами Верховного Совета БССР, почетными грамотами и грамотами института 'Минскпроект', Союзов архитекторов СССР и БССР. В 1989 году Любовь Дмитриевна Усова занесена в книгу почета института 'Минскпроект'.",
@@ -185,6 +187,7 @@ const architects = [
     "id": "A3",
     "url": "parusnikov",
     "name": "Mikhail Pavlovich Parusnikov",
+    "bornDate": "11/12/1893",
     "born": "November 12, 1893",
     "deceased": "February 2, 1968",
     "description": "Soviet architect, full member of the Academy of Architecture of the USSR (1950), academician of the BSSR (1950; corresponding member since 1947). Teacher, Professor (since 1948). Laureate of the State prize of the Belarusian SSR (1968).",
@@ -252,31 +255,36 @@ const architects = [
   {
     "id": "A4",
     "url": "leonid-mendelevich",
-    "name": "Леониид Менделевич Левин",
-    "born": "25 июля 1936",
-    "deceased": "1 марта 2014",
-    "description": "Заслуженный архитектор Республики Беларусь, Лауреат Ленинской премии и премии Ленинского комсомола, Лауреат премии Волгоградского Комсомола, дважды лауреат Государственной премии Республики Беларусь, лауреат многих престижных конкурсов и смотров архитектурных работ, Академик Международной и Белорусской Академий архитектуры, Председатель Союза белорусских еврейских общественных объединений и общин с 1991 года",
+    "name": "Leonid Mendelevich Levin",
+    "bornDate": "07/25/1936",
+    "born": "July 25, 1936",
+    "deceased": "March 1, 2014",
+    "description": "The distinguished architect of the Republic of Belarus, winner of the Lenin Prize and the Lenin Komsomol Prize, winner of the Volgograd Komsomol Prize, twice winner of the State Prize of the Republic of Belarus, laureate of many prestigious competitions and architectural works reviews, Chairman of the Union of Belarusian Jewish public associations and communities since 1991.",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Levin_Leonid_Mendele.jpg/800px-Levin_Leonid_Mendele.jpg",
     "placeOfResidence": "Минск",
     "placeOfBirth": "Минск",
     "bio": [
-      {date: "1954—1960", text: "Учёба в Белорусском политехническом институте."},
-      {date: '1960', text: 'Работа в Институте «Минскпроект» (от архитектора до руководителя Мастерской по застройке центра Минска)'},
-      {date: '1960—1967', text: "Участие в создании парка им. 50-летия Советской власти."},
-      {date: '1968', text: "Участие в создании выставочного павильона ВДНХ БССР в Минске."},
-      {date: '1970', text: "В составе авторского коллектива был удостоен Ленинской премии за мемориальный комплекс 1968—1969 гг. «Хатынь»"},
-      {date: '1997', text: "Директор собственной творческой мастерской УП «Творческая мастерская архитектора Л. Левина»"},
-      {date: "1 марта 2014", text: "Похоронен 4 марта 2014 года на Центральной аллее Восточного кладбища в Минске"},
+      {date: "1954 - 1960", text: "Study at the Belarusian Polytechnic Institute."},
+      {date: '1960', text: 'Work at the Minskproject Institute (from architect to the head of the Minsk Construction Center Workshop).'},
+      {date: '1960 - 1967', text: "Participation in the creation of the 50th anniversary of Soviet power park."},
+      {date: '1968', text: "Participation in the creation of the VDNH BSSR exhibition pavilion in Minsk."},
+      {date: '1970', text: "As a part of the group of authors, was awarded the Lenin Prize for the Khatyn Memorial Complex."},
+      {date: '1997', text: "Director of the own creative workshop «Creative workshop of the architect L. Levin»."},
+      {date: "March 4, 2014", text: "Was buried at the Central Avenue of the Eastern Cemetery in Minsk."},
     ],
     "projectHeader": {
       columnOne: 'Projects',
       columnTwo: 'Creation date'
     },
     "project": [
-      {date: '1952', text: 'Project 1'},
-      {date: '1954', text: 'Project 2'},
-      {date: '1962', text: 'Project 3'},
-      {date: '1969', text: 'Project 4'},
+      {date: '1969', text: 'Memorial complex «Khatyn»'},
+      {date: '1972', text: 'Yanka Kupala monument'},
+      {date: '1972', text: 'Yakub Kolas monument'},
+      {date: '1979', text: 'Shunevka (memorial complex "Curse to Fascism")'},
+      {date: '1980 - 1986', text: 'Reconstruction of the historical part of Minsk - «The Troitsky suburb»'},
+      {date: '1984', text: 'Authorship of Minsk metro station «Lenin Square»'},
+      {date: '1990', text: 'Authorship of Minsk metro station «Nemiga»'},
+      {date: '2004', text: 'Memorial complex to the murdered Jews in Gorodeya'},
     ],
     "mapData": {
       center: [53.906840, 27.571457],
@@ -322,6 +330,7 @@ const architects = [
     "id": "A5",
     "url": "osho",
     "name": "Rajneesh (Osho)",
+    "bornDate": "12/11/1931",
     "born": "December 11, 1931",
     "deceased": "January 19, 1990",
     "description": "Indian spiritual guru, considered as a Godman and leader of the Rajneesh movement. During his lifetime he was viewed as a controversial mystic, guru, and spiritual teacher. He advocated a more open attitude towards human sexuality, earning him the nickname \"sex guru\" in the Indian and later international press, although this attitude became more acceptable with time.",
@@ -386,27 +395,30 @@ const architects = [
   {
     "id": "A6",
     "url": "sacco",
-    "name": "Джузеппе де Сакко",
+    "name": "Giuseppe de Sacco",
+    "bornDate": "12/11/1735",
     "born": "1735",
     "deceased": "1798",
-    "description": "Один из крупнейших архитекторов развитого барокко и классицизма, работавших на территории современной Беларуси, в XVIII веке. Придворный архитектор короля Станислава Августа Понятовского. Также работал в других регионах Речи Посполитой. В творчестве выделяются ансамбли дворцово-парковых резиденций.",
+    "description": "One of the greatest architects of developed Baroque and Classicism, who worked on the territory of modern Belarus in the XVIII century. The court architect of the king Stanislaw August Poniatowski. Also worked in other regions of the The Polish–Lithuanian Commonwealth. The ensembles of palace and park residences stand out in his works.",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG/375px-%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG",
     "placeOfResidence": "Гродно",
     "placeOfBirth": "Верона",
     "bio": [
-      {date: '1768', text: 'Был приглашён в Варшаву, где занимался художественным катафалком (сastrum doloris) королевы Марии Лещинской и проектом перестройки костёла святого Яна.'},
-      {date: '1771', text: 'Стал архитектором Скарбовой комиссии ВКЛ. Был рекомендован гродненскому старосте Антонию Тизенгаузу и принят на службу, в качестве королевского архитектора, с установленным окладом в 600 злотых. В Речи Посполитой Сакко получает ряд воинских званий ВКЛ.'},
-      {date: '1771-1780', text: 'Выполнил ряд заказов местных магнатов, спроектировав несколько известных дворцово-парковых ансамблей и городских резиденций, в частности: Святский дворец магнатов Воловичей, Щорсовский дворец Хрептовичей, дворцы Тизенгауза в Поставах и Вильнюсе (предположительно).'}
+      {date: '1768', text: 'Was invited to Warsaw, where he studied the Castrum Doloris of Queen Marie Leszczyńska and the rebuilding project of the St.Jan church.'},
+      {date: '1771', text: 'Became an architect of the Skarbovaya commission of The Grand Duchy of Lithuania. Was recommended to the Grodno headman Anthony Tizengauz and was hired as a royal architect, with a fixed salary of 600 zlotys. In The Polish–Lithuanian Commonwealth de Sacco receives a number of military titles of The Grand Duchy of Lithuania.'},
+      {date: '1771 - 1780', text: 'Completed a number of orders from local magnates, having designed several well-known palace and park ensembles and city residences, in particular: the Volovichi magnates Palace in Svyatsk, the Khreptovichi Palace in Shchorsy, the Tizengauz Palaces in Postavy and Vilnius (presumably).'}
     ],
     "projectHeader": {
       columnOne: 'Projects',
       columnTwo: 'Creation date'
     },
     "project": [
-      {date: '1952', text: 'Project 1'},
-      {date: '1954', text: 'Project 2'},
-      {date: '1962', text: 'Project 3'},
-      {date: '1969', text: 'Project 4'},
+      {date: 'XVIII century', text: 'The Palace in Tsyonzheni'},
+      {date: 'XVIII century', text: 'The Khreptovichi Palace in Shchorsy'},
+      {date: 'XVIII century', text: 'The Tizengauz theater'},
+      {date: 'XVIII century', text: 'The Palace in Svyatsk'},      
+      {date: 'XVIII century', text: 'The Tizengauz Palace'},
+      {date: 'XVIII century', text: 'The Palace in Mosar'},
     ],
     "mapData": {
       center: [53.684727, 23.834317],
@@ -496,8 +508,14 @@ const developers = [
 
 const portalDescription = {
   "title": "Cultural portal.",
+<<<<<<< HEAD
   "description": "You are on the cultural portal, the theme of the site is the Architects of Belarus."
 };
+=======
+  "description": "You are on the cultural portal, the theme of the site is Architects of Belarus.",
+  "architectOfTheDay": "Architect Of The Day",
+}
+>>>>>>> 399a1b61c12ea98b06ecc2030732f8041280ac2b
 
 export default {
   architects,
