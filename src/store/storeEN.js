@@ -71,37 +71,33 @@ const architects = [
   {
     "id": "A2",
     "url": "usova",
-    "name": "Усова Любовь Дмитриевна",
+    "name": "Lyubov Usova",
     "bornDate": "9/6/1921",
-    "born": "6 сентября 1921",
-    "deceased": "настоящее время",
-    "description": "Белорусский советский архитектор. За свою творческую деятельность неоднократно награждалась грамотами Верховного Совета БССР, почетными грамотами и грамотами института 'Минскпроект', Союзов архитекторов СССР и БССР. В 1989 году Любовь Дмитриевна Усова занесена в книгу почета института 'Минскпроект'.",
+    "born": "6 September 1921",
+    "deceased": "Present",
+    "description": "Lyubov Usova - a person known in architectural circles. First of all, she known as one of the developers of the new post-war general plan of the Minsk city. With her direct participation there were erected a lot of significant objects. For her creative work she was repeatedly awarded with the certificates of the Supreme Council of the BSSR, certificates of honor and certificates of the Minsk Project Institute, as well as the Unions of Architects of the USSR and the BSSR. She was inducted into the Minsk Project Institute's Book of Honor.",
     "image": "https://minsknews.by/wp-content/uploads/2014/10/Arhitektor-Usova-3.jpg",
-    "placeOfResidence": "Минск",
-    "placeOfBirth": "Иркутск",
+    "placeOfResidence": "Minsk, Belarus",
+    "placeOfBirth": "Irkutsk, Russia",
     "bio": [
-      {date: '1921', text: 'Родилась в Иркутске в семье служащих.'},
-      {date: '1930', text: 'Cемья переехала в Москву, где Любовь после окончания школы поступила в Московский архитектурный институт.'},
-      {date: '1941-1945', text: 'Во время Великой отечественной войны находилась в эвакуации в Ташкенте.'},
-      {date: '1947', text: 'Защитила с отличием дипломный проект, после чего по распределению направлена на работу в Минск в архитектурно-планировочную мастерскую при Мингоркомкоме, где работал ее муж Василий Иосифович Геращенко.'},
-      {date: '1950', text: 'Проектировала и восстанавливала главный корпус БПИ (БНТУ).'},
-      {date: '1952', text: 'Спроектировала Дворец пионеров и школьников.'},
-      {date: '1954', text: 'Спроектировала здание обкома КПБ.'},
-      {date: '1956', text: 'Спроектировала Белорусский республиканский театр юного зрителя.'},
-      {date: '1960-1970', text: 'Выполнила ряд работ по привязке и реконструкции школ, детских садов, проектировала жилые дома совместно с мужем в районе Привокзальной площади, для рабочих Мотовелозавода, жилые кварталы заводов. Принимала участие в создании сквера возле театра оперы и балета парка Победы, занималась реконструкцией детского парка имени М. Горького.'},
-      {date: '1968', text: 'Спроектировала республиканский дом юного техника.'},
-      {date: '1970-1980', text: ' Выполняла архитектурно-планировочную часть Минского водного каскада — водохранилищ Дрозды и Криница.'},
-      {date: '1989', text: 'Занесена в книгу почета института «Минскпроект».'},
+      {date: '1921', text: 'Was born in Irkutsk.'},
+      {date: '1930', text: 'When she was nine, her family moved to Moscow where she attended high school and then entered the Moscow Institute of Architecture.'},
+      {date: '1941-1945', text: 'During the Great Patriotic War was evacuated in Tashkent.'},
+      {date: '1947', text: 'She graduated with honors in 1947 with a degree in architecture and soon moved to Minsk, where her husband was working.'},
+      {date: '1989', text: 'Was inducted into the Minsk Project Institute\'s Book of Honor['},
     ],
     "projectHeader": {
       columnOne: 'Projects',
       columnTwo: 'Creation date'
     },
     "project": [
-      {date: '1952', text: 'Project 1'},
-      {date: '1954', text: 'Project 2'},
-      {date: '1962', text: 'Project 3'},
-      {date: '1969', text: 'Project 4'},
+      {date: '1950', text: 'Designed and restored the main building of BPI (BNTU).'},
+      {date: '1952', text: 'Designed the Palace of Pioneers and schoolchildren.'},
+      {date: '1954', text: 'Designed the PBC regional committee building.'},
+      {date: '1956', text: 'Designed the Belorussian Republican Youth Theater.'},
+      {date: '1960-1970', text: 'Reconstructed some of the schools and kindergartens, designed residential buildings together with her husband in the area near Real station Square, residential quarters of some factories. She took part in the creation of a public garden near the Opera and Ballet Theater and the Victory Park, was engaged in the reconstruction of the Gorky Children\'s Park as well.'},
+      {date: '1968', text: 'Designed the republican palace of the young technicians.'},
+      {date: '1970-1980', text: 'She did the architectural planning work of the Minsk water cascade - the Drozdy and Krynytsya reservoirs.'},
     ],
     "mapData": {
       center: [53.906840, 27.571457],
@@ -113,72 +109,72 @@ const architects = [
         src: "http://arcp.by/sites/arcp.by/files/styles/660/public/articlefoto/rsg-13-2014_final_stranica_5_izobrazhenie_0002.jpg",
         width: 4,
         height: 3,
-        title: 'Любовь Усова с коллегами',
-        text: 'Любовь Усова (справа) с коллегами за работой над проектом кинотеатра "Зорька".'
+        title: 'Lyubov Usova',
+        text: 'Lyubov Usova (on the right) with colleagues at work on the project of the cinema "Star".'
       },
       {
         num: 2,
         src: "http://arcp.by/sites/arcp.by/files/styles/660/public/articlefoto/rsg-13-2014_final_stranica_5_izobrazhenie_0004.jpg",
         width: 2,
         height: 2 ,
-        title: 'Вместе с мужем',
-        text: 'Любовь Усова вместе с мужем Василием Геращенко.'
+        title: 'With the husband',
+        text: 'Lyubov Usova with her husband Vasily Gerashchenko.'
       },
       {
         num: 3,
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Minsk_CIS_executive_committee.JPG/800px-Minsk_CIS_executive_committee.JPG",
         width: 2,
         height: 2,
-        title: 'Здание обкома КПБ г.Минска',
-        text: 'Здание обкома КПБ г.Минска.'
+        title: 'Building of the regional security committee',
+        text: 'Building of the regional security committee'
       },
       {
         num: 4,
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Belarus-Minsk-Railway_Station_Square-4.jpg/800px-Belarus-Minsk-Railway_Station_Square-4.jpg",
         width: 2,
         height: 2,
-        title: 'Привокзальная площадь г.Минска',
-        text:'Ворота Минска на Привокзальной площади.'
+        title: 'Railway Station Square, Minsk',
+        text:'Gate at Railway Station Square.'
       },
       {
         num: 5,
-        src: "https://minsknews.by/wp-content/uploads/2014/09/Dvorets-Pionerov-i-shkolnikov.jpg",
+        src: "https://farm4.static.flickr.com/3286/2958042964_43082c0ef6_o.jpg",
         width: 4,
         height: 3,
-        title: 'Республикаский Дворец пионеров и школьников г.Минска',
-        text:'Республикаский Дворец пионеров и школьников.'
+        title: 'Republican Palace of Pioneers and Schoolchildren',
+        text:'Republican Palace of Pioneers and Schoolchildren.'
       },
       {
         num: 6,
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Enhie%C4%BAsa_Street_26.jpg/1024px-Enhie%C4%BAsa_Street_26.jpg",
         width: 2,
         height: 2,
-        title: 'Театр юного зрителя',
-        text:'Белорусский государственный академический театр юного зрителя.'
+        title: 'Theater of the young spectator',
+        text:'Belorussian State Academic Theater of the Young Spectator.'
       },
       {
         num: 7,
         src: "https://upload.wikimedia.org/wikipedia/commons/9/9d/BNTU.JPG",
         width: 4,
         height: 3,
-        title: 'Главный корпус БНТУ',
-        text:'Главный корпус Белорусского национального технического университета.'
+        title: 'Belorussian Polytechnic Institute.',
+        text:'Belorussian Polytechnic Institute.'
       },
       {
         num: 8,
         src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Alleya_of_Opera_and_Ballet_Theatre%2C_Minsk.JPG/1024px-Alleya_of_Opera_and_Ballet_Theatre%2C_Minsk.JPG",
         width: 2,
         height: 2,
-        title: 'Троицкая гора',
-        text:'Сквер вокруг Национального акадэмического Большого театра оперы и балета Республики Беларусь.'
+        title: 'Park at the The National Academic Grand Opera and Ballet Theatre',
+        text:'Park at the The National Academic Grand Opera and Ballet Theatre of the Republic of Belarus'
       },
       {
         num: 9,
-        src: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Gorki_park%2C_Minsk14.JPG",
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%B8%D1%8E_%D0%9A%D0%BE%D1%80%D0%BD%D0%B5%D0%B5%D0%B2%D1%83%2C_Minsk%2C_Belarus_-_panoramio_%281%29.jpg/1280px-%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%B8%D1%8E_%D0%9A%D0%BE%D1%80%D0%BD%D0%B5%D0%B5%D0%B2%D1%83%2C_Minsk%2C_Belarus_-_panoramio_%281%29.jpg",
         width: 2,
         height: 2,
-        title: 'Парк им. М.Горького',
-        text:'Центральный детский парк имени Максима Горького.'
+        title: 'Maksim Gorky Central Children\'s Park',
+        text:'Maksim Gorky Central Children\'s Park. Bridge over the embankment of Svisloch river'
       },
     ],
   },
@@ -416,7 +412,7 @@ const architects = [
       {date: 'XVIII century', text: 'The Palace in Tsyonzheni'},
       {date: 'XVIII century', text: 'The Khreptovichi Palace in Shchorsy'},
       {date: 'XVIII century', text: 'The Tizengauz theater'},
-      {date: 'XVIII century', text: 'The Palace in Svyatsk'},      
+      {date: 'XVIII century', text: 'The Palace in Svyatsk'},
       {date: 'XVIII century', text: 'The Tizengauz Palace'},
       {date: 'XVIII century', text: 'The Palace in Mosar'},
     ],
@@ -508,14 +504,9 @@ const developers = [
 
 const portalDescription = {
   "title": "Cultural portal.",
-<<<<<<< HEAD
-  "description": "You are on the cultural portal, the theme of the site is the Architects of Belarus."
-};
-=======
   "description": "You are on the cultural portal, the theme of the site is Architects of Belarus.",
   "architectOfTheDay": "Architect Of The Day",
-}
->>>>>>> 399a1b61c12ea98b06ecc2030732f8041280ac2b
+};
 
 export default {
   architects,
