@@ -5,12 +5,14 @@ import ArchitectNav from '../Navigation/ArchitectNav';
 class SearchByArchitects extends Component {
     state = {
         searchResults: this.props.architects,
+        value: '',
     }
 
     componentDidUpdate(prevProps) {
         if (prevProps.searchPlaceholder !== this.props.searchPlaceholder) {
             this.setState({
                 searchResults: this.props.architects,
+                value: '',
             });
         }
     }
@@ -46,10 +48,12 @@ class SearchByArchitects extends Component {
             const searchResults = this.findArchitects(value);
             this.setState({
                 searchResults,
+                value,
             });
         } else {
             this.setState({
                 searchResults: this.props.architects,
+                value,
             });
         }
     }
@@ -60,8 +64,8 @@ class SearchByArchitects extends Component {
                 <form noValidate autoComplete="off">
                     <TextField
                         id="outlined-full-width"
-                        label='search'
-                        placeholder={this.props.searchPlaceholder}
+                        value={this.state.value}
+                        label={this.props.searchPlaceholder}
                         fullWidth
                         onChange={(ev) => this.handleSearch(ev.target.value)}
                         margin="normal"
