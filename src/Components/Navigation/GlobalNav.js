@@ -125,8 +125,8 @@ class GlobalNav extends Component {
                     path="/architects"
                     render={() => (
                     <SearchByArchitects
-                        architects={activeStore.architects}
-                        searchPlaceholder={activeStore.searchLabel}
+                        architects={this.state.activeStore.architects}
+                        searchPlaceholder={this.state.activeStore.searchLabel}
                     />
                     )}
                 />
