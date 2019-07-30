@@ -4,6 +4,7 @@ import TimeLine from './TimeLine'
 import ActivityMap from './ActivityMap'
 import Projects from './Projects'
 import useStyles from './makeStyles'
+import PhotoGallery from './PhotoGallery'
 
 function Architect(props) {
     const classes = useStyles();
@@ -22,10 +23,10 @@ function Architect(props) {
             <Typography className={classes.map} variant="h4">Место основной деятельности</Typography>
             <ActivityMap data={props.mapData}/>
             <Typography className={classes.gallery} variant="h4">Фотогалерея</Typography>
+            <PhotoGallery data={props.photos}/>
         </Container>
     </>
   )
 }
 
 export default Architect
-  

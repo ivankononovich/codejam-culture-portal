@@ -13,7 +13,7 @@ const useStyles = makeStyles(() => ({
   },
   name: {
     margin: 10,
-  },    
+  },
   bio: {
     color: '#3ac14c',
   },
