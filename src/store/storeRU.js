@@ -28,6 +28,9 @@ const architects = [
       {date: '1962', text: 'По проектам архитектора построены кинотеатр «Пионер» и музей Великой Отечественной войны.'},
       {date: '1969', text: 'Открытие мемориального комплекса «Зислов».'},
     ],
+    "video": { 
+      id: 'lxMfVdAml1A' 
+    },
     "mapData": {
       center: [53.906840, 27.571457],
       zoom: 12,
@@ -99,6 +102,9 @@ const architects = [
       {date: '1968', text: 'Спроектировала республиканский дом юного техника.'},
       {date: '1970-1980', text: 'Выполняла архитектурно-планировочную часть Минского водного каскада — водохранилищ Дрозды и Криница.'},
     ],
+    "video": { 
+      id: 'lxMfVdAml1A' 
+    },
     "mapData": {
       center: [53.906840, 27.571457],
       zoom: 12,
@@ -208,6 +214,9 @@ const architects = [
       columnOne: 'Проекты',
       columnTwo: 'Дата создания'
     },
+    "video": { 
+      id: 'lxMfVdAml1A' 
+    },
     "mapData": {
       center: [55.7558, 37.6173],
       zoom: 12,
@@ -282,6 +291,9 @@ const architects = [
       {date: '1990', text: 'Авторство станции Минского метрополитена «Немига»'},
       {date: '2004', text: 'Мемориальный комплекс погибшим евреям г. п. Городея'},
     ],
+    "video": { 
+      id: 'lxMfVdAml1A' 
+    },
     "mapData": {
       center: [53.906840, 27.571457],
       zoom: 12,
@@ -348,6 +360,9 @@ const architects = [
       {date: '1962', text: 'Проект 3'},
       {date: '1969', text: 'Проект 4'},
     ],
+    "video": { 
+      id: 'lxMfVdAml1A' 
+    },
     "mapData": {
       center: [53.684727, 23.834317],
       zoom: 12,
@@ -416,6 +431,9 @@ const architects = [
       {date: 'XVIII век', text: 'Дворец Тизенгауза'},
       {date: 'XVIII век', text: 'Мосарский дворец'},
     ],
+    "video": { 
+      id: 'lxMfVdAml1A' 
+    },
     "mapData": {
       center: [53.684727, 23.834317],
       zoom: 12,

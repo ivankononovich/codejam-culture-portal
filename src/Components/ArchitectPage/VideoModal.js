@@ -55,11 +55,12 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const YouTubeVideo = () => {
+const YouTubeVideo = ({idVideo}) => {
   const classes = useStyles();
+  const api = 'https://www.youtube.com/embed/'+idVideo.data.id+'?autoplay=1&amp';
   return (
     // eslint-disable-next-line jsx-a11y/iframe-has-title
-    <iframe className={classes.video} src="https://www.youtube.com/embed/mrfadR51D0I?autoplay=1&amp" frameBorder="0" allowFullScreen></iframe>
+    <iframe className={classes.video} src={api} frameBorder="0" allowFullScreen></iframe>
   );
 };
 
@@ -70,7 +71,7 @@ const ButtonCloseVideo = ({handleClick}) => {
   );
 };
 
-const VideoModal = () => {
+const VideoModal = (props) => {
   const classes = useStyles();
   const [modalStyle] = React.useState(getModalStyle);
   const [open, setOpen] = React.useState(false);
@@ -95,7 +96,7 @@ const VideoModal = () => {
         onClose={handleClose}
       >
         <div style={modalStyle} className={classes.paper}>
-          <YouTubeVideo />
+          <YouTubeVideo idVideo={props} />
           <ButtonCloseVideo handleClick={handleClose}/>
         </div>
       </Modal>
