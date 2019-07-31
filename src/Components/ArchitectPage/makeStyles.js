@@ -34,7 +34,11 @@ const useStyles = makeStyles(() => ({
   },
   projects: {
     color: '#3ac14c',
-  }
+  },
+  video: {
+    color: '#3ac14c',
+    marginBottom: 30,
+  },
 }));
 
 export default useStyles;
