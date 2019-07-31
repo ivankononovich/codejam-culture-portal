@@ -1,8 +1,20 @@
 import React from 'react';
-import { Container, GridListTile, GridList, Popover, Typography } from '@material-ui/core';
+import { AppBar, Container, GridListTile, GridList, Popover, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
+    appBar: {
+        top: 'auto',
+        bottom: 0,
+        marginTop: '1rem', 
+    },
+    container: {
+        display: 'flex',
+        justifyContent: 'space-around',
+    },
+    list: {
+
+    },
     popover: {
       pointerEvents: 'none',
     },
@@ -29,13 +41,14 @@ export default (props) => {
 
     return (
     <>
-        <Container style={{marginTop: '1rem', display: 'flex', justifyContent: 'center'}}>
-            {`${props.devTitle}: `}
+    <AppBar position="fixed" color="primary" className={classes.appBar}>
+        <Container className={classes.container}>
+            {/* {`${props.devTitle}: `} */}
             <GridList cols={7} style={{justifyContent: 'space-between'}}>
             {devSort.map((dev, i) =>
                 <GridListTile
                     key={i}
-                    style={{width: 'auto', height: 'auto'}}
+                    style={{width: 'auto', height: 'auto', margin: 'auto 1rem'}}
                 >
                     <Typography
                         aria-owns={open ? 'mouse-over-popover' : undefined}
@@ -72,6 +85,7 @@ export default (props) => {
             )}
             </GridList>
         </Container>
+        </AppBar>
     </>
     )
 }
