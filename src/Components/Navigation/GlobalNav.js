@@ -130,7 +130,7 @@ class GlobalNav extends Component {
         return (
             <>
             <Router>
-                <AppBar position="static">
+                <AppBar position="sticky">
                     <Toolbar style={styles.menuBar}>
                         <div style={styles.linkContainer}>
                             <Button style={styles.linkBox}>
