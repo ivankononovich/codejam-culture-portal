@@ -21,7 +21,7 @@ export default (props) => {
                     </ListItemAvatar>
                     <Link
                         component={RouterLink}
-                        to={`/${architector.url}`}
+                        to={`${architector.URLPath}/${architector.url}`}
                         underline="hover"
                     >
                         <ListItemText

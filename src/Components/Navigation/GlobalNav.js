@@ -32,6 +32,7 @@ class GlobalNav extends Component {
         language: 'ru',
         activeStore: storeRU,
         anchorEl: null,
+        URLPath: '/codejam-culture-portal',
     };
 
     findAllName(obj, listCategory) {
@@ -55,11 +56,12 @@ class GlobalNav extends Component {
 
         listLink.forEach((item, index) => {
             const props = data[item.index];
+            props.URLPath = this.state.URLPath;
 
             routers.push(
                 <Route exact
                     key={item.url}
-                    path={`/${item.url}`}
+                    path={`${this.state.URLPath}/${item.url}`}
                     render={() => componentCb(props)}
                 />
             )
@@ -134,13 +136,13 @@ class GlobalNav extends Component {
                     <Toolbar style={styles.menuBar}>
                         <div style={styles.linkContainer}>
                             <Button style={styles.linkBox} variant="body1" >
-                                <Link style={styles.link} to="/">{homePageLink}</Link>
+                                <Link style={styles.link} to={`${this.state.URLPath}/`}>{homePageLink}</Link>
                             </Button>
                             <Button style={styles.linkBox} variant="body1" >
-                                <Link style={styles.link} to="/architects">{architectsNav}</Link>
+                                <Link style={styles.link} to={`${this.state.URLPath}/architects`}>{architectsNav}</Link>
                             </Button>
                             <Button style={styles.linkBox} variant="body1" >
-                                <Link style={styles.link} to="/developers">{developersList}</Link>
+                                <Link style={styles.link} to={`${this.state.URLPath}/developers`}>{developersList}</Link>
                             </Button>
                         </div>
 
@@ -155,7 +157,7 @@ class GlobalNav extends Component {
                 </AppBar>
 
                 <Route exact
-                  path="/"
+                  path={`${this.state.URLPath}/`}
                         render={() =>
                             <PortalDescription
                                 portalDescription={portalDescription}
@@ -163,16 +165,16 @@ class GlobalNav extends Component {
                             />}
                     />
                     <Route exact
-                        path="/developers"
-                        render={() => <Developers developers={developers} />}
-                    />
-                    <Route exact
-                        path="/architects"
+                        path={`${this.state.URLPath}/architects`}
                         render={() => (
                         <SearchByArchitects
                             architects={this.state.activeStore.architects}
                             searchPlaceholder={this.state.activeStore.searchLabel}
                         />)}
+                    />
+                    <Route exact
+                        path={`${this.state.URLPath}/developers`}
+                        render={() => <Developers developers={developers} />}
                     />
                     {routers}
             </Router>
