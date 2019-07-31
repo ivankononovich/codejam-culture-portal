@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { AppBar, Toolbar, Typography, Button } from '@material-ui/core';
+import { AppBar, Toolbar, Button } from '@material-ui/core';
 
 import styles from './GlobalNavStyles';
 import PortalDescription from '../HomePage/PortalDescription';
@@ -129,7 +129,7 @@ class GlobalNav extends Component {
 
         return (
             <>
-                <Router>
+            <Router>
                 <AppBar position="static">
                     <Toolbar style={styles.menuBar}>
                         <div style={styles.linkContainer}>
@@ -155,28 +155,31 @@ class GlobalNav extends Component {
                 </AppBar>
 
                 <Route exact
-                  path="/"
-                        render={() =>
-                            <PortalDescription
-                                portalDescription={portalDescription}
-                                architects={architects}
-                            />}
-                    />
-                    <Route exact
-                        path="/developers"
-                        render={() => <Developers developers={developers} />}
-                    />
-                    <Route exact
-                        path="/architects"
-                        render={() => (
-                            <SearchByArchitects
-                                architects={this.state.activeStore.architects}
-                                searchPlaceholder={this.state.activeStore.searchLabel}
-                            />
-                        )}
-                    />
-                    {routers}
-                </Router>
+                    path="/"
+                    render={() =>
+                        <PortalDescription
+                            portalDescription={portalDescription}
+                            architects={architects}
+                            developers={developers}
+                            devTitle={developersList}
+                        />
+                    }
+                />
+                <Route exact
+                    path="/developers"
+                    render={() => <Developers developers={developers} />}
+                />
+                <Route exact
+                    path="/architects"
+                    render={() => (
+                        <SearchByArchitects
+                            architects={this.state.activeStore.architects}
+                            searchPlaceholder={this.state.activeStore.searchLabel}
+                        />
+                    )}
+                />
+                {routers}
+            </Router>
             </>
         )
       }

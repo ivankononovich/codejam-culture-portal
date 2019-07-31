@@ -1,15 +1,24 @@
 import React from 'react';
+import { Container, Typography } from '@material-ui/core';
+import ArchitectOfTheDay from './ArchitectOfTheDay';
+import Footer from './Footer';
 
-import ArchitectOfTheDay from './ArchitectOfTheDay'
-
-function PortalDescription({portalDescription, architects}) {
+export default ({portalDescription, architects, developers, devTitle}) => {
     const { title, description } = portalDescription;
 
     return <>
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <ArchitectOfTheDay portalDescription={portalDescription} architects={architects} />
+        <Container maxWidth="lg" style={{marginTop: '1rem'}}>
+            <Typography variant="h3" component="h1" gutterBottom align="center">
+                {title}
+            </Typography>
+            <Typography variant="h5" component="p" gutterBottom align="center">
+                {description}
+            </Typography>
+            <ArchitectOfTheDay portalDescription={portalDescription} architects={architects} />
+            <Footer
+                devTitle={devTitle}
+                developers={developers}
+            />
+        </Container>
     </>
 }
-
-export default PortalDescription;
