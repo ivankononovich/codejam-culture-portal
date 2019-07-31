@@ -87,7 +87,7 @@ const VideoModal = (props) => {
   return (
     <div>
       <button className={classes.videoButton} type="button" onClick={handleOpen}>
-        Просмотр
+        {props.langButton}
       </button>
       <Modal
         aria-labelledby="simple-modal-title"

@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
-
+import { TextField, Container } from '@material-ui/core';
 import ArchitectNav from '../Navigation/ArchitectNav';
 
 class SearchByArchitects extends Component {
-    inputRef = React.createRef();
-
     state = {
         searchResults: this.props.architects,
+        value: '',
+    }
+
+    componentDidUpdate(prevProps) {
+        if (prevProps.searchPlaceholder !== this.props.searchPlaceholder) {
+            this.setState({
+                searchResults: this.props.architects,
+                value: '',
+            });
+        }
     }
 
     findArchitects(searchText) {
@@ -35,32 +43,37 @@ class SearchByArchitects extends Component {
         return matches;
     }
 
-    handleChange(event) {
-        const searchText = event.target.value;
-        const searchResults = this.findArchitects(searchText);
-
-        this.setState({
-            searchResults,
-        });
-    }
-
-    componentWillReceiveProps(props) {
-        this.inputRef.current.value = '';
-
-        this.setState({
-            searchResults: props.architects,
-        });
+    handleSearch(value) {
+        if (value !== '') {
+            const searchResults = this.findArchitects(value);
+            this.setState({
+                searchResults,
+                value,
+            });
+        } else {
+            this.setState({
+                searchResults: this.props.architects,
+                value,
+            });
+        }
     }
 
     render() {
         return <>
-            <input 
-                ref={this.inputRef}
-                onChange={(event) => this.handleChange(event)} 
-                type="text"
-            />
-
-            <ArchitectNav links={this.state.searchResults} />
+            <Container maxWidth="lg">
+                <form noValidate autoComplete="off">
+                    <TextField
+                        id="outlined-full-width"
+                        value={this.state.value}
+                        label={this.props.searchPlaceholder}
+                        fullWidth
+                        onChange={(ev) => this.handleSearch(ev.target.value)}
+                        margin="normal"
+                        variant="outlined"
+                    />
+                </form>
+                <ArchitectNav links={this.state.searchResults} />
+            </Container>
         </>
     }
 }
