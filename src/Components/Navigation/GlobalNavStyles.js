@@ -18,6 +18,12 @@ const styles = {
       textDecoration: 'none',
       textTransform: 'capitalize',
   },
+  menuLink: {
+      cursor: 'pointer',
+      color: '#3F51B5',
+      textDecoration: 'none',
+      textTransform: 'capitalize',
+  }
 }
 
 export default styles;
