@@ -490,14 +490,14 @@ const developers = [
   },
   {
     "id": "D5",
-    "name": "Dmitriy_Porhomenko",
+    "name": "Dmitriy Porhomenko",
     "github": "https://github.com/DmitriyParhomenko",
     "image": "https://avatars0.githubusercontent.com/u/37816988?s=460&v=4",
     "contribution":"in progress...",
   },
   {
     "id": "D6",
-    "name": "Pavel Homich",
+    "name": "Pavel Khomich",
     "github": "https://github.com/pashax0",
     "image": "https://avatars3.githubusercontent.com/u/17899361?s=460&v=4",
     "contribution":"in progress...",
@@ -505,7 +505,7 @@ const developers = [
 ];
 
 const portalDescription = {
-  "title": "Cultural portal.",
+  "title": "Cultural portal",
   "description": "You are on the cultural portal, the theme of the site is Architects of Belarus.",
   "architectOfTheDay": "Architect Of The Day",
 };
@@ -532,5 +532,5 @@ export default {
   architectsNav: "Architects",
   developersList: "Developers",
   homePageLink: "Home",
-  searchLabel: "Name, place or project",
+  searchLabel: "Name or place",
 }
