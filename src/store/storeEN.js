@@ -203,7 +203,7 @@ const architects = [
       {date: '1946—1954', text: 'Houses and bridge over the river Svisloch, Sports complex "Dynamo"'},
     ],
     "video": { 
-      id: 'lxMfVdAml1A' 
+      id: 'mrfadR51D0I' 
     },
     "mapData": {
       center: [55.7558, 37.6173],

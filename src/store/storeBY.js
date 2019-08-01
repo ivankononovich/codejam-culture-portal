@@ -214,7 +214,7 @@ const architects = [
       {date: '1946—1954', text: 'Жылыя дамы і мост праз р. Свіслач, Спартыўны комплекс «Дынама»'},
     ],
     "video": { 
-      id: 'lxMfVdAml1A' 
+      id: 'mrfadR51D0I' 
     },
     "mapData": {
       center: [55.7558, 37.6173],
