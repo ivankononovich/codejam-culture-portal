@@ -9,12 +9,13 @@
     "json-server": "^0.15.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-images": "1.0.0",
+    "react-photo-gallery": "8.0.0",
+    "react-responsive": "^7.0.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "^2.1.8",
     "react-yandex-maps": "^4.0.1",
-    "vertical-timeline-component-for-react": "^1.0.6",
-    "react-images": "1.0.0",
-    "react-photo-gallery": "8.0.0"
+    "vertical-timeline-component-for-react": "^1.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
