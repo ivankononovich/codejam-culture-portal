@@ -3,6 +3,7 @@ import { Container, Typography, CardMedia } from '@material-ui/core'
 import TimeLine from './TimeLine'
 import ActivityMap from './ActivityMap'
 import Projects from './Projects'
+import VideoModal from './VideoModal'
 import useStyles from './makeStyles'
 import PhotoGallery from './PhotoGallery'
 
@@ -20,6 +21,8 @@ function Architect(props) {
             <TimeLine data={props.bio} />
             <Typography className={classes.projects} variant="h4">{props.lang.projects}</Typography>
             <Projects data={props.project} column={props.lang.projectHeader}/>
+            <Typography className={classes.video} variant="h4">{props.lang.video}</Typography>
+            <VideoModal data={props.video} langButton={props.lang.videoButton} />
             <Typography className={classes.map} variant="h4">{props.lang.map}</Typography>
             <ActivityMap data={props.mapData}/>
             <Typography className={classes.gallery} variant="h4">{props.lang.gallery}</Typography>

@@ -8,7 +8,7 @@ const LanguageController = props =>
         <IconButton
             title="Change language"
             aria-label="change language"
-            aria-controls="menu-appbar"
+            aria-controls="menu-languages"
             aria-haspopup="true"
             onClick={props.handleMenu}
             color="inherit"
@@ -16,7 +16,7 @@ const LanguageController = props =>
             <Language />
         </IconButton>
         <Menu
-            id="menu-appbar"
+            id="menu-languages"
             anchorEl={props.anchorEl}
             anchorOrigin={{
                 vertical: 'top',

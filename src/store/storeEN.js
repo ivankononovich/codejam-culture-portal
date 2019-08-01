@@ -24,6 +24,9 @@ const architects = [
       {date: '1962', text: 'According to the designs of the architect, the Pioneer cinema and the Museum of the Great Patriotic War were built.'},
       {date: '1969', text: 'The memorial complex "Zislov" was opened.'},
     ],
+    "video": { 
+      id: 'lxMfVdAml1A' 
+    },
     "mapData": {
       center: [53.906840, 27.571457],
       zoom: 12,
@@ -91,6 +94,9 @@ const architects = [
       {date: '1968', text: 'Designed the republican palace of the young technicians.'},
       {date: '1970-1980', text: 'She did the architectural planning work of the Minsk water cascade - the Drozdy and Krynytsya reservoirs.'},
     ],
+    "video": { 
+      id: 'lxMfVdAml1A' 
+    },
     "mapData": {
       center: [53.906840, 27.571457],
       zoom: 12,
@@ -196,6 +202,9 @@ const architects = [
       {date: '1950', text: 'The state Bank of the USSR'},
       {date: '1946—1954', text: 'Houses and bridge over the river Svisloch, Sports complex "Dynamo"'},
     ],
+    "video": { 
+      id: 'lxMfVdAml1A' 
+    },
     "mapData": {
       center: [55.7558, 37.6173],
       zoom: 12,
@@ -266,6 +275,9 @@ const architects = [
       {date: '1990', text: 'Authorship of Minsk metro station «Nemiga»'},
       {date: '2004', text: 'Memorial complex to the murdered Jews in Gorodeya'},
     ],
+    "video": { 
+      id: 'lxMfVdAml1A' 
+    },
     "mapData": {
       center: [53.906840, 27.571457],
       zoom: 12,
@@ -328,6 +340,9 @@ const architects = [
       {date: '1962', text: 'Project 3'},
       {date: '1969', text: 'Project 4'},
     ],
+    "video": { 
+      id: 'lxMfVdAml1A' 
+    },
     "mapData": {
       center: [53.684727, 23.834317],
       zoom: 12,
@@ -392,6 +407,9 @@ const architects = [
       {date: 'XVIII century', text: 'The Tizengauz Palace'},
       {date: 'XVIII century', text: 'The Palace in Mosar'},
     ],
+    "video": { 
+      id: 'lxMfVdAml1A' 
+    },
     "mapData": {
       center: [53.684727, 23.834317],
       zoom: 12,
@@ -500,6 +518,8 @@ const architectPageLanguage = {
     "columnOne": 'Projects',
     "columnTwo": 'Creation date'
   },
+  "video":"Video",
+  "videoButton":"View",
   "map": "Place of major activity",
   "gallery": "Photo Gallery",
 };
