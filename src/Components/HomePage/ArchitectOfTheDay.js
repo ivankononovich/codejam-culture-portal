@@ -1,4 +1,5 @@
 import React from 'react';
+import MediaQuery from 'react-responsive';
 import { makeStyles } from '@material-ui/core/styles';
 import { Card, CardContent, CardMedia, Typography } from '@material-ui/core';
 
@@ -36,31 +37,34 @@ const useStyles = makeStyles(theme => ({
     width: 38,
   },
   architectImage: {
-    maxWidth: 300,
+    maxWidth: 800,
     maxHeight: 300
   }
 }));
 
 const ArchitectOfTheDay = props => {
-  const { portalDescription: { architectOfTheDay }, architects } = props;  
+  const { portalDescription: { architectOfTheDay }, architects } = props;
   const classes = useStyles();
   const architect = GetArchitectOfTheDay(architects);
   const { name, born, deceased, description, image } = architect;
 
 
   return (
-    <section className={classes.container}>
+    <section className={classes.container} style={{ marginBottom: 300 }}>
       <Typography className={classes.header} variant="h4">{architectOfTheDay}</Typography>
-      <Card className={classes.card}>
-        <CardMedia
-          className={classes.architectImage}
-          component="img"
-          alt="Contemplative Reptile"
-          src={image}
-          title="Contemplative Reptile"
-        />
-        <div className={classes.details}>
-          <CardContent className={classes.content}>
+
+
+      <MediaQuery query="(max-device-width: 460px)">
+        <Card>
+          <CardMedia
+            className={classes.architectImage}
+            component="img"
+            alt={name}
+            src={image}
+            title={name}
+          />
+          
+          <CardContent>
             <Typography component="h5" variant="h5">
               {name}
             </Typography>
@@ -71,8 +75,36 @@ const ArchitectOfTheDay = props => {
               {description}
             </Typography>
           </CardContent>
-        </div>
-      </Card>
+        </Card>
+      </MediaQuery>
+
+
+      <MediaQuery query="(min-device-width: 461px)">
+        <Card className={classes.card}>
+          <CardMedia
+            className={classes.architectImage}
+            component="img"
+            alt={name}
+            src={image}
+            title={name}
+          />
+
+          <div className={classes.details}>
+            <CardContent className={classes.content}>
+              <Typography component="h5" variant="h5">
+                {name}
+              </Typography>
+              <Typography variant="subtitle1" color="textSecondary">
+                {born} - {deceased}
+              </Typography>
+              <Typography>
+                {description}
+              </Typography>
+            </CardContent>
+          </div>
+        </Card>
+      </MediaQuery>
+
     </section>
   );
 }
