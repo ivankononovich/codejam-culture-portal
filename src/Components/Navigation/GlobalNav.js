@@ -168,7 +168,7 @@ class GlobalNav extends Component {
                                 />
                             </MediaQuery>
 
-                            <MediaQuery query="(min-device-width: 600px)">
+                            <MediaQuery query="(min-device-width: 601px)">
                                 <div style={styles.linkContainer}>
                                     <Button style={styles.linkBox}>
                                         <Link style={styles.link} to={`${URLPath}/`}>
