@@ -217,7 +217,7 @@ const architects = [
       id: 'mrfadR51D0I' 
     },
     "mapData": {
-      center: [55.7558, 37.6173],
+      center: [53.898869, 27.554819],
       zoom: 12,
     },
     "photos": [
