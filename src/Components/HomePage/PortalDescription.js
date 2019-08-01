@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Typography } from '@material-ui/core';
 import ArchitectOfTheDay from './ArchitectOfTheDay';
-import Footer from './Footer';
+// import Footer from './Footer';
 
-export default ({portalDescription, architects, developers, devTitle}) => {
+export default ({portalDescription, architects}) => {
     const { title, description } = portalDescription;
 
     return <>
@@ -15,10 +15,6 @@ export default ({portalDescription, architects, developers, devTitle}) => {
                 {description}
             </Typography>
             <ArchitectOfTheDay portalDescription={portalDescription} architects={architects} />
-            <Footer
-                devTitle={devTitle}
-                developers={developers}
-            />
         </Container>
     </>
 }

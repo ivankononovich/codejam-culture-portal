@@ -10,6 +10,7 @@ import Architect from '../ArchitectPage/Architect';
 import SearchByArchitects from '../ArchitectPage/SearchByArchitects';
 import LanguageController from '../Language/LanguageController';
 import MobileMenu from './MobileMenu';
+import Footer from './Footer';
 
 import storeRU from '../../store/storeRU';
 import storeBY from '../../store/storeBY';
@@ -203,9 +204,8 @@ class GlobalNav extends Component {
                             <PortalDescription
                                 portalDescription={portalDescription}
                                 architects={architects}
-                                developers={developers}
-                                devTitle={developersList}
-                            />}
+                            />
+                        }
                     />
                     <Route exact
                         path={`${URLPath}/architects`}
@@ -220,6 +220,10 @@ class GlobalNav extends Component {
                         render={() => <Developers developers={developers} />}
                     />
                     {routers}
+                    <Footer
+                        devTitle={developersList}
+                        developers={developers}
+                    />
                 </Router>
             </>
         )

@@ -517,7 +517,7 @@ const developers = [
 ];
 
 const portalDescription = {
-  "title": "Культурны партал.",
+  "title": "Культурны партал",
   "description": "Вы знаходзіцеся на культурным партале, тэматыка сайта - Архітэктары Беларусі.",
   "architectOfTheDay": "Архітэктар дня",
 };
@@ -544,5 +544,5 @@ export default {
   architectsNav: "Архітэктары",
   developersList: "Распрацоўнікi",
   homePageLink: "Галоўная",
-  searchLabel: "Назва, месца альбо праект",
+  searchLabel: "Iмя альбо месца",
 }

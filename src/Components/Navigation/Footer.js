@@ -2,7 +2,7 @@ import React from 'react';
 import { AppBar, Container, GridListTile, GridList, Popover, Typography, Avatar, Link } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles({
     appBar: {
         top: 'auto',
         bottom: 0,
@@ -21,7 +21,7 @@ const useStyles = makeStyles(theme => ({
     avatar: {
       margin: '0 auto',
     },
-  }));
+  });
 
 export default (props) => {
     const devSort = props.developers.sort((a, b) => {return a.name > b.name ? 1 : -1} );
@@ -52,7 +52,7 @@ export default (props) => {
                 >
                   <Typography
                     className={classes.list}
-                    variant="h6"
+                    variant="body1"
                     component="h3"
                     onMouseOver={(ev) => handlePopoverOpen(ev, dev.id)}
                   >
@@ -88,7 +88,7 @@ export default (props) => {
                   {anchorEl.dev ? anchorEl.dev.name : ''}
                 </Typography>
                 <Typography
-                  variant="h6"
+                  variant="body1"
                   component="h6"
                 >
                  {`Github: `}
@@ -97,7 +97,7 @@ export default (props) => {
                   target='_blank'
                 >
                   {anchorEl.dev ? `${anchorEl.dev.github.match(/([^/]+$)/g)}` : ''}
-                  </Link>
+                </Link>
                 </Typography>
               </div>
             </Popover>  

@@ -506,7 +506,7 @@ const developers = [
 ];
 
 const portalDescription = {
-  "title": "Культурный портал.",
+  "title": "Культурный портал",
   "description": "Вы находитесь на культурном портале, тематика сайта - Архитекторы Беларуси.",
   "architectOfTheDay": "Архитектор дня",
 };
@@ -533,5 +533,5 @@ export default {
   architectsNav: "Архитекторы",
   developersList: "Разработчики",
   homePageLink: "Главная",
-  searchLabel: "Имя, место или проект",
+  searchLabel: "Имя или место",
 }
