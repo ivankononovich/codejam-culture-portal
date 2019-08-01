@@ -5,9 +5,9 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 import styles from './GlobalNavStyles';
 
-const MobileMenu = ({ 
-  handleMainMenu, anchorMenuEl, openMenu, homePageLink, 
-  architectsNav, developersList, handleClick, 
+const MobileMenu = ({
+  handleMainMenu, anchorMenuEl, openMenu, homePageLink,
+  architectsNav, developersList, handleClick,
   handleMainClose, URLPath
 }) =>
   <div>
@@ -35,21 +35,21 @@ const MobileMenu = ({
       open={openMenu}
       onClose={handleMainClose}
     >
-      <MenuItem onClick={handleClick}>
-        <Link style={styles.menuLink} to={`${URLPath}/`}>
+      <Link style={styles.menuLink} to={`${URLPath}/`}>
+        <MenuItem onClick={handleClick}>
           {homePageLink}
-        </Link>
-      </MenuItem>
-      <MenuItem onClick={handleClick}>
-        <Link style={styles.menuLink} to={`${URLPath}/architects`}>
+        </MenuItem>
+      </Link>
+      <Link style={styles.menuLink} to={`${URLPath}/architects`}>
+        <MenuItem onClick={handleClick}>
           {architectsNav}
-        </Link>
-      </MenuItem>
-      <MenuItem onClick={handleClick}>
-        <Link style={styles.menuLink} to={`${URLPath}/developers`}>
+        </MenuItem>
+      </Link>
+      <Link style={styles.menuLink} to={`${URLPath}/developers`}>
+        <MenuItem onClick={handleClick}>
           {developersList}
-        </Link>
-      </MenuItem>
+        </MenuItem>
+      </Link>
     </Menu>
   </div>
 
