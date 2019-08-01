@@ -214,44 +214,44 @@ const architects = [
       {date: '1946—1954', text: 'Жылыя дамы і мост праз р. Свіслач, Спартыўны комплекс «Дынама»'},
     ],
     "video": { 
-      id: 'lxMfVdAml1A' 
+      id: 'mrfadR51D0I' 
     },
     "mapData": {
-      center: [55.7558, 37.6173],
+      center: [53.898869, 27.554819],
       zoom: 12,
     },
     "photos": [
       {
         num: 1,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/7/71/Minsk_skaryny_ave_02.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text: ''
+        title: 'Будынак КДБ у Менску',
+        text: 'Будынак КДБ у Менску'
       },
       {
         num: 2,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/3/32/NBRB.JPG",
         width: 2,
         height: 2,
-        title: '',
-        text:''
+        title: 'Будынак Нацбанка РБ',
+        text:'Будынак Нацбанка РБ'
       },
       {
         num: 3,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Захар%27еўскі_мост.jpg",
         width: 2,
         height: 2,
-        title: '',
-        text:''
+        title: 'Мост праз Свіслач',
+        text:'Мост праз Свіслач'
       },
       {
         num: 4,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Buildings_in_Yaroslavl_009.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text:''
+        title: 'Дом з аркай на Чырвонай плошчы',
+        text:'Дом з аркай на Чырвонай плошчы'
       },
     ],
   },

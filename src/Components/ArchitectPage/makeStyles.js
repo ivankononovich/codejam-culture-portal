@@ -4,6 +4,7 @@ const useStyles = makeStyles(() => ({
   container: {
     fontFamily: 'Roboto, sans-serif',
     textAlign: 'center',
+    paddingBottom: 50,
   },
   img: {
     height: 'auto',

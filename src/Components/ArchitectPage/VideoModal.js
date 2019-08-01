@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
+import MediaQuery from 'react-responsive';
 
 function getModalStyle() {
   const top = 50;
@@ -53,6 +54,15 @@ const useStyles = makeStyles(theme => ({
     boxShadow: theme.shadows[5],
     outline: 'none',
   },
+  mediaPaper: {
+    position: 'relative',
+    width: '75%',
+    height: '50%',
+    backgroundColor: '#000',
+    border: '2px solid #000',
+    boxShadow: theme.shadows[5],
+    outline: 'none',
+  },
 }));
 
 const YouTubeVideo = ({idVideo}) => {
@@ -84,22 +94,38 @@ const VideoModal = (props) => {
     setOpen(false);
   };
 
+
   return (
     <div>
       <button className={classes.videoButton} type="button" onClick={handleOpen}>
         {props.langButton}
       </button>
-      <Modal
-        aria-labelledby="simple-modal-title"
-        aria-describedby="simple-modal-description"
-        open={open}
-        onClose={handleClose}
-      >
-        <div style={modalStyle} className={classes.paper}>
-          <YouTubeVideo idVideo={props} />
-          <ButtonCloseVideo handleClick={handleClose}/>
-        </div>
-      </Modal>
+      <MediaQuery query="(max-device-width: 900px)"> 
+        <Modal
+          aria-labelledby="simple-modal-title"
+          aria-describedby="simple-modal-description"
+          open={open}
+          onClose={handleClose}
+        >
+          <div style={modalStyle} className={classes.mediaPaper}>
+            <YouTubeVideo idVideo={props} />
+            <ButtonCloseVideo handleClick={handleClose}/>
+          </div>
+        </Modal>
+      </MediaQuery>
+      <MediaQuery query="(min-device-width: 900px)"> 
+        <Modal
+          aria-labelledby="simple-modal-title"
+          aria-describedby="simple-modal-description"
+          open={open}
+          onClose={handleClose}
+        >
+          <div style={modalStyle} className={classes.paper}>
+            <YouTubeVideo idVideo={props} />
+            <ButtonCloseVideo handleClick={handleClose}/>
+          </div>
+        </Modal>
+      </MediaQuery>
     </div>
   );
 };
