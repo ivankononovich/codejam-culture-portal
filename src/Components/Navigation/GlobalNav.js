@@ -203,6 +203,8 @@ class GlobalNav extends Component {
                             <PortalDescription
                                 portalDescription={portalDescription}
                                 architects={architects}
+                                developers={developers}
+                                devTitle={developersList}
                             />}
                     />
                     <Route exact
