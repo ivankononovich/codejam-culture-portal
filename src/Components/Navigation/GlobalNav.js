@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { AppBar, Toolbar, Button } from '@material-ui/core';
+import { Container, AppBar, Toolbar, Button } from '@material-ui/core';
 import MediaQuery from 'react-responsive';
 
 import styles from './GlobalNavStyles';
@@ -197,29 +197,31 @@ class GlobalNav extends Component {
                             />
                         </Toolbar>
                     </AppBar>
-
-                    <Route exact
-                        path={`${URLPath}/`}
-                        render={() =>
-                            <PortalDescription
-                                portalDescription={portalDescription}
-                                architects={architects}
-                            />
-                        }
-                    />
-                    <Route exact
-                        path={`${URLPath}/architects`}
-                        render={() => (
-                            <SearchByArchitects
-                                architects={architects}
-                                searchPlaceholder={searchLabel}
-                            />)}
-                    />
-                    <Route exact
-                        path={`${URLPath}/developers`}
-                        render={() => <Developers developers={developers} />}
-                    />
-                    {routers}
+                    <Container style={styles.wrapper} maxWidth="lg">
+                        <Route exact
+                            path={`${URLPath}/`}
+                            render={() =>
+                                <PortalDescription
+                                    portalDescription={portalDescription}
+                                    architects={architects}
+                                />
+                            }
+                        />
+                        <Route exact
+                            path={`${URLPath}/architects`}
+                            render={() => (
+                                <SearchByArchitects
+                                    style={{flexGrow: '1'}}
+                                    architects={architects}
+                                    searchPlaceholder={searchLabel}
+                                />)}
+                        />
+                        <Route exact
+                            path={`${URLPath}/developers`}
+                            render={() => <Developers developers={developers} />}
+                        />
+                        {routers}
+                    </Container>
                     <Footer
                         devTitle={developersList}
                         developers={developers}
