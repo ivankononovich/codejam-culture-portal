@@ -320,65 +320,73 @@ const architects = [
 
   {
     "id": "A5",
-    "url": "osho",
-    "name": "Rajneesh (Osho)",
-    "bornDate": "12/11/1931",
-    "born": "December 11, 1931",
-    "deceased": "January 19, 1990",
-    "description": "Indian spiritual guru, considered as a Godman and leader of the Rajneesh movement. During his lifetime he was viewed as a controversial mystic, guru, and spiritual teacher. He advocated a more open attitude towards human sexuality, earning him the nickname \"sex guru\" in the Indian and later international press, although this attitude became more acceptable with time.",
-    "image": "http://www.sannyas.wiki/images/5/5f/Osho_HD_083.jpg",
-    "placeOfResidence": "Минск",
-    "placeOfBirth": "Гомель",
+    "url": "yesman",
+    "name": "Esman Igor Ivanovich",
+    "bornDate": "01/05/1932",
+    "born": "1 may 1932",
+    "deceased": "Present",
+    "description": "Igor Ivanovich Yesman, an architect, designer and inventor, dreamed of building a grandiose research and training center at the entrance to Minsk: the Minsk Institute of Architecture and Construction (MAIS) and the ultramodern Belarusian State University.",
+    "image": "https://s16.stc.all.kpcdn.net/share/i/12/2109386/inx960x640.jpg",
+    "placeOfResidence": "Minsk",
+    "placeOfBirth": "Minsk",
     "bio": [
-      {date: '1111', text: 'пункт биографии1'},
-      {date: '1112', text: 'пункт биографии2'},
-      {date: '1113', text: 'пункт биографии3'},
-    ],    
+      {date: '1948', text: 'Igor Yesman chose the profession of an architect and became a student of the Minsk Architectural and Construction College.'},
+      {date: '1959', text: 'He graduated from the architectural department of the Belarusian Polytechnic Institute (now BNTU).'},
+      {date: '1960 - 1995', text: 'He works at the institute "Minskproekt", having gone from a simple architect to a senior, and then the chief architect of projects and the head of a workshop.'},
+      {date: '1995 - p.t.', text: 'Igor Ivanovich is in free creative flight of thought, continuing to surprise and delight those around him. Makes a transforming set for the play "Angel over the Roof." He is fond of artistic stone and bone carving, develops design of stamps, produces miniature books, studies and manufactures antiquities in a miniature version.'},
+    ],
     "project": [
-      {date: '1952', text: 'Project 1'},
-      {date: '1954', text: 'Project 2'},
-      {date: '1962', text: 'Project 3'},
-      {date: '1969', text: 'Project 4'},
+      {date: '1958', text: 'Entrance platform in the bread shop on the street Romanov Sloboda.'},
+      {date: '1961 - 1963', text: 'Minsk Institute of Foreign Languages (now MSLU) on the street. Zakharov.'},
+      {date: '1964', text: 'Institute of Technical Aesthetics on the street. Zhilunovich, production building, exhibition hall.'},
+      {date: '1965', text: 'Experimental kindergarten-nursery for 320 places in the micro-district "Serebryanka-6" and re-used kindergartens.'},
+      {date: '1966', text: 'Individual residential houses in Partizansky Ave. and Romanovskaya Sloboda. Institute of National Economy, Assembly and Sports Halls.'},
+      {date: '1967', text: 'First place in the open competition for the development of a holiday emblem, a commemorative medal and a series of badges for the 900th anniversary of the city of Minsk.'},
+      {date: '1968', text: 'The complex of administrative buildings with a meeting room on the street. Nekrasov.'},
+      {date: '1972', text: 'Complex of hostels with service blocks of the Institute of National Economy on Bicyclic Lane.'},
+      {date: '1970 - 1983', text: 'Faculty of Architecture and Civil Engineering of the Belarusian National Technical University, Independence Avenue 150, Minsk'},
+      {date: '1980', text: 'The complex of buildings of the hotel "Orbita" on Pushkin Avenue'},
+      {date: '1990', text: 'Metro station "Pushkinskaya"'},
     ],
     "video": { 
-      id: 'lxMfVdAml1A' 
+      id: 'jL_MPmr0U-U' 
     },
     "mapData": {
-      center: [53.684727, 23.834317],
+      center: [53.937772, 27.669495],
       zoom: 12,
     },
     "photos": [
       {
         num: 1,
-        src: "",
+        src: "http://www.minsk.nemiga.info/silicon-valley/bntu-8.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text: ''
+        title: 'Faculty of Architecture and Civil Engineering of BNTU',
+        text: 'Faculty of Architecture and Civil Engineering of BNTU'
       },
       {
         num: 2,
-        src: "",
-        width: 2,
+        src: "https://www.belarusinfo.by/ru/images/stories/photo_gallery/20k/15655/%D0%9C%D0%93%D0%9B%D0%A3.jpg",
+        width: 4,
         height: 2,
-        title: '',
-        text:''
+        title: 'Minsk State Linguistic University',
+        text:'Minsk State Linguistic University'
       },
       {
         num: 3,
-        src: "",
+        src: "http://bseu.by/images/hostels/5.jpg",
         width: 2,
         height: 2,
-        title: '',
-        text:''
+        title: 'Hostels of the Belarusian State Economic University',
+        text:'Hostels of the Belarusian State Economic University'
       },
       {
         num: 4,
-        src: "",
+        src: "https://t-ec.bstatic.com/images/hotel/max1024x768/321/32147559.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text:''
+        title: 'Hotel Orbita, Minsk',
+        text:'Hotel Orbita, Minsk'
       },
     ],
   },
