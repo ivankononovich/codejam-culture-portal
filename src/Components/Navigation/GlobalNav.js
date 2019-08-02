@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 import { Container, AppBar, Toolbar, Button } from '@material-ui/core';
 import MediaQuery from 'react-responsive';
 import {Helmet} from "react-helmet";
@@ -37,7 +37,6 @@ class GlobalNav extends Component {
         activeStore: storeRU,
         anchorEl: null,
         anchorMenuEl: null,
-        URLPath: '/codejam-culture-portal',
     };
 
     findAllName(obj, listCategory) {
@@ -61,12 +60,11 @@ class GlobalNav extends Component {
 
         listLink.forEach((item, index) => {
             const props = data[item.index];
-            props.URLPath = this.state.URLPath;
 
             routers.push(
                 <Route exact
                     key={item.url}
-                    path={`${this.state.URLPath}/${item.url}`}
+                    path={`/${item.url}`}
                     render={() => componentCb(props)}
                 />
             )
@@ -137,7 +135,6 @@ class GlobalNav extends Component {
             },
             anchorEl,
             anchorMenuEl,
-            URLPath,
         } = this.state;
 
         const linksArchitects = this.findAllName(architects, ['url', 'name']);
@@ -169,24 +166,23 @@ class GlobalNav extends Component {
                                     homePageLink={homePageLink}
                                     architectsNav={architectsNav}
                                     developersList={developersList}
-                                    URLPath={URLPath}
                                 />
                             </MediaQuery>
 
                             <MediaQuery query="(min-device-width: 601px)">
                                 <div style={styles.linkContainer}>
                                     <Button style={styles.linkBox}>
-                                        <Link style={styles.link} to={`${URLPath}/`}>
+                                        <Link style={styles.link} to='/'>
                                             {homePageLink}
                                         </Link>
                                     </Button>
                                     <Button style={styles.linkBox}>
-                                        <Link style={styles.link} to={`${URLPath}/architects`}>
+                                        <Link style={styles.link} to='/architects'>
                                             {architectsNav}
                                         </Link>
                                     </Button>
                                     <Button style={styles.linkBox}>
-                                        <Link style={styles.link} to={`${URLPath}/developers`}>
+                                        <Link style={styles.link} to='/developers'>
                                             {developersList}
                                         </Link>
                                     </Button>
@@ -204,7 +200,7 @@ class GlobalNav extends Component {
                     </AppBar>
                     <Container style={styles.wrapper} maxWidth="lg">
                         <Route exact
-                            path={`${URLPath}/`}
+                            path={`/`}
                             render={() =>
                                 <PortalDescription
                                   portalDescription={portalDescription}
@@ -213,7 +209,7 @@ class GlobalNav extends Component {
                             }
                         />
                         <Route exact
-                            path={`${URLPath}/architects`}
+                            path='/architects'
                             render={() => (
                                 <SearchByArchitects
                                   architects={architects}
@@ -221,7 +217,7 @@ class GlobalNav extends Component {
                                 />)}
                         />
                         <Route exact
-                            path={`${URLPath}/developers`}
+                            path='/developers'
                             render={() => <Developers
                               developers={developers} 
                             />}

@@ -29,7 +29,7 @@ export default (props) => {
                     </ListItemAvatar>
                     <Link
                         component={RouterLink}
-                        to={`${architector.URLPath}/${architector.url}`}
+                        to={`/${architector.url}`}
                         underline="hover"
                     >
                         <ListItemText
