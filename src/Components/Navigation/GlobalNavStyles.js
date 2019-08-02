@@ -1,6 +1,10 @@
 document.body.style.margin = 0;
 
 const styles = {
+    wrapper: {
+        margin: '1rem auto',
+        flexGrow: '1',
+    },
   menuBar: {
       display: 'flex',
       justifyContent: 'space-between',

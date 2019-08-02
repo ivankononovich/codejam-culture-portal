@@ -1,16 +1,18 @@
 import React from 'react';
+import MediaQuery from 'react-responsive';
 import { AppBar, Container, GridListTile, GridList, Popover, Typography, Avatar, Link } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
     appBar: {
-        top: 'auto',
-        bottom: 0,
-        marginTop: '1rem', 
+      position: "relative",
+      top: 'auto',
+      bottom: 0,
+      flexShrink: 0,
     },
     container: {
-        display: 'flex',
-        justifyContent: 'space-around',
+      display: 'flex',
+      justifyContent: 'space-around',
     },
     wrapper: {
       padding: '0.5rem',
@@ -42,24 +44,25 @@ export default (props) => {
     
     return (
     <>
-    <AppBar position="fixed" color="primary" className={classes.appBar}>
-        <Container className={classes.container}>
-            <GridList style={{justifyContent: 'space-between'}}>
-              {devSort.map((dev, i) =>
-                <GridListTile
-                  key={i}
-                  style={{width: 'auto', height: 'auto', margin: 'auto 1rem'}}
-                >
-                  <Typography
-                    className={classes.list}
-                    variant="body1"
-                    component="h3"
-                    onMouseOver={(ev) => handlePopoverOpen(ev, dev.id)}
+    <MediaQuery query="(min-device-width: 600px)">
+      <AppBar className={classes.appBar}>
+          <Container className={classes.container} color="primary">
+              <GridList style={{justifyContent: 'space-between'}}>
+                {devSort.map((dev, i) =>
+                  <GridListTile
+                    key={i}
+                    style={{width: 'auto', height: 'auto', margin: 'auto 1rem'}}
                   >
-                    {`@${dev.github.match(/([^/]+$)/g)}`}
-                  </Typography>
-                </GridListTile>
-              )}
+                    <Typography
+                      className={classes.list}
+                      variant="body1"
+                      component="h3"
+                      onMouseOver={(ev) => handlePopoverOpen(ev, dev.id)}
+                    >
+                      {`@${dev.github.match(/([^/]+$)/g)}`}
+                    </Typography>
+                  </GridListTile>
+                )}
             </GridList>
             <Popover
               className={classes.popover}
@@ -102,7 +105,8 @@ export default (props) => {
               </div>
             </Popover>  
         </Container>
-        </AppBar>
+      </AppBar>
+    </MediaQuery>
     </>
     )
 }

@@ -50,7 +50,7 @@ const ArchitectOfTheDay = props => {
 
 
   return (
-    <section className={classes.container} style={{ marginBottom: 300 }}>
+    <section className={classes.container}>
       <Typography className={classes.header} variant="h4">{architectOfTheDay}</Typography>
 
 
