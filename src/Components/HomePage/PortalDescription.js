@@ -2,7 +2,7 @@ import React from 'react';
 import { Typography } from '@material-ui/core';
 import ArchitectOfTheDay from './ArchitectOfTheDay';
 
-export default ({SEO, portalDescription, architects}) => {
+export default ({portalDescription, architects}) => {
   const {title, description } = portalDescription;
   return <>
     <Typography variant="h3" component="h1" gutterBottom align="center">

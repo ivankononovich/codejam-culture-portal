@@ -19,21 +19,21 @@ class SearchByArchitects extends Component {
 
   findArchitects(searchText) {
     const matches = [];
-    const regExp = new RegExp(searchText, 'gi');
-    this.props.architects.forEach((item) => {
+    const regExp = new RegExp(`^${searchText}|\\s${searchText}`, 'i');
+    this.props.architects.forEach((architect) => {
       const criteria = [
-        item.name,
-        item.placeOfBirth,
-        item.placeOfResidence,
+        architect.name,
+        architect.placeOfBirth,
+        architect.placeOfResidence,
       ];
       let fit = false;
       criteria.forEach((text) => {
-        if (text.search(regExp) >= 0) {
+        if (text.match(regExp)) {
           fit = true;
         }
       });
       if (fit) {
-        matches.push(item);
+        matches.push(architect);
       }
     });
     return matches;
