@@ -332,7 +332,7 @@ const architects = [
   {
     "id": "A5",
     "url": "yesman",
-    "name": "Есьман Iгар Иванавiч",
+    "name": "Есьман Iгар Iванавiч",
     "bornDate": "01/05/1932",
     "born": "1 мая 1932",
     "deceased": "цяперашні час",
@@ -545,6 +545,11 @@ const architectPageLanguage = {
 };
 
 export default {
+  SEO: {
+    lang: "by",
+    title: "Архiтэктары Беларусi",
+    description: "Архітэктары Беларусі: біяграфія і іх працы. Хто пабудаваў будынак, у якім годзе, чый праект"
+  },
   architects,
   developers,
   portalDescription,

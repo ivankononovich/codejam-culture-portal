@@ -533,7 +533,12 @@ const architectPageLanguage = {
   "gallery": "Фотогалерея",
 };
 
-export default {  
+export default {
+  SEO: {
+    lang: "ru",
+    title: "Архитекторы Беларуси",
+    description: "Архитекторы Беларуси: биография и их работы. Кто построил здание, в каком году, чей проект"
+  },
   architects,
   developers,
   portalDescription,
