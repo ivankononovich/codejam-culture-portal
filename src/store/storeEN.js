@@ -533,6 +533,11 @@ const architectPageLanguage = {
 };
 
 export default {
+  SEO: {
+    lang: "en",
+    title: "Architects of Belarus",
+    description: "Architects of Belarus: a biography and their work. Who built the building, in which year, whose project"
+  },
   architects,
   developers,
   portalDescription,
