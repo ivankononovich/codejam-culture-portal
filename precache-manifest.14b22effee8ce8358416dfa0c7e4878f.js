@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/codejam-culture-portal/static/js/runtime~main.0151de79.js"
   },
   {
-    "revision": "ac2e501df24539c9de93",
-    "url": "/codejam-culture-portal/static/js/main.debf1a71.chunk.js"
+    "revision": "c2b131bb97fe8ce3bccd",
+    "url": "/codejam-culture-portal/static/js/main.f9a277ea.chunk.js"
   },
   {
     "revision": "b31b4f8f026b4c32e3c7",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/codejam-culture-portal/static/css/2.c5d885a9.chunk.css"
   },
   {
-    "revision": "f605039a600302d873fab317e547ed7a",
+    "revision": "0656ccf5d5c2ba49f00e8963f472272c",
     "url": "/codejam-culture-portal/index.html"
   }
 ];
