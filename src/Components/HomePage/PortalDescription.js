@@ -4,15 +4,14 @@ import ArchitectOfTheDay from './ArchitectOfTheDay';
 import AboutArchitect from './AboutArchitect';
 
 export default ({portalDescription, architects}) => {
-    const { title, description } = portalDescription;
-
-    return <>
-        <Typography variant="h3" component="h1" gutterBottom align="center">
-            {title}
-        </Typography>
-        <AboutArchitect 
-          description={description}
-        />
-        <ArchitectOfTheDay portalDescription={portalDescription} architects={architects} />
-    </>
+  const { title, description } = portalDescription;
+  return <>
+    <Typography variant="h3" component="h2" gutterBottom align="center">
+        {title}
+    </Typography>
+    <AboutArchitect 
+      description={description}
+    />
+    <ArchitectOfTheDay portalDescription={portalDescription} architects={architects} />
+  </>
 }

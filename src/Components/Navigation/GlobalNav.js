@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Container, AppBar, Toolbar, Button } from '@material-ui/core';
 import MediaQuery from 'react-responsive';
+import {Helmet} from "react-helmet";
 
 import styles from './GlobalNavStyles';
 import PortalDescription from '../HomePage/PortalDescription';
@@ -132,7 +133,7 @@ class GlobalNav extends Component {
         const {
             activeStore: {
                 architects, developersList, architectsNav, homePageLink,
-                developers, portalDescription, architectPageLanguage, searchLabel
+                developers, portalDescription, architectPageLanguage, searchLabel, SEO
             },
             anchorEl,
             anchorMenuEl,
@@ -151,6 +152,10 @@ class GlobalNav extends Component {
 
         return (
             <>
+              <Helmet>
+                <title>{`${SEO.title} - RSSchool2019Q1`}</title>
+                <meta name="description" content={SEO.description} />
+              </Helmet>
                 <Router>
                     <AppBar position="sticky">
                         <Toolbar style={styles.menuBar}>
@@ -202,8 +207,8 @@ class GlobalNav extends Component {
                             path={`${URLPath}/`}
                             render={() =>
                                 <PortalDescription
-                                    portalDescription={portalDescription}
-                                    architects={architects}
+                                  portalDescription={portalDescription}
+                                  architects={architects}
                                 />
                             }
                         />
@@ -211,14 +216,15 @@ class GlobalNav extends Component {
                             path={`${URLPath}/architects`}
                             render={() => (
                                 <SearchByArchitects
-                                    style={{flexGrow: '1'}}
-                                    architects={architects}
-                                    searchPlaceholder={searchLabel}
+                                  architects={architects}
+                                  searchPlaceholder={searchLabel}
                                 />)}
                         />
                         <Route exact
                             path={`${URLPath}/developers`}
-                            render={() => <Developers developers={developers} />}
+                            render={() => <Developers
+                              developers={developers} 
+                            />}
                         />
                         {routers}
                     </Container>

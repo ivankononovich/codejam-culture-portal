@@ -514,7 +514,7 @@ const developers = [
 
 const portalDescription = {
   "title": "Cultural portal",
-  "description": "You are on the cultural portal, the theme of the site is Architects of Belarus.",
+  "description": "<h1> Architects of Belarus</h1><p>The various styles of Belarusian churches, castles, palaces and fortresses reflect the influence of both Eastern and Western culture.</p><p>Despite the complex history of wars and destruction, many architectural values ​​of Belarus have been preserved.</ p><p> Different trends in art and religion have influenced the formation of the architecture of Belarus. In the country you can find examples of Romanesque and Gothic, Baroque and Classicism, modern and eclectic. There are many examples of modern architecture.</p><p>The architect is a qualified specialist who carries out architectural design (organization of the architectural environment), including the design of buildings, including planning and interior solutions. Get closer to the Belarusian architects and their work on our portal!</p>",
   "architectOfTheDay": "Architect Of The Day",
 };
 
@@ -533,6 +533,11 @@ const architectPageLanguage = {
 };
 
 export default {
+  SEO: {
+    lang: "en",
+    title: "Architects of Belarus",
+    description: "Architects of Belarus: a biography and their work. Who built the building, in which year, whose project"
+  },
   architects,
   developers,
   portalDescription,
