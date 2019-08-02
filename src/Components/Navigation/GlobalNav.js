@@ -203,7 +203,6 @@ class GlobalNav extends Component {
                             path={`/`}
                             render={() =>
                                 <PortalDescription
-                                  SEO={SEO}
                                   portalDescription={portalDescription}
                                   architects={architects}
                                 />
@@ -213,7 +212,6 @@ class GlobalNav extends Component {
                             path='/architects'
                             render={() => (
                                 <SearchByArchitects
-                                  SEO={SEO}
                                   architects={architects}
                                   searchPlaceholder={searchLabel}
                                 />)}
@@ -221,7 +219,6 @@ class GlobalNav extends Component {
                         <Route exact
                             path='/developers'
                             render={() => <Developers
-                              SEO={SEO}
                               developers={developers} 
                             />}
                         />
