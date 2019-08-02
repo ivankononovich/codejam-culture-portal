@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 import { Container, AppBar, Toolbar, Button } from '@material-ui/core';
 import MediaQuery from 'react-responsive';
 import {Helmet} from "react-helmet";
