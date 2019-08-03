@@ -85,3 +85,14 @@ Basic (40) + Normal (130) + Extra (20) - Fines (0) = **190**
 | 2h | Adaptiv modal and addition of the information architect  |
 | 3h | Styling of a website  |
 
+**Pavel Khomich**
+
+| Time spent | Feature |
+|-------------|-------------|
+| 3h | Group chat with participants and command working |
+| 4h | Styling and modify page architects |
+| 2h | Add description to the main page |
+| 2h | Add footer to pages |
+| 3h | Add info about architect and about me |
+| 1h | Add component for change head of pages. Add some SEO |
+| 2h | Fixing some bugs and refactoring |
