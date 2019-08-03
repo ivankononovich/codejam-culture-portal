@@ -51,3 +51,15 @@ Basic (40) + Normal (130) + Extra (20) - Fines (0) = **190**
 | 3h | Add MenuBar with help of Material UI |
 | 4h | Add mobile version to MenuBar and Architect Of The Day |
 | 2h | Refactor of MenuBar and Architect Of The Day |
+
+**Ivan Kononovich**
+
+| Time spent | Feature |
+|-------------|-------------|
+| 3h | Add base project structure |
+| 2h | Add navigation width router-react  |
+| 1h | Add search widget by architect |
+| 2h | Add go to the site developers page |
+| 4h | Add component for translating a site into languages ENG BY RU |
+| 1h | Refactor navigation width router-react |
+
