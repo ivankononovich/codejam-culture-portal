@@ -1,40 +1,40 @@
 const architects = [
   {
-    "id": "A1",
-    "url": "zaborsky",
-    "name": "Заборскі Георгій Уладзіміравіч",
-    "bornDate": "11/11/1909",
-    "born": "11 лістапада 1909",
-    "deceased": "27 красавіка 1999",
-    "description": "Народны архітэктар СССР (1981), заслужаны будаўнік Беларусі, акадэмік Расійскай акадэміі архітэктуры і будаўнічых навук, акадэмік Беларускай акадэміі архітэктуры, лаўрэат Дзяржаўнай прэміі СССР (1971).",
-    "image": "http://bsa.by/ckfinder/userfiles/images/4(2).jpg",
-    "placeOfResidence": "Мінск",
-    "placeOfBirth": "Мінск",
-    "bio": [
-      {date: '1909', text: "Георгій Заборскі нарадзіўся ў Мінску ў сям'і Уладзіміра Георгіевіча Заборскага, бухгалтара Маскоўска-Брэсцкай чыгункі, і Алены Іванаўны Заборскі (Зеглинг)."},
+    id: 'A1',
+    url: 'zaborsky',
+    name: 'Заборскі Георгій Уладзіміравіч',
+    bornDate: '11/11/1909',
+    born: '11 лістапада 1909',
+    deceased: '27 красавіка 1999',
+    description: 'Народны архітэктар СССР (1981), заслужаны будаўнік Беларусі, акадэмік Расійскай акадэміі архітэктуры і будаўнічых навук, акадэмік Беларускай акадэміі архітэктуры, лаўрэат Дзяржаўнай прэміі СССР (1971).',
+    image: 'http://bsa.by/ckfinder/userfiles/images/4(2).jpg',
+    placeOfResidence: 'Мінск',
+    placeOfBirth: 'Мінск',
+    bio: [
+      {date: '1909', text: 'Георгій Заборскі нарадзіўся ў Мінску ў сям\'і Уладзіміра Георгіевіча Заборскага, бухгалтара Маскоўска-Брэсцкай чыгункі, і Алены Іванаўны Заборскі (Зеглинг).'},
       {date: '1930', text: 'Паступіў у Мінскую профтехшколу сялянскага вогнетрывалай будаўніцтва. Першую практыку Г. Заборскі праходзіў на будаўнічай пляцоўцы будынка Дома ўрада. Тут жа адбылося яго знаёмства з архітэктарам І. Лангбардам.'},
       {date: '1939', text: 'Скончыў Акадэмію мастацтваў. Па конкурсе трапіў у Маскву, але працаваў там нядоўга і хутка атрымаў накіраванне ў Мінск. Тут ён быў прызначаны кіраўніком навуковай экспедыцыі па вывучэнні помнікаў архітэктуры і мастацтва Гомельскай і Палескай абласцей.'},
       {date: '1941-1945', text: 'Пайшоў на фронт добраахвотнікам, але ў баях пад Смаленскам быў цяжка паранены і апынуўся ў шпіталі уральскага гарадка Траецкае, дзе выканаў шэраг праектаў-эскізаў помнікаў, прысвечаных гераічнай перамогі савецкага народа ў Вялікай Айчыннай вайне.'},
       {date: '1945-1964', text: 'Георгій Заборскі кіруе архітэктурна-канструктарскімі майстэрнямі праектных інстытутаў Белдзяржпраект і Мінскпраект і адначасова выкладае на архітэктурным аддзяленні Беларускага політэхнічнага інстытута (цяпер УА «Беларускі нацыянальны тэхнічны ўніверсітэт»).'},
       {date: '1993', text: 'Скончыў творчую дзейнасць. Адной з апошніх яго прац стаў праект помніка ахвярам масавых рэпрэсій у Курапатах пад Менскам.'},
     ],
-    "project": [
-      {date: "1952", text: "Спраектаваў дом для сям'і Я. Коласа."},
-      {date: "1954", text: "Помнік-манумент на пл. Перамогі."},
-      {date: "1962", text: "Па праектах архітэктара пабудаваныя кінатэатр «Піянер» і музей Вялікай Айчыннай вайны."},
-      {date: "1969", text: "Адкрыццё мемарыяльнага комплексу «Зiслаў»."},
+    project: [
+      {date: '1952', text: 'Спраектаваў дом для сям\'і Я. Коласа.'},
+      {date: '1954', text: 'Помнік-манумент на пл. Перамогі.'},
+      {date: '1962', text: 'Па праектах архітэктара пабудаваныя кінатэатр «Піянер» і музей Вялікай Айчыннай вайны.'},
+      {date: '1969', text: 'Адкрыццё мемарыяльнага комплексу «Зiслаў».'},
     ],
-    "video": { 
+    video: { 
       id: 'lxMfVdAml1A' 
     },
-    "mapData": {
+    mapData: {
       center: [53.906840, 27.571457],
       zoom: 12,
     },
-    "photos": [
+    photos: [
       {
         num: 1,
-        src: "https://naviny.by/media/2015.09_w1/yacub.jpg",
+        src: 'https://naviny.by/media/2015.09_w1/yacub.jpg',
         width: 4,
         height: 3,
         title: 'Памятник Якубу Колосу',
@@ -42,7 +42,7 @@ const architects = [
       },
       {
         num: 2,
-        src: "https://minsknews.by/wp-content/uploads/2018/05/APD_8846-1.jpg",
+        src: 'https://minsknews.by/wp-content/uploads/2018/05/APD_8846-1.jpg',
         width: 2,
         height: 2,
         title: '',
@@ -50,7 +50,7 @@ const architects = [
       },
       {
         num: 3,
-        src: "https://minsk-old-new.com/assets/images/Image/streets/krasnoarmeyskaya/krasnoarmeyskaya-024.jpg",
+        src: 'https://minsk-old-new.com/assets/images/Image/streets/krasnoarmeyskaya/krasnoarmeyskaya-024.jpg',
         width: 2,
         height: 2,
         title: '',
@@ -58,7 +58,7 @@ const architects = [
       },
       {
         num: 4,
-        src: "https://planetabelarus.by/upload/resize_cache/iblock/901/1330_887_18e21fe612b4afb807a26ecc22279a1d9/901c0376763ffee6a3fb245ea62fba25.jpg",
+        src: 'https://planetabelarus.by/upload/resize_cache/iblock/901/1330_887_18e21fe612b4afb807a26ecc22279a1d9/901c0376763ffee6a3fb245ea62fba25.jpg',
         width: 4,
         height: 3,
         title: '',
@@ -68,24 +68,24 @@ const architects = [
   },
 
   {
-    "id": "A2",
-    "url": "usova",
-    "name": "Усава Любоў Дзмітрыеўна",
-    "bornDate": "9/6/1921",
-    "born": "6 верасня 1921",
-    "deceased": "цяперашні час",
-    "description": " Любоў Дзмітрыеўна - асоба ў архітэктурных колах вядомая. Перш за ўсё яна ўвайшла ў будаўнічую летапіс Беларусі як адзін з распрацоўшчыкаў новага пасляваеннага генплана горада Мінска. Пры яе непасрэдным удзеле ў сталіцы збудаваны шматлікія знакавыя аб'екты. За сваю творчую дзейнасць неаднаразова ўзнагароджвалася граматамі Вярхоўнага Савета БССР, ганаровымі граматамі і граматамі інстытута \"Мінскпраект\", а таксама Саюзаў архітэктараў СССР і БССР. Занесена ў кнігу гонару інстытута \"Мінскпраект\".",
-    "image": "https://minsknews.by/wp-content/uploads/2014/10/Arhitektor-Usova-3.jpg",
-    "placeOfResidence": "Мінск",
-    "placeOfBirth": "Іркуцк",
-    "bio": [
+    id: 'A2',
+    url: 'usova',
+    name: 'Усава Любоў Дзмітрыеўна',
+    bornDate: '9/6/1921',
+    born: '6 верасня 1921',
+    deceased: 'цяперашні час',
+    description: ' Любоў Дзмітрыеўна - асоба ў архітэктурных колах вядомая. Перш за ўсё яна ўвайшла ў будаўнічую летапіс Беларусі як адзін з распрацоўшчыкаў новага пасляваеннага генплана горада Мінска. Пры яе непасрэдным удзеле ў сталіцы збудаваны шматлікія знакавыя аб\'екты. За сваю творчую дзейнасць неаднаразова ўзнагароджвалася граматамі Вярхоўнага Савета БССР, ганаровымі граматамі і граматамі інстытута \'Мінскпраект\', а таксама Саюзаў архітэктараў СССР і БССР. Занесена ў кнігу гонару інстытута \'Мінскпраект\'.',
+    image: 'https://minsknews.by/wp-content/uploads/2014/10/Arhitektor-Usova-3.jpg',
+    placeOfResidence: 'Мінск',
+    placeOfBirth: 'Іркуцк',
+    bio: [
       {date: '1921', text: 'Нарадзілася ў Іркуцку 6 верасня 1921 года ў сям’і служачых.'},
       {date: '1930', text: 'Сям’я пераехала ў Маскву, дзе Любоў пасля заканчэння школы паступіла ў Маскоўскі архітэктурны інстытут.'},
       {date: '1941-1945', text: 'У час Вялікай Айчыннай вайны знаходзілася ў эвакуацыі ў Ташкенце.'},
       {date: '1947', text: 'Абараніла ў 1947 з адрозненнем дыпломны праект, пасля чаго была размеркавана на працу ў Мінск ў архітэктурна-планіровачную майстэрню пры Мінгарвыканкаме, дзе таксама працаваў яе муж Васіль Іосіфавіч Герашчанка.'},
       {date: '1989', text: 'Занесена ў кнігу пашаны інстытута «Мінскпраект»'},
     ],
-    "project": [
+    project: [
       {date: '1950', text: 'Праектавала і аднаўляла галоўны корпус БПІ (БНТУ).'},
       {date: '1952', text: 'Спраектавала Палац піянераў і школьнікаў.'},
       {date: '1954', text: 'Спраектавала будынак абкама КПБ.'},
@@ -94,25 +94,25 @@ const architects = [
       {date: '1968', text: 'Спраектавала рэспубліканскі дом юнага тэхніка.'},
       {date: '1970-1980', text: 'Выконвала архітэктурна-планіровачную частку Мінскага воднага каскада - вадасховішчаў Дразды і Крыніца.'},
     ],
-    "video": { 
+    video: { 
       id: 'lxMfVdAml1A' 
     },
-    "mapData": {
+    mapData: {
       center: [53.906840, 27.571457],
       zoom: 12,
     },
-    "photos": [
+    photos: [
       {
         num: 1,
-        src: "http://arcp.by/sites/arcp.by/files/styles/660/public/articlefoto/rsg-13-2014_final_stranica_5_izobrazhenie_0002.jpg",
+        src: 'http://arcp.by/sites/arcp.by/files/styles/660/public/articlefoto/rsg-13-2014_final_stranica_5_izobrazhenie_0002.jpg',
         width: 4,
         height: 3,
         title: 'Любоў Усава з калегамі',
-        text: 'Любоў Усава з калегамі за працай над праектам кінатэатра "Зорка".'
+        text: 'Любоў Усава з калегамі за працай над праектам кінатэатра \'Зорка\'.'
       },
       {
         num: 2,
-        src: "http://arcp.by/sites/arcp.by/files/styles/660/public/articlefoto/rsg-13-2014_final_stranica_5_izobrazhenie_0004.jpg",
+        src: 'http://arcp.by/sites/arcp.by/files/styles/660/public/articlefoto/rsg-13-2014_final_stranica_5_izobrazhenie_0004.jpg',
         width: 2,
         height: 2 ,
         title: 'Разам з мужам',
@@ -120,7 +120,7 @@ const architects = [
       },
       {
         num: 3,
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Minsk_CIS_executive_committee.JPG/800px-Minsk_CIS_executive_committee.JPG",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Minsk_CIS_executive_committee.JPG/800px-Minsk_CIS_executive_committee.JPG',
         width: 2,
         height: 2,
         title: 'Гаркам КПБ',
@@ -128,7 +128,7 @@ const architects = [
       },
       {
         num: 4,
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Belarus-Minsk-Railway_Station_Square-4.jpg/800px-Belarus-Minsk-Railway_Station_Square-4.jpg",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Belarus-Minsk-Railway_Station_Square-4.jpg/800px-Belarus-Minsk-Railway_Station_Square-4.jpg',
         width: 2,
         height: 2,
         title: 'Прывакзальная плошча г.Мiнска',
@@ -136,7 +136,7 @@ const architects = [
       },
       {
         num: 5,
-        src: "https://farm4.static.flickr.com/3286/2958042964_43082c0ef6_o.jpg",
+        src: 'https://farm4.static.flickr.com/3286/2958042964_43082c0ef6_o.jpg',
         width: 4,
         height: 3,
         title: 'Рэспубліканскі Палац піянераў і школьнікаў',
@@ -144,7 +144,7 @@ const architects = [
       },
       {
         num: 6,
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Enhie%C4%BAsa_Street_26.jpg/1024px-Enhie%C4%BAsa_Street_26.jpg",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Enhie%C4%BAsa_Street_26.jpg/1024px-Enhie%C4%BAsa_Street_26.jpg',
         width: 2,
         height: 2,
         title: 'Тэатр юнага гледача',
@@ -152,7 +152,7 @@ const architects = [
       },
       {
         num: 7,
-        src: "https://upload.wikimedia.org/wikipedia/commons/9/9d/BNTU.JPG",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/9/9d/BNTU.JPG',
         width: 4,
         height: 3,
         title: 'Галоўны корпус БНПУ ',
@@ -160,7 +160,7 @@ const architects = [
       },
       {
         num: 8,
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Alleya_of_Opera_and_Ballet_Theatre%2C_Minsk.JPG/1024px-Alleya_of_Opera_and_Ballet_Theatre%2C_Minsk.JPG",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Alleya_of_Opera_and_Ballet_Theatre%2C_Minsk.JPG/1024px-Alleya_of_Opera_and_Ballet_Theatre%2C_Minsk.JPG',
         width: 2,
         height: 2,
         title: 'Траецкая гара',
@@ -168,7 +168,7 @@ const architects = [
       },
       {
         num: 9,
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%B8%D1%8E_%D0%9A%D0%BE%D1%80%D0%BD%D0%B5%D0%B5%D0%B2%D1%83%2C_Minsk%2C_Belarus_-_panoramio_%281%29.jpg/1280px-%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%B8%D1%8E_%D0%9A%D0%BE%D1%80%D0%BD%D0%B5%D0%B5%D0%B2%D1%83%2C_Minsk%2C_Belarus_-_panoramio_%281%29.jpg",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%B8%D1%8E_%D0%9A%D0%BE%D1%80%D0%BD%D0%B5%D0%B5%D0%B2%D1%83%2C_Minsk%2C_Belarus_-_panoramio_%281%29.jpg/1280px-%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B0%D1%85%D0%B0%D1%80%D0%B8%D1%8E_%D0%9A%D0%BE%D1%80%D0%BD%D0%B5%D0%B5%D0%B2%D1%83%2C_Minsk%2C_Belarus_-_panoramio_%281%29.jpg',
         width: 2,
         height: 2,
         title: 'Дзіцячы парк імя М. Горкага',
@@ -178,17 +178,17 @@ const architects = [
   },
 
   {
-    "id": "A3",
-    "url": "parusnikov",
-    "name": "Паруснікаў Міхаіл Паўлавіч",
-    "bornDate": "11/12/1893",
-    "born": "12 лістапада 1893",
-    "deceased": "2 лютага 1968",
-    "description": "Савецкі архітэктар, правадзейны член Акадэміі Архітэктуры СССР (1950), акадэмік АН БССР (1950 г.; член-карэспандэнт з 1947). Педагог, прафесар (з 1948). Лаўрэат Дзяржаўнай прэміі Беларускай ССР (1968)",
-    "image": "http://cn.flibusta.site/i/89/452389/img_84.jpg",
-    "placeOfResidence": "Масква",
-    "placeOfBirth": "Масква",
-    "bio": [
+    id: 'A3',
+    url: 'parusnikov',
+    name: 'Паруснікаў Міхаіл Паўлавіч',
+    bornDate: '11/12/1893',
+    born: '12 лістапада 1893',
+    deceased: '2 лютага 1968',
+    description: 'Савецкі архітэктар, правадзейны член Акадэміі Архітэктуры СССР (1950), акадэмік АН БССР (1950 г.; член-карэспандэнт з 1947). Педагог, прафесар (з 1948). Лаўрэат Дзяржаўнай прэміі Беларускай ССР (1968)',
+    image: 'http://cn.flibusta.site/i/89/452389/img_84.jpg',
+    placeOfResidence: 'Масква',
+    placeOfBirth: 'Масква',
+    bio: [
       {
         date: '1913 - 1918',
         text: 'Навучаўся ў МУЖВЗ (яго бацька быў настаяцелем суседняга храма), затым да 1924 года ва ВХУТЕМАСе'
@@ -200,7 +200,7 @@ const architects = [
       {date: '1941 - 1944', text: 'Старшы навуковы супрацоўнік Акадэміі архітэктуры СССР'},
       {date: '1944 - 1948', text: 'Кіраўнік архітэктурна-праектных майстэрняў Камітэта па справах архітэктуры СССР.'},
     ],
-    "project": [
+    project: [
       {date: '1930', text: 'Аўтар праекта планіроўкі і забудовы Астрахані '},
       {
         date: '1923',
@@ -213,17 +213,17 @@ const architects = [
       {date: '1950', text: 'Дзяржбанк СССР'},
       {date: '1946—1954', text: 'Жылыя дамы і мост праз р. Свіслач, Спартыўны комплекс «Дынама»'},
     ],
-    "video": { 
+    video: { 
       id: 'mrfadR51D0I' 
     },
-    "mapData": {
+    mapData: {
       center: [53.898869, 27.554819],
       zoom: 12,
     },
-    "photos": [
+    photos: [
       {
         num: 1,
-        src: "https://upload.wikimedia.org/wikipedia/commons/7/71/Minsk_skaryny_ave_02.jpg",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/7/71/Minsk_skaryny_ave_02.jpg',
         width: 4,
         height: 3,
         title: 'Будынак КДБ у Менску',
@@ -231,7 +231,7 @@ const architects = [
       },
       {
         num: 2,
-        src: "https://upload.wikimedia.org/wikipedia/commons/3/32/NBRB.JPG",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/3/32/NBRB.JPG',
         width: 2,
         height: 2,
         title: 'Будынак Нацбанка РБ',
@@ -239,7 +239,7 @@ const architects = [
       },
       {
         num: 3,
-        src: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Захар%27еўскі_мост.jpg",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/c/c5/Захар%27еўскі_мост.jpg',
         width: 2,
         height: 2,
         title: 'Мост праз Свіслач',
@@ -247,7 +247,7 @@ const architects = [
       },
       {
         num: 4,
-        src: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Buildings_in_Yaroslavl_009.jpg",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Buildings_in_Yaroslavl_009.jpg',
         width: 4,
         height: 3,
         title: 'Дом з аркай на Чырвонай плошчы',
@@ -257,26 +257,26 @@ const architects = [
   },
 
   {
-    "id": "A4",
-    "url": "leonid-mendelevich",
-    "name": "Леанід Мендэлевіч Левін",
-    "bornDate": "7/25/1936",
-    "born": "25 ліпеня 1936",
-    "deceased": "1 сакавіка 2014",
-    "description": "Заслужаны архітэктар Рэспублікі Беларусь, лаўрэат Ленінскай прэміі і прэміі Ленінскага Камсамола, лаўрэат прэміі Валгаградскага Камсамола, лаўрэат Дзяржаўнай прэміі Рэспублікі Беларусь, лаўрэат шматлікіх прэстыжных конкурсаў і аглядаў архітэктурных работ, акадэмік Міжнароднай і Беларускай акадэміі архітэктуры, старшыня Саюза Беларускіх яўрэйскіх грамадскіх аб’яднанняў і абшчын з 1991 па 2014 год. Адзін з аўтараў мемарыяльнага комплексу «Хатынь», за які (у складзе аўтарскага калектыву) быў удастоены Ленінскай прэміі.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Levin_Leonid_Mendele.jpg/800px-Levin_Leonid_Mendele.jpg",
-    "placeOfResidence": "Минск",
-    "placeOfBirth": "Минск",
-    "bio": [
-      {date: "1954—1960", text: "Вучоба ў Беларускім політэхнічным інстытуце."},
+    id: 'A4',
+    url: 'leonid-mendelevich',
+    name: 'Леанід Мендэлевіч Левін',
+    bornDate: '7/25/1936',
+    born: '25 ліпеня 1936',
+    deceased: '1 сакавіка 2014',
+    description: 'Заслужаны архітэктар Рэспублікі Беларусь, лаўрэат Ленінскай прэміі і прэміі Ленінскага Камсамола, лаўрэат прэміі Валгаградскага Камсамола, лаўрэат Дзяржаўнай прэміі Рэспублікі Беларусь, лаўрэат шматлікіх прэстыжных конкурсаў і аглядаў архітэктурных работ, акадэмік Міжнароднай і Беларускай акадэміі архітэктуры, старшыня Саюза Беларускіх яўрэйскіх грамадскіх аб’яднанняў і абшчын з 1991 па 2014 год. Адзін з аўтараў мемарыяльнага комплексу «Хатынь», за які (у складзе аўтарскага калектыву) быў удастоены Ленінскай прэміі.',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Levin_Leonid_Mendele.jpg/800px-Levin_Leonid_Mendele.jpg',
+    placeOfResidence: 'Минск',
+    placeOfBirth: 'Минск',
+    bio: [
+      {date: '1954—1960', text: 'Вучоба ў Беларускім політэхнічным інстытуце.'},
       {date: '1960', text: 'Праца ў Інстытуце «Мінскпраект» (ад архітэктара да кіраўніка Майстэрні па забудове цэнтра Мінска).'},
-      {date: '1960—1967', text: "Удзел у стварэнні парку імя 50-годдзя Савецкай улады."},
-      {date: '1968', text: "Удзел у стварэнні выставачнага павільёна ВДНГ БССР у Мінску."},
-      {date: '1970', text: "У складзе аўтарскага калектыву быў уганараваны Ленінскай прэміяй за мемарыяльны комплекс 1968—1969 гг. «Хатынь»."},
-      {date: '1997', text: "Дырэктар уласнай творчай майстэрні УП «Творчая майстэрня архітэктара Л. Левіна»."},
-      {date: "4 сакавіка 2014", text: "Пахаваны на Цэнтральнай алеі Усходніх могілак у Мінску."},
+      {date: '1960—1967', text: 'Удзел у стварэнні парку імя 50-годдзя Савецкай улады.'},
+      {date: '1968', text: 'Удзел у стварэнні выставачнага павільёна ВДНГ БССР у Мінску.'},
+      {date: '1970', text: 'У складзе аўтарскага калектыву быў уганараваны Ленінскай прэміяй за мемарыяльны комплекс 1968—1969 гг. «Хатынь».'},
+      {date: '1997', text: 'Дырэктар уласнай творчай майстэрні УП «Творчая майстэрня архітэктара Л. Левіна».'},
+      {date: '4 сакавіка 2014', text: 'Пахаваны на Цэнтральнай алеі Усходніх могілак у Мінску.'},
     ],
-    "project": [
+    project: [
       {date: '1969', text: 'Мемарыяльны комплекс «Хатынь»'},
       {date: '1972', text: 'Помнік Янку Купалу'},
       {date: '1972', text: 'Помнік Якубу Коласу'},
@@ -286,17 +286,17 @@ const architects = [
       {date: '1990', text: 'Аўтарства станцыі Мінскага метрапалітэна «Няміга»'},
       {date: '2004', text: 'Мемарыяльны комплекс загінуўшым яўрэям у г.п. Гарадзея'},
     ],
-    "video": { 
+    video: { 
       id: 'lxMfVdAml1A' 
     },
-    "mapData": {
+    mapData: {
       center: [53.906840, 27.571457],
       zoom: 12,
     },
-    "photos": [
+    photos: [
       {
         num: 1,
-        src: "https://upload.wikimedia.org/wikipedia/commons/0/01/Khatyn_Memorial%2C_Belarus.jpg",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/0/01/Khatyn_Memorial%2C_Belarus.jpg',
         width: 4,
         height: 3,
         title: 'Мемарыяльны комплекс Хатынь',
@@ -304,7 +304,7 @@ const architects = [
       },
       {
         num: 2,
-        src: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Belarus-Minsk-Memorial_Pit-2.jpg",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Belarus-Minsk-Memorial_Pit-2.jpg',
         width: 2,
         height: 2,
         title: 'Мемарыял ахвярам гітлераўскага генацыду «Яма»',
@@ -312,7 +312,7 @@ const architects = [
       },
       {
         num: 3,
-        src: "https://upload.wikimedia.org/wikipedia/ru/f/ff/Yanka-kupala-minsk.jpg",
+        src: 'https://upload.wikimedia.org/wikipedia/ru/f/ff/Yanka-kupala-minsk.jpg',
         width: 2,
         height: 2,
         title: 'Помнік Янку Купалу',
@@ -320,7 +320,7 @@ const architects = [
       },
       {
         num: 4,
-        src: "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Minsk_Thinker_-_panoramio.jpg",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/9/97/The_Minsk_Thinker_-_panoramio.jpg',
         width: 4,
         height: 3,
         title: 'Помнік Якубу Коласу',
@@ -330,23 +330,23 @@ const architects = [
   },
 
   {
-    "id": "A5",
-    "url": "yesman",
-    "name": "Есьман Iгар Iванавiч",
-    "bornDate": "01/05/1932",
-    "born": "1 мая 1932",
-    "deceased": "цяперашні час",
-    "description": "Архітэктар, дызайнер і вынаходнік Ігар Іванавіч Есьман марыў пабудаваць на ўездзе ў Мінск грандыёзны навукова-вучэбны цэнтр: Мінскі архітэктурна-будаўнічы інстытут (МАБI) і звышсучасны Белдзяржуніверсітэт.",
-    "image": "https://s16.stc.all.kpcdn.net/share/i/12/2109386/inx960x640.jpg",
-    "placeOfResidence": "Мiнск",
-    "placeOfBirth": "Мiнск",
-    "bio": [
+    id: 'A5',
+    url: 'yesman',
+    name: 'Есьман Iгар Iванавiч',
+    bornDate: '01/05/1932',
+    born: '1 мая 1932',
+    deceased: 'цяперашні час',
+    description: 'Архітэктар, дызайнер і вынаходнік Ігар Іванавіч Есьман марыў пабудаваць на ўездзе ў Мінск грандыёзны навукова-вучэбны цэнтр: Мінскі архітэктурна-будаўнічы інстытут (МАБI) і звышсучасны Белдзяржуніверсітэт.',
+    image: 'https://s16.stc.all.kpcdn.net/share/i/12/2109386/inx960x640.jpg',
+    placeOfResidence: 'Мiнск',
+    placeOfBirth: 'Мiнск',
+    bio: [
       {date: '1948', text: 'Ігар Есьман абраў прафесію архітэктара і стаў студэнтам Мінскага архітэктурна-будаўнічага тэхнікума.'},
       {date: '1959', text: 'Скончыў архітэктурны факультэт Беларускага політэхнічнага інстытута (цяпер БНТУ).'},
-      {date: '1960 - 1995', text: 'Працуе ў інстытуце "Мінскпраект", прайшоўшы шлях ад простага архітэктара да старэйшага, а затым галоўнага архітэктара праектаў і кіраўніка майстэрні.'},
-      {date: '1995 - н.в.', text: 'Ігар Іванавіч знаходзіцца ў вольным творчым палёце думкі, працягваючы здзіўляць і радаваць навакольных. Робіць дэкарацыю-трансформер для спектакля "Анёл над дахам". Захапляецца мастацкай разьбой па каменю, костцы, распрацоўвае дызайн марак, выпускае мініяцюрныя кнігі, вывучае і вырабляе прадметы даўніны ў мініяцюрным варыянце.'},
+      {date: '1960 - 1995', text: 'Працуе ў інстытуце \'Мінскпраект\', прайшоўшы шлях ад простага архітэктара да старэйшага, а затым галоўнага архітэктара праектаў і кіраўніка майстэрні.'},
+      {date: '1995 - н.в.', text: 'Ігар Іванавіч знаходзіцца ў вольным творчым палёце думкі, працягваючы здзіўляць і радаваць навакольных. Робіць дэкарацыю-трансформер для спектакля \'Анёл над дахам\'. Захапляецца мастацкай разьбой па каменю, костцы, распрацоўвае дызайн марак, выпускае мініяцюрныя кнігі, вывучае і вырабляе прадметы даўніны ў мініяцюрным варыянце.'},
     ],
-    "project": [
+    project: [
       {date: '1958', text: 'Уваход-тамбур ў хлебны магазін па вуліцы Раманаўская Слабада.'},
       {date: '1961 - 1963', text: 'Мінскі інстытут замежных моў (цяпер МДЛУ) па вул. Захарава.'},
       {date: '1964', text: 'Інстытут тэхнічнай эстэтыкі па вул. Жылуновіча, вытворчы корпус, выставачная зала.'},
@@ -357,19 +357,19 @@ const architects = [
       {date: '1972', text: 'Комплекс інтэрнатаў з блокамі абслугоўвання Інстытута народнай гаспадаркі па Веласіпедным завулку.'},
       {date: '1970 - 1983', text: 'Архітэктурна-будаўнічы факультэт БНТУ, праспект Незалежнасці 150, г.Мінск.'},
       {date:'1980', text: 'Комплекс будынкаў гасцініцы «Арбіта» па праспекце Пушкіна.'},
-      {date: '1990', text: 'Станцыя метро "Пушкінская".'},
+      {date: '1990', text: 'Станцыя метро \'Пушкінская\'.'},
     ],
-    "video": { 
+    video: { 
       id: 'jL_MPmr0U-U' 
     },
-    "mapData": {
+    mapData: {
       center: [53.937772, 27.669495],
       zoom: 12,
     },
-    "photos": [
+    photos: [
       {
         num: 1,
-        src: "http://www.minsk.nemiga.info/silicon-valley/bntu-8.jpg",
+        src: 'http://www.minsk.nemiga.info/silicon-valley/bntu-8.jpg',
         width: 4,
         height: 3,
         title: 'Архітэктурна-будаўнічы факультэт БНТУ',
@@ -377,7 +377,7 @@ const architects = [
       },
       {
         num: 2,
-        src: "https://www.belarusinfo.by/ru/images/stories/photo_gallery/20k/15655/%D0%9C%D0%93%D0%9B%D0%A3.jpg",
+        src: 'https://www.belarusinfo.by/ru/images/stories/photo_gallery/20k/15655/%D0%9C%D0%93%D0%9B%D0%A3.jpg',
         width: 4,
         height: 2,
         title: 'Мінскі дзяржаўны лінгвістычны універсітэт',
@@ -385,7 +385,7 @@ const architects = [
       },
       {
         num: 3,
-        src: "http://bseu.by/images/hostels/5.jpg",
+        src: 'http://bseu.by/images/hostels/5.jpg',
         width: 2,
         height: 2,
         title: 'Інтэрнаты Беларускага дзяржаўнага эканамічнага універсітэта',
@@ -393,7 +393,7 @@ const architects = [
       },
       {
         num: 4,
-        src: "https://t-ec.bstatic.com/images/hotel/max1024x768/321/32147559.jpg",
+        src: 'https://t-ec.bstatic.com/images/hotel/max1024x768/321/32147559.jpg',
         width: 4,
         height: 3,
         title: 'Гасцініца Арбіта, Мінск',
@@ -403,23 +403,23 @@ const architects = [
   },
 
   {
-    "id": "A6",
-    "url": "sacco",
-    "name": "Джузэпэ дэ Сака",
-    "bornDate": "12/11/1735",
-    "born": "1735",
-    "deceased": "1798",
-    "description": "Адзін з найбуйнейшых архітэктараў развітога барока і класіцызму, якія працавалі на тэрыторыі сучаснай Беларусі, у XVIII стагоддзі. Прыдворны архітэктар караля Станіслава Аўгуста Панятоўскага. Таксама працаваў у іншых рэгіёнах Рэчы Паспалітай. У творчасці вылучаюцца ансамблі палацава-паркавых рэзідэнцый.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG/375px-%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG",
-    "placeOfResidence": "Гродна",
-    "placeOfBirth": "Верона",
-    "bio": [
+    id: 'A6',
+    url: 'sacco',
+    name: 'Джузэпэ дэ Сака',
+    bornDate: '12/11/1735',
+    born: '1735',
+    deceased: '1798',
+    description: 'Адзін з найбуйнейшых архітэктараў развітога барока і класіцызму, якія працавалі на тэрыторыі сучаснай Беларусі, у XVIII стагоддзі. Прыдворны архітэктар караля Станіслава Аўгуста Панятоўскага. Таксама працаваў у іншых рэгіёнах Рэчы Паспалітай. У творчасці вылучаюцца ансамблі палацава-паркавых рэзідэнцый.',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG/375px-%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%A1%D0%B0%D0%BA%D0%B0.JPG',
+    placeOfResidence: 'Гродна',
+    placeOfBirth: 'Верона',
+    bio: [
       {date: '1768', text: 'Быў запрошаны ў Варшаву, дзе займаўся мастацкім катафалкам (сastrum doloris) каралевы Марыі Ляшчынскай і праектам перабудовы касцёла святога Яна.'},
       {date: '1771', text: 'Стаў архітэктарам Скарбовай камісіі ВКЛ. Быў рэкамендаваны гродзенскаму старасце Антонію Тызенгаўзу і прыняты на службу, у якасці каралеўскага архітэктара, з усталяваным акладам у 600 злотых. У Рэчы Паспалітай дэ Сака атрымлівае шэраг вайсковых званьняў ВКЛ.'},
       {date: '1771 - 1780', text: 'Выканаў шэраг заказаў мясцовых магнатаў, спраектаваўшы некалькі вядомых палацава-паркавых ансамбляў і гарадскіх рэзідэнцый, у прыватнасці: Свяцкі палац магнатаў Валовічаў, Шчорсаўскі палац Храптовічаў, палацы Тызенгаўза ў Паставах і Вільні (меркавана).'}
     ],
     
-    "project": [
+    project: [
       {date: 'XVIII век', text: 'Палац у Цёнжени'},
       {date: 'XVIII век', text: 'Палац Храптовічаў у Шчорсах'},
       {date: 'XVIII век', text: 'Тэатр Тызенгаўза'},
@@ -427,17 +427,17 @@ const architects = [
       {date: 'XVIII век', text: 'Палац Тызенгаўза'},
       {date: 'XVIII век', text: 'Мосарскі палац'},
     ],
-    "video": { 
+    video: { 
       id: 'TkaLjjNj8Ls' 
     },
-    "mapData": {
+    mapData: {
       center: [53.684727, 23.834317],
       zoom: 12,
     },
-    "photos": [
+    photos: [
       {
         num: 1,
-        src: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ci%C4%85%C5%BCe%C5%84_-_pa%C5%82ac_biskup%C3%B3w_pozna%C5%84skich_03.jpg",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Ci%C4%85%C5%BCe%C5%84_-_pa%C5%82ac_biskup%C3%B3w_pozna%C5%84skich_03.jpg',
         width: 4,
         height: 3,
         title: 'Палац у Цёнжени',
@@ -445,7 +445,7 @@ const architects = [
       },
       {
         num: 2,
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE.JPG/1920px-%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE.JPG",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE.JPG/1920px-%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE.JPG',
         width: 2,
         height: 2,
         title: 'Станіславова (сядзіба)',
@@ -453,7 +453,7 @@ const architects = [
       },
       {
         num: 3,
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG/1280px-%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG/1280px-%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A2%D0%B8%D0%B7%D0%B5%D0%BD%D0%B3%D0%B0%D1%83%D0%B7%D0%B0.JPG',
         width: 2,
         height: 2,
         title: 'Ансамбль плошчы Тызенгаўза',
@@ -461,7 +461,7 @@ const architects = [
       },
       {
         num: 4,
-        src: "https://upload.wikimedia.org/wikipedia/commons/9/97/%C5%9Aviacak._%D0%A1%D1%8C%D0%B2%D1%8F%D1%86%D0%B0%D0%BA_%282006%29.jpg",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/9/97/%C5%9Aviacak._%D0%A1%D1%8C%D0%B2%D1%8F%D1%86%D0%B0%D0%BA_%282006%29.jpg',
         width: 4,
         height: 3,
         title: 'Свяцкі палац',
@@ -469,7 +469,7 @@ const architects = [
       },
       {
         num: 5,        
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG/1280px-%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG",
+        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG/1280px-%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG',
         width: 4,
         height: 3,
         title: 'Тэатр Тызенгаўза',
@@ -481,83 +481,83 @@ const architects = [
 
 const developers = [
   {
-    "id": "D1",
-    "name": "Іван Канановіч",
-    "github": "https://github.com/ivankononovich",
-    "image": "https://avatars0.githubusercontent.com/u/41195901?s=400&v=4",
-    "contribution": "in progress...",
+    id: 'D1',
+    name: 'Іван Канановіч',
+    github: 'https://github.com/ivankononovich',
+    image: 'https://avatars0.githubusercontent.com/u/41195901?s=400&v=4',
+    contribution: 'in progress...',
   },
   {
-    "id": "D2",
-    "name": "Яўген Матвеёнак",
-    "github": "https://github.com/ins21",
-    "image": "https://ins21.github.io/rsschool-2019Q1-cv/assets/images/1.png",
-    "contribution": "Стварыў кампанент са старонкай архітэктара, выкарыстоўваючы Material UI. Дадаў кампанент TimeLine і кампанент Map. Пераклаў старонкі двух архітэктараў на беларускую і ангельскую мову.",
+    id: 'D2',
+    name: 'Яўген Матвеёнак',
+    github: 'https://github.com/ins21',
+    image: 'https://ins21.github.io/rsschool-2019Q1-cv/assets/images/1.png',
+    contribution: 'Стварыў кампанент са старонкай архітэктара, выкарыстоўваючы Material UI. Дадаў кампанент TimeLine і кампанент Map. Пераклаў старонкі двух архітэктараў на беларускую і ангельскую мову.',
   },
   {
-    "id": "D3",
-    "name": "Кацярына Жадзько",
-    "github": "https://github.com/cathzetjo",
-    "image": "https://avatars3.githubusercontent.com/u/44948376?s=460&v=4",
-    "contribution": "in progress...",
+    id: 'D3',
+    name: 'Кацярына Жадзько',
+    github: 'https://github.com/cathzetjo',
+    image: 'https://avatars3.githubusercontent.com/u/44948376?s=460&v=4',
+    contribution: 'in progress...',
   },
   {
-    "id": "D4",
-    "name": "Артур Рубчанка",
-    "github": "https://github.com/Arthur199212",
-    "image": "https://avatars0.githubusercontent.com/u/46008463?s=460&v=4",
-    "contribution": "Стварыў два кампаненты: меню сайта і архітэктар дня. Архітэктар дня выбiраецца па даце нараджэння. Меню зроблена адаптыўным і пры дапамозе Material-UI.",
+    id: 'D4',
+    name: 'Артур Рубчанка',
+    github: 'https://github.com/Arthur199212',
+    image: 'https://avatars0.githubusercontent.com/u/46008463?s=460&v=4',
+    contribution: 'Стварыў два кампаненты: меню сайта і архітэктар дня. Архітэктар дня выбiраецца па даце нараджэння. Меню зроблена адаптыўным і пры дапамозе Material-UI.',
   },
   {
-    "id": "D5",
-    "name": "Дзмітрый Пархоменка",
-    "github": "https://github.com/DmitriyParhomenko",
-    "image": "https://avatars0.githubusercontent.com/u/37816988?s=460&v=4",
-    "contribution": "Стварыў два кампаненты у якіх выкарыстоўваецца Material UI: табліца праектаў на старонцы архітэктара і мадальнай акно паказу Відэа з YouTube. Абодва кампанента адаптыўныя. Для табліцы ў адаптиве з'яўляецца гарызантальны скролл. Правёў працу па стылістыкі ўсяго сайта.",
+    id: 'D5',
+    name: 'Дзмітрый Пархоменка',
+    github: 'https://github.com/DmitriyParhomenko',
+    image: 'https://avatars0.githubusercontent.com/u/37816988?s=460&v=4',
+    contribution: 'Стварыў два кампаненты у якіх выкарыстоўваецца Material UI: табліца праектаў на старонцы архітэктара і мадальнай акно паказу Відэа з YouTube. Абодва кампанента адаптыўныя. Для табліцы ў адаптиве з\'яўляецца гарызантальны скролл. Правёў працу па стылістыкі ўсяго сайта.',
   },
   {
-    "id": "D6",
-    "name": "Павел Хоміч",
-    "github": "https://github.com/pashax0",
-    "image": "https://avatars3.githubusercontent.com/u/17899361?s=460&v=4",
-    "contribution": "in progress...",
+    id: 'D6',
+    name: 'Павел Хоміч',
+    github: 'https://github.com/pashax0',
+    image: 'https://avatars3.githubusercontent.com/u/17899361?s=460&v=4',
+    contribution: 'in progress...',
   }
 ];
 
 const portalDescription = {
-  "title": "Архітэктары Беларусі",
-  "description": "<p>У разнастайных стылях беларускіх цэркваў, замкаў, палацаў і крэпасцяў адлюстраваны ўплыў як усходняй, так і заходняй культуры. Нягледзячы на ​​складаную гісторыю, поўную войнаў і разбурэнняў, многія архітэктурныя каштоўнасці Беларусі захаваліся. </p><p>Розныя напрамкі ў мастацтве і рэлігіі паўплывалі на фарміраванне архітэктуры Беларусі. У краіне можна знайсці прыклады раманскага стылю і готыкі, барока і класіцызму, мадэрна і эклектыкі. Есць шмат цiкавых прыкладаў сучаснай архiтэктуры.</p><p> Архітэктар - кваліфікаваны спецыяліст, які ажыццяўляе архітэктурнае праектаванне (фармiраванне архітэктурнага асяроддзя), уключаючы праектаванне будынкаў, у тым ліку распрацоўку объёмна- планіровачных і інтэр'ерных рашэнняў. Пазнаёмцеся бліжэй з Беларускімі архітэктарамі і іх працай на нашым партале!</p>",
-  "architectOfTheDay": "Архітэктар дня",
-  "img": 'https://vedaj.by/images/mainimg.png',
+  title: 'Архітэктары Беларусі',
+  description: '<p>У разнастайных стылях беларускіх цэркваў, замкаў, палацаў і крэпасцяў адлюстраваны ўплыў як усходняй, так і заходняй культуры. Нягледзячы на ​​складаную гісторыю, поўную войнаў і разбурэнняў, многія архітэктурныя каштоўнасці Беларусі захаваліся. </p><p>Розныя напрамкі ў мастацтве і рэлігіі паўплывалі на фарміраванне архітэктуры Беларусі. У краіне можна знайсці прыклады раманскага стылю і готыкі, барока і класіцызму, мадэрна і эклектыкі. Есць шмат цiкавых прыкладаў сучаснай архiтэктуры.</p><p> Архітэктар - кваліфікаваны спецыяліст, які ажыццяўляе архітэктурнае праектаванне (фармiраванне архітэктурнага асяроддзя), уключаючы праектаванне будынкаў, у тым ліку распрацоўку объёмна- планіровачных і інтэр\'ерных рашэнняў. Пазнаёмцеся бліжэй з Беларускімі архітэктарамі і іх працай на нашым партале!</p>',
+  architectOfTheDay: 'Архітэктар дня',
+  img: 'https://vedaj.by/images/mainimg.png',
 };
 
 const architectPageLanguage = {
-  "years": "Гады жыцця", 
-  "bio": "Біяграфія",
-  "projects": "Праекты",
-  "projectHeader": {
-    "columnOne": 'Праекты',
-    "columnTwo": 'Дата стварэння'
+  years: 'Гады жыцця', 
+  bio: 'Біяграфія',
+  projects: 'Праекты',
+  projectHeader: {
+    columnOne: 'Праекты',
+    columnTwo: 'Дата стварэння'
   },
-  "video":"Відэа",
-  "videoButton":"Прагляд",
-  "map": "Месца асноўнай дзейнасці",
-  "gallery": "Фотагалерэя",
+  video:'Відэа',
+  videoButton:'Прагляд',
+  map: 'Месца асноўнай дзейнасці',
+  gallery: 'Фотагалерэя',
 };
 
 export default {
   SEO: {
-    lang: "by",
-    title: "Архiтэктары Беларусi",
-    description: "Архітэктары Беларусі: біяграфія і іх працы. Хто пабудаваў будынак, у якім годзе, чый праект"
+    lang: 'by',
+    title: 'Архiтэктары Беларусi',
+    description: 'Архітэктары Беларусі: біяграфія і іх працы. Хто пабудаваў будынак, у якім годзе, чый праект'
   },
   architects,
   developers,
   portalDescription,
   architectPageLanguage,
-  architectsNav: "Архітэктары",
-  developersList: "Распрацоўнікi",
-  homePageLink: "Галоўная",
-  searchLabel: "Iмя цi месца",
-  architectOfTheDayButton: "Падрабязна",
+  architectsNav: 'Архітэктары',
+  developersList: 'Распрацоўнікi',
+  homePageLink: 'Галоўная',
+  searchLabel: 'Iмя цi месца',
+  architectOfTheDayButton: 'Падрабязна',
 }
