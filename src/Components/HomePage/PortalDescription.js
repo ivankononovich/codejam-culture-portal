@@ -1,20 +1,32 @@
 import React from 'react';
-import { Container, Typography } from '@material-ui/core';
+import { Typography, CardMedia } from '@material-ui/core';
 import ArchitectOfTheDay from './ArchitectOfTheDay';
-// import Footer from './Footer';
+import AboutArchitect from './AboutArchitect';
+import { makeStyles } from "@material-ui/core";
+
+const useStyles = makeStyles(() => ({
+  h2: {
+    marginTop: 25,
+    textAlign: 'center',
+  },
+  img: {
+    height: 'auto',
+    maxHeight: 300,
+    width: 'auto',    
+    maxWidth: "100%",
+    margin: '40px auto',
+  }, 
+}));
+
 
 export default ({portalDescription, architects}) => {
-    const { title, description } = portalDescription;
+  const { title, description, img } = portalDescription;
+  const classes = useStyles();
 
-    return <>
-        <Container maxWidth="lg" style={{marginTop: '1rem'}}>
-            <Typography variant="h3" component="h1" gutterBottom align="center">
-                {title}
-            </Typography>
-            <Typography variant="h5" component="p" gutterBottom align="center">
-                {description}
-            </Typography>
-            <ArchitectOfTheDay portalDescription={portalDescription} architects={architects} />
-        </Container>
-    </>
+  return <>
+    <Typography className={classes.h2} variant="h3" component="h2" gutterBottom align="center">{title}</Typography>
+    <CardMedia className={classes.img} component="img" image={img} alt="Photo" />
+    <AboutArchitect description={description} />
+    <ArchitectOfTheDay portalDescription={portalDescription} architects={architects} />
+  </>
 }

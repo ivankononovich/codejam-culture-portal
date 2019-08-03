@@ -3,9 +3,7 @@ import { Container, Typography, Button, Card, CardActionArea, CardActions, CardC
 import useStyles from './makeStyles';
 
 function Developers(props) {
-
   const classes = useStyles();
-
   return <>
     <Container className={classes.container}>
       {props.developers.map((item, index) => {

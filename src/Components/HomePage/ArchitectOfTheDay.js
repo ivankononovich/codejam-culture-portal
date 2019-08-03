@@ -7,7 +7,7 @@ import GetArchitectOfTheDay from './GetArchitectOfTheDay';
 
 const useStyles = makeStyles(theme => ({
   container: {
-    margin: '0 auto',
+    margin: '70px auto 35px auto',
     maxWidth: '90%',
   },
   header: {
@@ -50,7 +50,7 @@ const ArchitectOfTheDay = props => {
 
 
   return (
-    <section className={classes.container} style={{ marginBottom: 300 }}>
+    <section className={classes.container}>
       <Typography className={classes.header} variant="h4">{architectOfTheDay}</Typography>
 
 

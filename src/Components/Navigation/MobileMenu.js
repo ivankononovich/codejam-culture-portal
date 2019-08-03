@@ -8,7 +8,7 @@ import styles from './GlobalNavStyles';
 const MobileMenu = ({
   handleMainMenu, anchorMenuEl, openMenu, homePageLink,
   architectsNav, developersList, handleClick,
-  handleMainClose, URLPath
+  handleMainClose
 }) =>
   <div>
     <IconButton
@@ -35,17 +35,17 @@ const MobileMenu = ({
       open={openMenu}
       onClose={handleMainClose}
     >
-      <Link style={styles.menuLink} to={`${URLPath}/`}>
+      <Link style={styles.menuLink} to='/'>
         <MenuItem onClick={handleClick}>
           {homePageLink}
         </MenuItem>
       </Link>
-      <Link style={styles.menuLink} to={`${URLPath}/architects`}>
+      <Link style={styles.menuLink} to='/architects'>
         <MenuItem onClick={handleClick}>
           {architectsNav}
         </MenuItem>
       </Link>
-      <Link style={styles.menuLink} to={`${URLPath}/developers`}>
+      <Link style={styles.menuLink} to='/developers'>
         <MenuItem onClick={handleClick}>
           {developersList}
         </MenuItem>

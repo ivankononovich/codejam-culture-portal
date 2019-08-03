@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { AppBar, Toolbar, Button } from '@material-ui/core';
+import { HashRouter as Router, Route, Link } from "react-router-dom";
+import { Container, AppBar, Toolbar, Button } from '@material-ui/core';
 import MediaQuery from 'react-responsive';
+import {Helmet} from "react-helmet";
 
 import styles from './GlobalNavStyles';
 import PortalDescription from '../HomePage/PortalDescription';
@@ -36,7 +37,6 @@ class GlobalNav extends Component {
         activeStore: storeRU,
         anchorEl: null,
         anchorMenuEl: null,
-        URLPath: '/codejam-culture-portal',
     };
 
     findAllName(obj, listCategory) {
@@ -60,12 +60,11 @@ class GlobalNav extends Component {
 
         listLink.forEach((item, index) => {
             const props = data[item.index];
-            props.URLPath = this.state.URLPath;
 
             routers.push(
                 <Route exact
                     key={item.url}
-                    path={`${this.state.URLPath}/${item.url}`}
+                    path={`/${item.url}`}
                     render={() => componentCb(props)}
                 />
             )
@@ -132,11 +131,10 @@ class GlobalNav extends Component {
         const {
             activeStore: {
                 architects, developersList, architectsNav, homePageLink,
-                developers, portalDescription, architectPageLanguage, searchLabel
+                developers, portalDescription, architectPageLanguage, searchLabel, SEO
             },
             anchorEl,
             anchorMenuEl,
-            URLPath,
         } = this.state;
 
         const linksArchitects = this.findAllName(architects, ['url', 'name']);
@@ -151,6 +149,10 @@ class GlobalNav extends Component {
 
         return (
             <>
+              <Helmet>
+                <title>{`${SEO.title} - RSSchool2019Q1`}</title>
+                <meta name="description" content={SEO.description} />
+              </Helmet>
                 <Router>
                     <AppBar position="sticky">
                         <Toolbar style={styles.menuBar}>
@@ -164,24 +166,23 @@ class GlobalNav extends Component {
                                     homePageLink={homePageLink}
                                     architectsNav={architectsNav}
                                     developersList={developersList}
-                                    URLPath={URLPath}
                                 />
                             </MediaQuery>
 
                             <MediaQuery query="(min-device-width: 601px)">
                                 <div style={styles.linkContainer}>
                                     <Button style={styles.linkBox}>
-                                        <Link style={styles.link} to={`${URLPath}/`}>
+                                        <Link style={styles.link} to='/'>
                                             {homePageLink}
                                         </Link>
                                     </Button>
                                     <Button style={styles.linkBox}>
-                                        <Link style={styles.link} to={`${URLPath}/architects`}>
+                                        <Link style={styles.link} to='/architects'>
                                             {architectsNav}
                                         </Link>
                                     </Button>
                                     <Button style={styles.linkBox}>
-                                        <Link style={styles.link} to={`${URLPath}/developers`}>
+                                        <Link style={styles.link} to='/developers'>
                                             {developersList}
                                         </Link>
                                     </Button>
@@ -197,29 +198,32 @@ class GlobalNav extends Component {
                             />
                         </Toolbar>
                     </AppBar>
-
-                    <Route exact
-                        path={`${URLPath}/`}
-                        render={() =>
-                            <PortalDescription
-                                portalDescription={portalDescription}
-                                architects={architects}
-                            />
-                        }
-                    />
-                    <Route exact
-                        path={`${URLPath}/architects`}
-                        render={() => (
-                            <SearchByArchitects
-                                architects={architects}
-                                searchPlaceholder={searchLabel}
-                            />)}
-                    />
-                    <Route exact
-                        path={`${URLPath}/developers`}
-                        render={() => <Developers developers={developers} />}
-                    />
-                    {routers}
+                    <Container style={styles.wrapper} maxWidth="lg">
+                        <Route exact
+                            path={`/`}
+                            render={() =>
+                                <PortalDescription
+                                  portalDescription={portalDescription}
+                                  architects={architects}
+                                />
+                            }
+                        />
+                        <Route exact
+                            path='/architects'
+                            render={() => (
+                                <SearchByArchitects
+                                  architects={architects}
+                                  searchPlaceholder={searchLabel}
+                                />)}
+                        />
+                        <Route exact
+                            path='/developers'
+                            render={() => <Developers
+                              developers={developers} 
+                            />}
+                        />
+                        {routers}
+                    </Container>
                     <Footer
                         devTitle={developersList}
                         developers={developers}
