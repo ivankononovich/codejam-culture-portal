@@ -46,7 +46,7 @@ const architects = [
         width: 2,
         height: 2,
         title: '',
-        text:''
+        text: ''
       },
       {
         num: 3,
@@ -54,7 +54,7 @@ const architects = [
         width: 2,
         height: 2,
         title: '',
-        text:''
+        text: ''
       },
       {
         num: 4,
@@ -62,7 +62,7 @@ const architects = [
         width: 4,
         height: 3,
         title: '',
-        text:''
+        text: ''
       },
     ],
   },
@@ -132,7 +132,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Railway Station Square, Minsk',
-        text:'Gate at Railway Station Square.'
+        text: 'Gate at Railway Station Square.'
       },
       {
         num: 5,
@@ -140,7 +140,7 @@ const architects = [
         width: 4,
         height: 3,
         title: 'Republican Palace of Pioneers and Schoolchildren',
-        text:'Republican Palace of Pioneers and Schoolchildren.'
+        text: 'Republican Palace of Pioneers and Schoolchildren.'
       },
       {
         num: 6,
@@ -148,7 +148,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Theater of the young spectator',
-        text:'Belorussian State Academic Theater of the Young Spectator.'
+        text: 'Belorussian State Academic Theater of the Young Spectator.'
       },
       {
         num: 7,
@@ -156,7 +156,7 @@ const architects = [
         width: 4,
         height: 3,
         title: 'Belorussian Polytechnic Institute.',
-        text:'Belorussian Polytechnic Institute.'
+        text: 'Belorussian Polytechnic Institute.'
       },
       {
         num: 8,
@@ -164,7 +164,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Park at the The National Academic Grand Opera and Ballet Theatre',
-        text:'Park at the The National Academic Grand Opera and Ballet Theatre of the Republic of Belarus'
+        text: 'Park at the The National Academic Grand Opera and Ballet Theatre of the Republic of Belarus'
       },
       {
         num: 9,
@@ -172,7 +172,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Maksim Gorky Central Children\'s Park',
-        text:'Maksim Gorky Central Children\'s Park. Bridge over the embankment of Svisloch river'
+        text: 'Maksim Gorky Central Children\'s Park. Bridge over the embankment of Svisloch river'
       },
     ],
   },
@@ -224,7 +224,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'The building of the national Bank of Belarus',
-        text:'The building of the national Bank of Belarus'
+        text: 'The building of the national Bank of Belarus'
       },
       {
         num: 3,
@@ -232,7 +232,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Bridge over Svisloch',
-        text:'Bridge over Svisloch'
+        text: 'Bridge over Svisloch'
       },
       {
         num: 4,
@@ -240,7 +240,7 @@ const architects = [
         width: 4,
         height: 3,
         title: 'Building with an archway in red square',
-        text:'Building with an archway in red square'
+        text: 'Building with an archway in red square'
       },
     ],
   },
@@ -305,7 +305,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Monument to Janka Kupala',
-        text:'Monument to Janka Kupala'
+        text: 'Monument to Janka Kupala'
       },
       {
         num: 4,
@@ -313,7 +313,7 @@ const architects = [
         width: 4,
         height: 3,
         title: 'Monument to Yakub Kolas',
-        text:'Monument to Yakub Kolas'
+        text: 'Monument to Yakub Kolas'
       },
     ],
   },
@@ -370,7 +370,7 @@ const architects = [
         width: 4,
         height: 2,
         title: 'Minsk State Linguistic University',
-        text:'Minsk State Linguistic University'
+        text: 'Minsk State Linguistic University'
       },
       {
         num: 3,
@@ -378,7 +378,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Hostels of the Belarusian State Economic University',
-        text:'Hostels of the Belarusian State Economic University'
+        text: 'Hostels of the Belarusian State Economic University'
       },
       {
         num: 4,
@@ -386,7 +386,7 @@ const architects = [
         width: 4,
         height: 3,
         title: 'Hotel Orbita, Minsk',
-        text:'Hotel Orbita, Minsk'
+        text: 'Hotel Orbita, Minsk'
       },
     ],
   },
@@ -437,7 +437,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Stanislavovo (manor house)',
-        text:'Stanislavovo (manor house)'
+        text: 'Stanislavovo (manor house)'
       },
       {
         num: 3,
@@ -445,7 +445,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'The Tizengauz square',
-        text:'The Tizengauz square'
+        text: 'The Tizengauz square'
       },
       {
         num: 4,
@@ -453,7 +453,7 @@ const architects = [
         width: 4,
         height: 3,
         title: 'The Palace in Svyatsk',
-        text:'The Palace in Svyatsk'
+        text: 'The Palace in Svyatsk'
       },
       {
         num: 5,        
@@ -461,7 +461,7 @@ const architects = [
         width: 4,
         height: 3,
         title: 'The Tizengauz theater',
-        text:'The Tizengauz theater'
+        text: 'The Tizengauz theater'
       },
     ],
   },
@@ -473,42 +473,42 @@ const developers = [
     name: 'Ivan Kononovich',
     github: 'https://github.com/ivankononovich',
     image: 'https://avatars0.githubusercontent.com/u/41195901?s=400&v=4',
-    contribution:'in progress...',
+    contribution: 'Created the basic structure of the project. Implemented the transition between pages using react router. Implemented a website translation into three languages ​​(the whole team wrote the text).',
   },
   {
     id: 'D2',
     name: 'Evgeni Matveyonok',
     github: 'https://github.com/ins21',
     image: 'https://ins21.github.io/rsschool-2019Q1-cv/assets/images/1.png',
-    contribution:'Created the Architect page component and its layout using Material UI. Added the TimeLine component and the Map component. Translated the pages of two architects into Belarusian and English.',
+    contribution: 'Created the Architect page component and its layout using Material UI. Added the TimeLine component and the Map component. Translated the pages of two architects into Belarusian and English.',
   },
   {
     id: 'D3',
     name: 'Katerina Zhadko',
     github: 'https://github.com/cathzetjo',
     image: 'https://avatars3.githubusercontent.com/u/44948376?s=460&v=4',
-    contribution:'in progress...',
+    contribution: 'in progress...',
   },
   {
     id: 'D4',
     name: 'Arthur Rubchenko',
     github: 'https://github.com/Arthur199212',
     image: 'https://avatars0.githubusercontent.com/u/46008463?s=460&v=4',
-    contribution:'He has created the menu bar and the architect of the day components. The architect of the day is selected by birth date. The menu is responsive and was implemented using the Material-UI.',
+    contribution: 'He has created the menu bar and the architect of the day components. The architect of the day is selected by birth date. The menu is responsive and was implemented using the Material-UI.',
   },
   {
     id: 'D5',
     name: 'Dmitriy Porhomenko',
     github: 'https://github.com/DmitriyParhomenko',
     image: 'https://avatars0.githubusercontent.com/u/37816988?s=460&v=4',
-    contribution:' Created two components which use Material UI: table of projects on the website of the architect and the modal window displaying a YouTube video. Both components are adaptive. For a table, a horizontal scroll appears in the adaptive. Has worked style the entire site.',
+    contribution: ' Created two components which use Material UI: table of projects on the website of the architect and the modal window displaying a YouTube video. Both components are adaptive. For a table, a horizontal scroll appears in the adaptive. Has worked style the entire site.',
   },
   {
     id: 'D6',
     name: 'Pavel Khomich',
     github: 'https://github.com/pashax0',
     image: 'https://avatars3.githubusercontent.com/u/17899361?s=460&v=4',
-    contribution:'in progress...',
+    contribution: 'in progress...',
   }
 ];
 
@@ -527,8 +527,8 @@ const architectPageLanguage = {
     columnOne: 'Projects',
     columnTwo: 'Creation date'
   },
-  video:'Video',
-  videoButton:'View',
+  video: 'Video',
+  videoButton: 'View',
   map: 'Place of major activity',
   gallery: 'Photo Gallery',
 };

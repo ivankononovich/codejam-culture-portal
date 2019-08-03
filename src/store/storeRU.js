@@ -46,7 +46,7 @@ const architects = [
         width: 2,
         height: 2,
         title: '',
-        text:''
+        text: ''
       },
       {
         num: 3,
@@ -54,7 +54,7 @@ const architects = [
         width: 2,
         height: 2,
         title: '',
-        text:''
+        text: ''
       },
       {
         num: 4,
@@ -62,7 +62,7 @@ const architects = [
         width: 4,
         height: 3,
         title: '',
-        text:''
+        text: ''
       },
     ],
   },
@@ -132,7 +132,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Привокзальная площадь г.Минска',
-        text:'Ворота Минска на Привокзальной площади.'
+        text: 'Ворота Минска на Привокзальной площади.'
       },
       {
         num: 5,
@@ -140,7 +140,7 @@ const architects = [
         width: 4,
         height: 3,
         title: 'Республиканский Дворец пионеров и школьников',
-        text:'Республиканский Дворец пионеров и школьников.'
+        text: 'Республиканский Дворец пионеров и школьников.'
       },
       {
         num: 6,
@@ -148,7 +148,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Театр юного зрителя',
-        text:'Белорусский государственный академический театр юного зрителя.'
+        text: 'Белорусский государственный академический театр юного зрителя.'
       },
       {
         num: 7,
@@ -156,7 +156,7 @@ const architects = [
         width: 4,
         height: 3,
         title: 'Главный корпус БНТУ',
-        text:'Главный корпус Белорусского национального технического университета.'
+        text: 'Главный корпус Белорусского национального технического университета.'
       },
       {
         num: 8,
@@ -164,7 +164,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Троицкая гора',
-        text:'Сквер вокруг Национального акадэмического Большого театра оперы и балета Республики Беларусь.'
+        text: 'Сквер вокруг Национального акадэмического Большого театра оперы и балета Республики Беларусь.'
       },
       {
         num: 9,
@@ -172,7 +172,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Парк им. М.Горького',
-        text:'Центральный детский парк имени Максима Горького. Пешеходный мост через набережную р. Свислочь'
+        text: 'Центральный детский парк имени Максима Горького. Пешеходный мост через набережную р. Свислочь'
       },
     ],
   },
@@ -224,7 +224,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Здание Нацбанка РБ',
-        text:'Здание Нацбанка РБ'
+        text: 'Здание Нацбанка РБ'
       },
       {
         num: 3,
@@ -232,7 +232,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Мост через Свислочь',
-        text:'Мост через Свислочь'
+        text: 'Мост через Свислочь'
       },
       {
         num: 4,
@@ -240,7 +240,7 @@ const architects = [
         width: 4,
         height: 3,
         title: 'Дом с аркой на Красной площади',
-        text:'Дом с аркой на Красной площади'
+        text: 'Дом с аркой на Красной площади'
       },
     ],
   },
@@ -298,7 +298,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Мемориал жертвам гитлеровского геноцида «Яма»',
-        text:'Мемориал жертвам гитлеровского геноцида «Яма»'
+        text: 'Мемориал жертвам гитлеровского геноцида «Яма»'
       },
       {
         num: 3,
@@ -306,7 +306,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Памятник Янке Купале',
-        text:'Памятник Янке Купале'
+        text: 'Памятник Янке Купале'
       },
       {
         num: 4,
@@ -314,7 +314,7 @@ const architects = [
         width: 4,
         height: 3,
         title: 'Памятник Якубу Коласу',
-        text:'Памятник Якубу Коласу'
+        text: 'Памятник Якубу Коласу'
       },
     ],
   },
@@ -371,7 +371,7 @@ const architects = [
         width: 4,
         height: 2,
         title: 'Минский государственный лингвистический университет',
-        text:'Минский государственный лингвистический университет'
+        text: 'Минский государственный лингвистический университет'
       },
       {
         num: 3,
@@ -379,7 +379,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Общежития Белорусского государственного экономического университета',
-        text:'Общежития Белорусского государственного экономического университета'
+        text: 'Общежития Белорусского государственного экономического университета'
       },
       {
         num: 4,
@@ -387,7 +387,7 @@ const architects = [
         width: 4,
         height: 3,
         title: 'Гостиница Орбита, Минск',
-        text:'Гостиница Орбита, Минск'
+        text: 'Гостиница Орбита, Минск'
       },
     ],
   },
@@ -438,7 +438,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Станиславово (усадьба)',
-        text:'Станиславово (усадьба)'
+        text: 'Станиславово (усадьба)'
       },
       {
         num: 3,
@@ -446,7 +446,7 @@ const architects = [
         width: 2,
         height: 2,
         title: 'Ансамбль площади Тизенгауза',
-        text:'Ансамбль площади Тизенгауза'
+        text: 'Ансамбль площади Тизенгауза'
       },
       {
         num: 4,
@@ -454,7 +454,7 @@ const architects = [
         width: 4,
         height: 3,
         title: 'Святский дворец',
-        text:'Святский дворец'
+        text: 'Святский дворец'
       },
       {
         num: 5,        
@@ -462,7 +462,7 @@ const architects = [
         width: 4,
         height: 3,
         title: 'Театр Тизенгауза',
-        text:'Театр Тизенгауза'
+        text: 'Театр Тизенгауза'
       },
     ],
   },
@@ -474,42 +474,42 @@ const developers = [
     name: 'Иван Кононович',
     github: 'https://github.com/ivankononovich',
     image: 'https://avatars0.githubusercontent.com/u/41195901?s=400&v=4',
-    contribution:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin libero nunc consequat interdum. Accumsan lacus vel facilisis volutpat est velit.',
+    contribution: 'Создал базовую структуру проекта. Реализовал переход между страницами с помощью react router. Реализовал перевод сайта на три языка (текст писала вся команда).',
   },
   {
     id: 'D2',
     name: 'Евгений Матвеёнок',
     github: 'https://github.com/ins21',
     image: 'https://ins21.github.io/rsschool-2019Q1-cv/assets/images/1.png',
-    contribution:'Создал компонент со страницей архитектора, используя Material UI. Добавил компонент TimeLine и компонент Map. Перевел страницы двух архитекторов на белорусский и английский.',
+    contribution: 'Создал компонент со страницей архитектора, используя Material UI. Добавил компонент TimeLine и компонент Map. Перевел страницы двух архитекторов на белорусский и английский.',
   },
   {
     id: 'D3',
     name: 'Катерина Жадько',
     github: 'https://github.com/cathzetjo',
     image: 'https://avatars3.githubusercontent.com/u/44948376?s=460&v=4',
-    contribution:'Eget nunc scelerisque viverra mauris in. Est ante in nibh mauris cursus mattis molestie. Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Bibendum at varius vel pharetra vel turpis nunc eget.',
+    contribution: 'Eget nunc scelerisque viverra mauris in. Est ante in nibh mauris cursus mattis molestie. Nibh tortor id aliquet lectus proin nibh nisl condimentum id. Bibendum at varius vel pharetra vel turpis nunc eget.',
   },
   {
     id: 'D4',
     name: 'Артур Рубченко',
     github: 'https://github.com/Arthur199212',
     image: 'https://avatars0.githubusercontent.com/u/46008463?s=460&v=4',
-    contribution:'Создал два компонента: меню сайта и архитектор дня. Архитектор дня выбираеться по дате рождения, поэтому этот блок будет постоянно изменяться на того, у кого день рождения уже наступил и у кого эта дата ближайшая к текущей дате. Меню сделано адаптивным и было реалиованно при помощи Material-UI.',
+    contribution: 'Создал два компонента: меню сайта и архитектор дня. Архитектор дня выбираеться по дате рождения, поэтому этот блок будет постоянно изменяться на того, у кого день рождения уже наступил и у кого эта дата ближайшая к текущей дате. Меню сделано адаптивным и было реалиованно при помощи Material-UI.',
   },
   {
     id: 'D5',
     name: 'Дмитрий Пархоменко',
     github: 'https://github.com/DmitriyParhomenko',
     image: 'https://avatars0.githubusercontent.com/u/37816988?s=460&v=4',
-    contribution:'Создал два компонента в которых используется Material UI: таблица проектов на странице архитектора и модальное окно показа видео с YouTube. Оба компонента адаптивны. Для таблицы в адаптиве появляется горизонтальный скролл. Провел работу по стилистики всего сайта.',
+    contribution: 'Создал два компонента в которых используется Material UI: таблица проектов на странице архитектора и модальное окно показа видео с YouTube. Оба компонента адаптивны. Для таблицы в адаптиве появляется горизонтальный скролл. Провел работу по стилистики всего сайта.',
   },
   {
     id: 'D6',
     name: 'Павел Хомич',
     github: 'https://github.com/pashax0',
     image: 'https://avatars3.githubusercontent.com/u/17899361?s=460&v=4',
-    contribution:'Sed adipiscing diam donec adipiscing. Magnis dis parturient montes nascetur ridiculus. Neque viverra justo nec ultrices dui sapien eget. Faucibus pulvinar elementum integer enim neque. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. ',
+    contribution: 'Sed adipiscing diam donec adipiscing. Magnis dis parturient montes nascetur ridiculus. Neque viverra justo nec ultrices dui sapien eget. Faucibus pulvinar elementum integer enim neque. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. ',
   }
 ];
 
