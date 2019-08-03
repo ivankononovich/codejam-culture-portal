@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import { Container, AppBar, Toolbar, Button } from '@material-ui/core';
 import MediaQuery from 'react-responsive';
+import ScrollToTop from 'react-router-scroll-top'
 import {Helmet} from "react-helmet";
 
 import styles from './GlobalNavStyles';
@@ -131,7 +132,8 @@ class GlobalNav extends Component {
         const {
             activeStore: {
                 architects, developersList, architectsNav, homePageLink,
-                developers, portalDescription, architectPageLanguage, searchLabel, SEO
+                developers, portalDescription, architectPageLanguage, searchLabel, 
+                SEO, architectOfTheDayButton,
             },
             anchorEl,
             anchorMenuEl,
@@ -205,6 +207,7 @@ class GlobalNav extends Component {
                                 <PortalDescription
                                   portalDescription={portalDescription}
                                   architects={architects}
+                                  architectOfTheDayButton={architectOfTheDayButton}
                                 />
                             }
                         />
@@ -222,7 +225,9 @@ class GlobalNav extends Component {
                               developers={developers} 
                             />}
                         />
-                        {routers}
+                        <ScrollToTop>
+                          {routers}
+                        </ScrollToTop>
                     </Container>
                     <Footer
                         devTitle={developersList}

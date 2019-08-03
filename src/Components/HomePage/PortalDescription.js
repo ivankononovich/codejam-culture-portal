@@ -19,7 +19,7 @@ const useStyles = makeStyles(() => ({
 }));
 
 
-export default ({portalDescription, architects}) => {
+export default ({portalDescription, architects, architectOfTheDayButton}) => {
   const { title, description, img } = portalDescription;
   const classes = useStyles();
 
@@ -27,6 +27,10 @@ export default ({portalDescription, architects}) => {
     <Typography className={classes.h2} variant="h3" component="h2" gutterBottom align="center">{title}</Typography>
     <CardMedia className={classes.img} component="img" image={img} alt="Photo" />
     <AboutArchitect description={description} />
-    <ArchitectOfTheDay portalDescription={portalDescription} architects={architects} />
+    <ArchitectOfTheDay 
+      portalDescription={portalDescription} 
+      architects={architects} 
+      architectOfTheDayButton={architectOfTheDayButton} 
+    />
   </>
 }
