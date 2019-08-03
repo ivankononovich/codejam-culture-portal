@@ -13,6 +13,10 @@ const useStyles = makeStyles(theme => ({
     width: 280,
     margin: '30px 10px',
     borderRadius: 25,
+    alignContent: 'space-between',
+    '&:hover': {
+      boxShadow: theme.shadows[5],
+    },
   },
   img: {
     height: 250,

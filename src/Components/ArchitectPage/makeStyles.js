@@ -17,27 +17,27 @@ const useStyles = makeStyles(() => ({
     margin: 10,
   },
   bio: {
-    color: '#3ac14c',
+    color: '#000',
   },
   years: {
     marginBottom: 15,
   },
   map: {
     marginBottom: 50,
-    color: '#3ac14c',
+    color: '#000',
   },
   description: {
     marginBottom: 30,
   },
   gallery: {
     margin: 50,
-    color: '#3ac14c',
+    color: '#000',
   },
   projects: {
-    color: '#3ac14c',
+    color: '#000',
   },
   video: {
-    color: '#3ac14c',
+    color: '#000',
     marginBottom: 30,
   },
 }));

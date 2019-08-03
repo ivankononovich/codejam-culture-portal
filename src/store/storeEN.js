@@ -501,7 +501,7 @@ const developers = [
     "name": "Dmitriy Porhomenko",
     "github": "https://github.com/DmitriyParhomenko",
     "image": "https://avatars0.githubusercontent.com/u/37816988?s=460&v=4",
-    "contribution":"in progress...",
+    "contribution":" Created two components which use Material UI: table of projects on the website of the architect and the modal window displaying a YouTube video. Both components are adaptive. For a table, a horizontal scroll appears in the adaptive. Has worked style the entire site.",
   },
   {
     "id": "D6",

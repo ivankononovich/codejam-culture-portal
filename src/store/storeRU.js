@@ -502,7 +502,7 @@ const developers = [
     "name": "Дмитрий Пархоменко",
     "github": "https://github.com/DmitriyParhomenko",
     "image": "https://avatars0.githubusercontent.com/u/37816988?s=460&v=4",
-    "contribution":"Quis risus sed vulputate odio. Cras tincidunt lobortis feugiat vivamus at augue. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. In massa tempor nec feugiat nisl pretium. Turpis massa tincidunt dui ut ornare lectus. ",
+    "contribution":"Создал два компонента в которых используется Material UI: таблица проектов на странице архитектора и модальное окно показа видео с YouTube. Оба компонента адаптивны. Для таблицы в адаптиве появляется горизонтальный скролл. Провел работу по стилистики всего сайта.",
   },
   {
     "id": "D6",
