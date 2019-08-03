@@ -286,35 +286,35 @@ const architects = [
     "photos": [
       {
         num: 1,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/0/01/Khatyn_Memorial%2C_Belarus.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text: ''
+        title: 'Мемориальный комплекс Хатынь',
+        text: 'Мемориальный комплекс Хатынь'
       },
       {
         num: 2,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Belarus-Minsk-Memorial_Pit-2.jpg",
         width: 2,
         height: 2,
-        title: '',
-        text:''
+        title: 'Мемориал жертвам гитлеровского геноцида «Яма»',
+        text:'Мемориал жертвам гитлеровского геноцида «Яма»'
       },
       {
         num: 3,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/ru/f/ff/Yanka-kupala-minsk.jpg",
         width: 2,
         height: 2,
-        title: '',
-        text:''
+        title: 'Памятник Янке Купале',
+        text:'Памятник Янке Купале'
       },
       {
         num: 4,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Minsk_Thinker_-_panoramio.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text:''
+        title: 'Памятник Якубу Коласу',
+        text:'Памятник Якубу Коласу'
       },
     ],
   },
@@ -481,7 +481,7 @@ const developers = [
     "name": "Евгений Матвеёнок",
     "github": "https://github.com/ins21",
     "image": "https://ins21.github.io/rsschool-2019Q1-cv/assets/images/1.png",
-    "contribution":"Vel facilisis volutpat est velit egestas dui id ornare. Scelerisque eu ultrices vitae auctor eu. Massa eget egestas purus viverra accumsan in nisl nisi. Id diam vel quam elementum pulvinar etiam.",
+    "contribution":"Создал компонент со страницей архитектора, используя Material UI. Добавил компонент TimeLine и компонент Map. Перевел страницы двух архитекторов на белорусский и английский.",
   },
   {
     "id": "D3",
@@ -548,4 +548,5 @@ export default {
   developersList: "Разработчики",
   homePageLink: "Главная",
   searchLabel: "Имя или место",
+  architectOfTheDayButton: "Подробнее",
 }

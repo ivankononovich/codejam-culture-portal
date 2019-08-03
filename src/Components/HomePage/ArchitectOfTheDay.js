@@ -1,7 +1,8 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
+import { Link } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
-import { Card, CardContent, CardMedia, Typography } from '@material-ui/core';
+import { Card, CardContent, CardMedia, Typography, CardActions, Button } from '@material-ui/core';
 
 import GetArchitectOfTheDay from './GetArchitectOfTheDay';
 
@@ -39,14 +40,29 @@ const useStyles = makeStyles(theme => ({
   architectImage: {
     maxWidth: 800,
     maxHeight: 300
-  }
+  },
+  link: {
+    cursor: 'pointer',
+    color: '#3F51B5',
+    textDecoration: 'none',
+  },
+  cardActionsMobile: {
+    display: 'flex',
+    justifyContent: 'center',
+    marginBottom: 15,
+  },
+  cardActions: {
+    display: 'flex',
+    justifyContent: 'center',
+    margin: '10px 0',
+  },
 }));
 
 const ArchitectOfTheDay = props => {
-  const { portalDescription: { architectOfTheDay }, architects } = props;
+  const { portalDescription: { architectOfTheDay }, architectOfTheDayButton, architects } = props;
   const classes = useStyles();
   const architect = GetArchitectOfTheDay(architects);
-  const { name, born, deceased, description, image } = architect;
+  const { url, name, born, deceased, description, image } = architect;
 
 
   return (
@@ -54,7 +70,7 @@ const ArchitectOfTheDay = props => {
       <Typography className={classes.header} variant="h4">{architectOfTheDay}</Typography>
 
 
-      <MediaQuery query="(max-device-width: 460px)">
+      <MediaQuery query="(max-device-width: 569px)">
         <Card>
           <CardMedia
             className={classes.architectImage}
@@ -63,7 +79,7 @@ const ArchitectOfTheDay = props => {
             src={image}
             title={name}
           />
-          
+
           <CardContent>
             <Typography component="h5" variant="h5">
               {name}
@@ -75,19 +91,43 @@ const ArchitectOfTheDay = props => {
               {description}
             </Typography>
           </CardContent>
+
+          <CardActions className={classes.cardActionsMobile}>
+            <Link
+              className={classes.link}
+              to={`/${url}`}
+            >
+              <Button variant="outlined" size="medium" color="primary">
+                {architectOfTheDayButton}
+              </Button>
+            </Link>
+          </CardActions>
         </Card>
       </MediaQuery>
 
 
-      <MediaQuery query="(min-device-width: 461px)">
+      <MediaQuery query="(min-device-width: 570px)">
         <Card className={classes.card}>
-          <CardMedia
-            className={classes.architectImage}
-            component="img"
-            alt={name}
-            src={image}
-            title={name}
-          />
+          <div style={{ minWidth: 240 }}>
+            <CardMedia
+              className={classes.architectImage}
+              component="img"
+              alt={name}
+              src={image}
+              title={name}
+            />
+
+            <CardActions className={classes.cardActions}>
+              <Link
+                className={classes.link}
+                to={`/${url}`}
+              >
+                <Button variant="outlined" size="medium" color="primary">
+                  {architectOfTheDayButton}
+                </Button>
+              </Link>
+            </CardActions>
+          </div>
 
           <div className={classes.details}>
             <CardContent className={classes.content}>

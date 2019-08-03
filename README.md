@@ -46,8 +46,42 @@ Basic (40) + Normal (130) + Extra (20) - Fines (0) = **190**
 
 | Time spent | Feature |
 |-------------|-------------|
-| 3h | Preparation for work. Gathering info about Architect. |
-| 3h | Add Architect Of The Day component. |
+| 3h | Preparation for work. Gathering info about Architect |
+| 3h | Add Architect Of The Day component |
 | 3h | Add MenuBar with help of Material UI |
 | 4h | Add mobile version to MenuBar and Architect Of The Day |
 | 2h | Refactor of MenuBar and Architect Of The Day |
+| 4h | Add button and responsive to Architect Of The Day |
+
+**Ivan Kononovich**
+
+| Time spent | Feature |
+|-------------|-------------|
+| 3h | Add base project structure |
+| 2h | Add navigation width router-react  |
+| 1h | Add search widget by architect |
+| 2h | Add go to the site developers page |
+| 4h | Add component for translating a site into languages ENG BY RU |
+| 1h | Refactor navigation width router-react |
+
+**Evgeni Matveyonok**
+
+| Time spent | Feature |
+|-------------|-------------|
+| 5h | Create Architect page component using Material UI |
+| 3h | Implement TimeLine component |
+| 4h | Implement Map component |
+| 1h | Gather and add info about architect |
+| 2h | Translate the pages of two architects on BY/EN  |
+
+**Dmitriy Parhomenko**
+
+| Time spent | Feature |
+|-------------|-------------|
+| 1h | Acquaintance with the team. Discussion of the project structure and applied technologies. |
+| 1.5h | Searching info about Architect Parusnikov M.P |
+| 3.5h | Create a component "List of works" of the architect with the date of creation, render components must be called from Architect.js |
+| 5h | Created the modal window component |
+| 2h | Adaptiv modal and addition of the information architect  |
+| 3h | Styling of a website  |
+

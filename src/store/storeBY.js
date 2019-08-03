@@ -296,35 +296,35 @@ const architects = [
     "photos": [
       {
         num: 1,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/0/01/Khatyn_Memorial%2C_Belarus.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text: ''
+        title: 'Мемарыяльны комплекс Хатынь',
+        text: 'Мемарыяльны комплекс Хатынь'
       },
       {
         num: 2,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Belarus-Minsk-Memorial_Pit-2.jpg",
         width: 2,
         height: 2,
-        title: '',
-        text:''
+        title: 'Мемарыял ахвярам гітлераўскага генацыду «Яма»',
+        text:'Мемарыял ахвярам гітлераўскага генацыду «Яма»'
       },
       {
         num: 3,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/ru/f/ff/Yanka-kupala-minsk.jpg",
         width: 2,
         height: 2,
-        title: '',
-        text:''
+        title: 'Помнік Янку Купалу',
+        text:'Помнік Янку Купалу'
       },
       {
         num: 4,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Minsk_Thinker_-_panoramio.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text:''
+        title: 'Помнік Якубу Коласу',
+        text:'Помнік Якубу Коласу'
       },
     ],
   },
@@ -492,7 +492,7 @@ const developers = [
     "name": "Яўген Матвеёнак",
     "github": "https://github.com/ins21",
     "image": "https://ins21.github.io/rsschool-2019Q1-cv/assets/images/1.png",
-    "contribution": "in progress...",
+    "contribution": "Стварыў кампанент са старонкай архітэктара, выкарыстоўваючы Material UI. Дадаў кампанент TimeLine і кампанент Map. Пераклаў старонкі двух архітэктараў на беларускую і ангельскую мову.",
   },
   {
     "id": "D3",
@@ -559,4 +559,5 @@ export default {
   developersList: "Распрацоўнікi",
   homePageLink: "Галоўная",
   searchLabel: "Iмя цi месца",
+  architectOfTheDayButton: "Падрабязна",
 }
