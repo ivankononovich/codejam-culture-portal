@@ -26,8 +26,8 @@ const useStyles = makeStyles(theme => ({
     transition: '0.8s',
     outline: 'none',
     '&:hover': {
-      color: '#3ac14c',
-      border: '1px solid #3ac14c',
+      color: '#3F51B5',
+      border: '1px solid #3F51B5',
       boxShadow: theme.shadows[5],
     },
   },
