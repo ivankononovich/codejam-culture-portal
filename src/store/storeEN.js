@@ -24,8 +24,8 @@ const architects = [
       {date: '1962', text: 'According to the designs of the architect, the Pioneer cinema and the Museum of the Great Patriotic War were built.'},
       {date: '1969', text: 'The memorial complex \'Zislov\' was opened.'},
     ],
-    video: { 
-      id: 'lxMfVdAml1A' 
+    video: {
+      id: 'lxMfVdAml1A'
     },
     mapData: {
       center: [53.906840, 27.571457],
@@ -94,8 +94,8 @@ const architects = [
       {date: '1968', text: 'Designed the republican palace of the young technicians.'},
       {date: '1970-1980', text: 'She did the architectural planning work of the Minsk water cascade - the Drozdy and Krynytsya reservoirs.'},
     ],
-    video: { 
-      id: 'lxMfVdAml1A' 
+    video: {
+      id: 'FCQd9J67N0o'
     },
     mapData: {
       center: [53.906840, 27.571457],
@@ -202,8 +202,8 @@ const architects = [
       {date: '1950', text: 'The state Bank of the USSR'},
       {date: '1946—1954', text: 'Houses and bridge over the river Svisloch, Sports complex \'Dynamo\''},
     ],
-    video: { 
-      id: 'mrfadR51D0I' 
+    video: {
+      id: 'mrfadR51D0I'
     },
     mapData: {
       center: [53.898869, 27.554819],
@@ -275,8 +275,8 @@ const architects = [
       {date: '1990', text: 'Authorship of Minsk metro station «Nemiga»'},
       {date: '2004', text: 'Memorial complex to the murdered Jews in Gorodeya'},
     ],
-    video: { 
-      id: 'lxMfVdAml1A' 
+    video: {
+      id: 'lxMfVdAml1A'
     },
     mapData: {
       center: [53.906840, 27.571457],
@@ -348,8 +348,8 @@ const architects = [
       {date: '1980', text: 'The complex of buildings of the hotel \'Orbita\' on Pushkin Avenue'},
       {date: '1990', text: 'Metro station \'Pushkinskaya\''},
     ],
-    video: { 
-      id: 'jL_MPmr0U-U' 
+    video: {
+      id: 'jL_MPmr0U-U'
     },
     mapData: {
       center: [53.937772, 27.669495],
@@ -406,7 +406,7 @@ const architects = [
       {date: '1768', text: 'Was invited to Warsaw, where he studied the Castrum Doloris of Queen Marie Leszczyńska and the rebuilding project of the St.Jan church.'},
       {date: '1771', text: 'Became an architect of the Skarbovaya commission of The Grand Duchy of Lithuania. Was recommended to the Grodno headman Anthony Tizengauz and was hired as a royal architect, with a fixed salary of 600 zlotys. In The Polish–Lithuanian Commonwealth de Sacco receives a number of military titles of The Grand Duchy of Lithuania.'},
       {date: '1771 - 1780', text: 'Completed a number of orders from local magnates, having designed several well-known palace and park ensembles and city residences, in particular: the Volovichi magnates Palace in Svyatsk, the Khreptovichi Palace in Shchorsy, the Tizengauz Palaces in Postavy and Vilnius (presumably).'}
-    ],    
+    ],
     project: [
       {date: 'XVIII century', text: 'The Palace in Tsyonzheni'},
       {date: 'XVIII century', text: 'The Khreptovichi Palace in Shchorsy'},
@@ -415,8 +415,8 @@ const architects = [
       {date: 'XVIII century', text: 'The Tizengauz Palace'},
       {date: 'XVIII century', text: 'The Palace in Mosar'},
     ],
-    video: { 
-      id: 'TkaLjjNj8Ls' 
+    video: {
+      id: 'TkaLjjNj8Ls'
     },
     mapData: {
       center: [53.684727, 23.834317],
@@ -456,7 +456,7 @@ const architects = [
         text: 'The Palace in Svyatsk'
       },
       {
-        num: 5,        
+        num: 5,
         src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG/1280px-%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG',
         width: 4,
         height: 3,
@@ -516,11 +516,11 @@ const portalDescription = {
   title: 'Architects of Belarus',
   description: '<p>The various styles of Belarusian churches, castles, palaces and fortresses reflect the influence of both Eastern and Western culture. Despite the complex history of wars and destruction, many architectural values ​​of Belarus have been preserved.</ p><p> Different trends in art and religion have influenced the formation of the architecture of Belarus. In the country you can find examples of Romanesque and Gothic, Baroque and Classicism, modern and eclectic. There are many examples of modern architecture.</p><p>The architect is a qualified specialist who carries out architectural design (organization of the architectural environment), including the design of buildings, including planning and interior solutions. Get closer to the Belarusian architects and their work on our portal!</p>',
   architectOfTheDay: 'Architect Of The Day',
-  img: 'https://vedaj.by/images/mainimg.png',
+  img: 'https://i.ibb.co/TgCCcg8/total.png',
 };
 
 const architectPageLanguage = {
-  years: 'Years of life', 
+  years: 'Years of life',
   bio: 'Biography',
   projects: 'Projects',
   projectHeader: {
@@ -546,6 +546,6 @@ export default {
   architectsNav: 'Architects',
   developersList: 'Developers',
   homePageLink: 'Home',
-  searchLabel: 'Name or place',
+  searchLabel: 'Name or place of birth',
   architectOfTheDayButton: 'Learn more',
 }

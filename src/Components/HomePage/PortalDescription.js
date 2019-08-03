@@ -11,11 +11,11 @@ const useStyles = makeStyles(() => ({
   },
   img: {
     height: 'auto',
-    maxHeight: 300,
-    width: 'auto',    
+    maxHeight: 400,
+    width: 'auto',
     maxWidth: "100%",
     margin: '40px auto',
-  }, 
+  },
 }));
 
 
@@ -27,10 +27,10 @@ export default ({portalDescription, architects, architectOfTheDayButton}) => {
     <Typography className={classes.h2} variant="h3" component="h2" gutterBottom align="center">{title}</Typography>
     <CardMedia className={classes.img} component="img" image={img} alt="Photo" />
     <AboutArchitect description={description} />
-    <ArchitectOfTheDay 
-      portalDescription={portalDescription} 
-      architects={architects} 
-      architectOfTheDayButton={architectOfTheDayButton} 
+    <ArchitectOfTheDay
+      portalDescription={portalDescription}
+      architects={architects}
+      architectOfTheDayButton={architectOfTheDayButton}
     />
   </>
 }
