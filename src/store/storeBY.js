@@ -495,10 +495,10 @@ const developers = [
   },
   {
     "id": "D4",
-    "name": "Артур Рубченко",
+    "name": "Артур Рубчанка",
     "github": "https://github.com/Arthur199212",
     "image": "https://avatars0.githubusercontent.com/u/46008463?s=460&v=4",
-    "contribution": "in progress...",
+    "contribution": "Стварыў два кампаненты: меню сайта і архітэктар дня. Архітэктар дня выбiраецца па даце нараджэння. Меню зроблена адаптыўным і пры дапамозе Material-UI.",
   },
   {
     "id": "D5",

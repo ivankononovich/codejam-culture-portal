@@ -486,7 +486,7 @@ const developers = [
     "name": "Arthur Rubchenko",
     "github": "https://github.com/Arthur199212",
     "image": "https://avatars0.githubusercontent.com/u/46008463?s=460&v=4",
-    "contribution":"in progress...",
+    "contribution":"He has created the menu bar and the architect of the day components. The architect of the day is selected by birth date. The menu is responsive and was implemented using the Material-UI.",
   },
   {
     "id": "D5",

@@ -487,7 +487,7 @@ const developers = [
     "name": "Артур Рубченко",
     "github": "https://github.com/Arthur199212",
     "image": "https://avatars0.githubusercontent.com/u/46008463?s=460&v=4",
-    "contribution":"Fringilla urna porttitor rhoncus dolor purus non enim praesent elementum. Cum sociis natoque penatibus et magnis dis parturient montes. Nec nam aliquam sem et tortor consequat id. Sit amet luctus venenatis lectus magna fringilla urna porttitor. ",
+    "contribution":"Создал два компонента: меню сайта и архитектор дня. Архитектор дня выбираеться по дате рождения, поэтому этот блок будет постоянно изменяться на того, у кого день рождения уже наступил и у кого эта дата ближайшая к текущей дате. Меню сделано адаптивным и было реалиованно при помощи Material-UI.",
   },
   {
     "id": "D5",
