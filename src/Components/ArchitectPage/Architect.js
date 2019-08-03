@@ -1,5 +1,7 @@
 import React from 'react';
+import MediaQuery from 'react-responsive';
 import { Container, Typography, CardMedia } from '@material-ui/core'
+
 import TimeLine from './TimeLine'
 import ActivityMap from './ActivityMap'
 import Projects from './Projects'
@@ -13,7 +15,12 @@ function Architect(props) {
     return (
       <>
         <Container className={classes.container} maxWidth="md" justify="center">
-            <CardMedia className={classes.img} component="img" image={props.image} title={props.name} alt="Photo" />
+            <MediaQuery query="(max-device-width: 500px)">
+              <CardMedia className={classes.img} style={{maxWidth: 250}} component="img" image={props.image} title={props.name} alt="Photo" />
+            </MediaQuery>
+            <MediaQuery query="(min-device-width: 501px)">
+              <CardMedia className={classes.img} component="img" image={props.image} title={props.name} alt="Photo" />
+            </MediaQuery>
             <Typography className={classes.name} variant="h4" component="h2">{props.name}</Typography>
             <Typography className={classes.years} variant="h6">{props.lang.years}: {props.born} - {props.deceased}</Typography>
             <Typography className={classes.description} paragraph={true}>{props.description}</Typography>
