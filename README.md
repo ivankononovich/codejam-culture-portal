@@ -74,3 +74,14 @@ Basic (40) + Normal (130) + Extra (20) - Fines (0) = **190**
 | 1h | Gather and add info about architect |
 | 2h | Translate the pages of two architects on BY/EN  |
 
+**Dmitriy Parhomenko**
+
+| Time spent | Feature |
+|-------------|-------------|
+| 1h | Acquaintance with the team. Discussion of the project structure and applied technologies. |
+| 1.5h | Searching info about Architect Parusnikov M.P |
+| 3.5h | Create a component "List of works" of the architect with the date of creation, render components must be called from Architect.js |
+| 5h | Created the modal window component |
+| 2h | Adaptiv modal and addition of the information architect  |
+| 3h | Styling of a website  |
+

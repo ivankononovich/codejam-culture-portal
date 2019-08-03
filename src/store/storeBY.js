@@ -513,7 +513,7 @@ const developers = [
     "name": "Дзмітрый Пархоменка",
     "github": "https://github.com/DmitriyParhomenko",
     "image": "https://avatars0.githubusercontent.com/u/37816988?s=460&v=4",
-    "contribution": "in progress...",
+    "contribution": "Стварыў два кампаненты у якіх выкарыстоўваецца Material UI: табліца праектаў на старонцы архітэктара і мадальнай акно паказу Відэа з YouTube. Абодва кампанента адаптыўныя. Для табліцы ў адаптиве з'яўляецца гарызантальны скролл. Правёў працу па стылістыкі ўсяго сайта.",
   },
   {
     "id": "D6",

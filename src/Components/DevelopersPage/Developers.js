@@ -9,7 +9,7 @@ function Developers(props) {
       {props.developers.map((item, index) => {
         return (
          <Card key={item.id} className={classes.card}>
-           <CardActionArea>
+           <CardActionArea disabled>
              <CardMedia
               className={classes.img}
               component="img"

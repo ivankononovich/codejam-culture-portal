@@ -13,6 +13,8 @@ const useStyles = makeStyles({
     container: {
       display: 'flex',
       justifyContent: 'space-around',
+      paddingTop: '0.5rem',
+      paddingBottom: '0.5rem',
     },
     wrapper: {
       padding: '0.5rem',

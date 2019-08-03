@@ -17,11 +17,10 @@ const useStyles = makeStyles(theme => ({
     minWidth: 650,
   },
   oneRow: {
-    background: '#7380c7',
-    fontSize: '16px',
-    fontWeight: 'bold',
+    background: 'linear-gradient(90deg, #E0E3EB 0%, rgba(63,81,181,1)  100%)',
   },
   oneRowText: {
+    color: '#000',
     fontSize: '16px',
     fontWeight: 'bold',
   },
