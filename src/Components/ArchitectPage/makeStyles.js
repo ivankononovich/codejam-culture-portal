@@ -16,30 +16,24 @@ const useStyles = makeStyles(() => ({
   name: {
     margin: 10,
   },
-  bio: {
-    color: '#3ac14c',
-  },
   years: {
     marginBottom: 15,
   },
   map: {
     marginBottom: 50,
-    color: '#3ac14c',
   },
   description: {
     marginBottom: 30,
   },
   gallery: {
     margin: 50,
-    color: '#3ac14c',
-  },
-  projects: {
-    color: '#3ac14c',
   },
   video: {
-    color: '#3ac14c',
     marginBottom: 30,
   },
+  title: {
+    color: '#3f51b5',
+  }
 }));
 
 export default useStyles;

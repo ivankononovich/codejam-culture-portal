@@ -17,7 +17,7 @@ const useStyles = makeStyles(theme => ({
     minWidth: 650,
   },
   oneRow: {
-    background: 'rgb(118, 187, 127)',
+    background: '#7380c7',
     fontSize: '16px',
     fontWeight: 'bold',
   },
