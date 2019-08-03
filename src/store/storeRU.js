@@ -481,7 +481,7 @@ const developers = [
     "name": "Евгений Матвеёнок",
     "github": "https://github.com/ins21",
     "image": "https://ins21.github.io/rsschool-2019Q1-cv/assets/images/1.png",
-    "contribution":"Vel facilisis volutpat est velit egestas dui id ornare. Scelerisque eu ultrices vitae auctor eu. Massa eget egestas purus viverra accumsan in nisl nisi. Id diam vel quam elementum pulvinar etiam.",
+    "contribution":"Создал компонент со страницей архитектора, используя Material UI. Добавил компонент TimeLine и компонент Map. Перевел страницы двух архитекторов на белорусский и английский.",
   },
   {
     "id": "D3",

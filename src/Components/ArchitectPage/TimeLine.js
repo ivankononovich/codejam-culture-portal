@@ -6,7 +6,7 @@ const TimeLine = (props) => {
         <TimelineItem
             key={index}
             dateText={item.date}
-            dateInnerStyle={{ background: '#76bb7f', color: '#000' }}
+            dateInnerStyle={{ background: '#7380c7', color: '#fff' }}
             bodyContainerStyle={{
                 background: '#ddd',
                 padding: '20px',

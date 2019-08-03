@@ -492,7 +492,7 @@ const developers = [
     "name": "Яўген Матвеёнак",
     "github": "https://github.com/ins21",
     "image": "https://ins21.github.io/rsschool-2019Q1-cv/assets/images/1.png",
-    "contribution": "in progress...",
+    "contribution": "Стварыў кампанент са старонкай архітэктара, выкарыстоўваючы Material UI. Дадаў кампанент TimeLine і кампанент Map. Пераклаў старонкі двух архітэктараў на беларускую і ангельскую мову.",
   },
   {
     "id": "D3",
