@@ -156,7 +156,7 @@ class GlobalNav extends Component {
                 <meta name="description" content={SEO.description} />
               </Helmet>
                 <Router>
-                    <AppBar position="sticky">
+                    <AppBar position="fixed">
                         <Toolbar style={styles.menuBar}>
                             <MediaQuery query="(max-device-width: 600px)">
                                 <MobileMenu
@@ -200,6 +200,7 @@ class GlobalNav extends Component {
                             />
                         </Toolbar>
                     </AppBar>
+                    <Toolbar />
                     <Container style={styles.wrapper} maxWidth="lg">
                         <Route exact
                             path={`/`}
