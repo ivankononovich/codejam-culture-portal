@@ -7,7 +7,7 @@ import GetArchitectOfTheDay from './GetArchitectOfTheDay';
 
 const useStyles = makeStyles(theme => ({
   container: {
-    margin: '0 auto',
+    margin: '70px auto 35px auto',
     maxWidth: '90%',
   },
   header: {
