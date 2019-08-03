@@ -296,35 +296,35 @@ const architects = [
     "photos": [
       {
         num: 1,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/0/01/Khatyn_Memorial%2C_Belarus.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text: ''
+        title: 'Мемарыяльны комплекс Хатынь',
+        text: 'Мемарыяльны комплекс Хатынь'
       },
       {
         num: 2,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Belarus-Minsk-Memorial_Pit-2.jpg",
         width: 2,
         height: 2,
-        title: '',
-        text:''
+        title: 'Мемарыял ахвярам гітлераўскага генацыду «Яма»',
+        text:'Мемарыял ахвярам гітлераўскага генацыду «Яма»'
       },
       {
         num: 3,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/ru/f/ff/Yanka-kupala-minsk.jpg",
         width: 2,
         height: 2,
-        title: '',
-        text:''
+        title: 'Помнік Янку Купалу',
+        text:'Помнік Янку Купалу'
       },
       {
         num: 4,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Minsk_Thinker_-_panoramio.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text:''
+        title: 'Помнік Якубу Коласу',
+        text:'Помнік Якубу Коласу'
       },
     ],
   },

@@ -285,35 +285,35 @@ const architects = [
     "photos": [
       {
         num: 1,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/0/01/Khatyn_Memorial%2C_Belarus.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text: ''
+        title: 'Khatyn memorial complex',
+        text: 'Khatyn memorial complex'
       },
       {
         num: 2,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Belarus-Minsk-Memorial_Pit-2.jpg",
         width: 2,
         height: 2,
-        title: '',
-        text:''
+        title: 'Memorial to the victims of Hitler\'s genocide "Pit"',
+        text: 'Memorial to the victims of Hitler\'s genocide "Pit"'
       },
       {
         num: 3,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/ru/f/ff/Yanka-kupala-minsk.jpg",
         width: 2,
         height: 2,
-        title: '',
-        text:''
+        title: 'Monument to Janka Kupala',
+        text:'Monument to Janka Kupala'
       },
       {
         num: 4,
-        src: "",
+        src: "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Minsk_Thinker_-_panoramio.jpg",
         width: 4,
         height: 3,
-        title: '',
-        text:''
+        title: 'Monument to Yakub Kolas',
+        text:'Monument to Yakub Kolas'
       },
     ],
   },
