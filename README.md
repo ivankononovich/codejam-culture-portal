@@ -51,6 +51,7 @@ Basic (40) + Normal (130) + Extra (20) - Fines (0) = **190**
 | 3h | Add MenuBar with help of Material UI |
 | 4h | Add mobile version to MenuBar and Architect Of The Day |
 | 2h | Refactor of MenuBar and Architect Of The Day |
+| 4h | Add button and responsive to Architect Of The Day |
 
 **Ivan Kononovich**
 
