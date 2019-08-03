@@ -508,7 +508,7 @@ const developers = [
     name: 'Pavel Khomich',
     github: 'https://github.com/pashax0',
     image: 'https://avatars3.githubusercontent.com/u/17899361?s=460&v=4',
-    contribution: 'in progress...',
+    contribution: 'Created component footer showing information about the developers. The implementation of the search component on the page of architects with showing of results. Components are made using Material UI. Basic SEO optimization.',
   }
 ];
 

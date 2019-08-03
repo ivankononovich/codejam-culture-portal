@@ -509,7 +509,7 @@ const developers = [
     name: 'Павел Хомич',
     github: 'https://github.com/pashax0',
     image: 'https://avatars3.githubusercontent.com/u/17899361?s=460&v=4',
-    contribution: 'Sed adipiscing diam donec adipiscing. Magnis dis parturient montes nascetur ridiculus. Neque viverra justo nec ultrices dui sapien eget. Faucibus pulvinar elementum integer enim neque. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. ',
+    contribution: 'Создал компонент футер сайта с показом информации о разработчиках. Реализация компонента поиска на станице архитекоров с выдачей результатов. Компоненты выполнены с использованием Material UI. Базовая SEO оптимизация.',
   }
 ];
 
