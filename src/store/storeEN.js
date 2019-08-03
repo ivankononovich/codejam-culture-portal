@@ -547,4 +547,5 @@ export default {
   developersList: "Developers",
   homePageLink: "Home",
   searchLabel: "Name or place",
+  architectOfTheDayButton: "Learn more",
 }

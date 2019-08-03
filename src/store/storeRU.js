@@ -548,4 +548,5 @@ export default {
   developersList: "Разработчики",
   homePageLink: "Главная",
   searchLabel: "Имя или место",
+  architectOfTheDayButton: "Подробнее",
 }

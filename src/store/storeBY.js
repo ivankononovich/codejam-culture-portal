@@ -559,4 +559,5 @@ export default {
   developersList: "Распрацоўнікi",
   homePageLink: "Галоўная",
   searchLabel: "Iмя цi месца",
+  architectOfTheDayButton: "Падрабязна",
 }
