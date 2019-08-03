@@ -46,8 +46,8 @@ Basic (40) + Normal (130) + Extra (20) - Fines (0) = **190**
 
 | Time spent | Feature |
 |-------------|-------------|
-| 3h | Preparation for work. Gathering info about Architect. |
-| 3h | Add Architect Of The Day component. |
+| 3h | Preparation for work. Gathering info about Architect |
+| 3h | Add Architect Of The Day component |
 | 3h | Add MenuBar with help of Material UI |
 | 4h | Add mobile version to MenuBar and Architect Of The Day |
 | 2h | Refactor of MenuBar and Architect Of The Day |
@@ -62,4 +62,14 @@ Basic (40) + Normal (130) + Extra (20) - Fines (0) = **190**
 | 2h | Add go to the site developers page |
 | 4h | Add component for translating a site into languages ENG BY RU |
 | 1h | Refactor navigation width router-react |
+
+**Evgeni Matveyonok**
+
+| Time spent | Feature |
+|-------------|-------------|
+| 5h | Create Architect page component using Material UI |
+| 3h | Implement TimeLine component |
+| 4h | Implement Map component |
+| 1h | Gather and add info about architect |
+| 2h | Translate the pages of two architects on BY/EN  |
 
