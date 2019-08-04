@@ -37,32 +37,32 @@ const architects = [
         src: 'https://naviny.by/media/2015.09_w1/yacub.jpg',
         width: 4,
         height: 3,
-        title: 'Памятник Якубу Колосу',
-        text: 'Памятник писателю Якубу Колосу. Построен в каком-то там году  к какому-то там событию.'
+        title: 'Помнік Я.Коласа',
+        text: 'Помнік Я.Коласа.'
       },
       {
         num: 2,
         src: 'https://minsknews.by/wp-content/uploads/2018/05/APD_8846-1.jpg',
         width: 2,
         height: 2,
-        title: '',
-        text: ''
+        title: 'Манумент на пл. Перамогі',
+        text: 'Манумент на пл. Перамогі.'
       },
       {
         num: 3,
         src: 'https://minsk-old-new.com/assets/images/Image/streets/krasnoarmeyskaya/krasnoarmeyskaya-024.jpg',
         width: 2,
         height: 2,
-        title: '',
-        text: ''
+        title: 'Будынак ЦК ЛКСМБ',
+        text: 'Будынак ЦК ЛКСМБ.'
       },
       {
         num: 4,
         src: 'https://planetabelarus.by/upload/resize_cache/iblock/901/1330_887_18e21fe612b4afb807a26ecc22279a1d9/901c0376763ffee6a3fb245ea62fba25.jpg',
         width: 4,
         height: 3,
-        title: '',
-        text: ''
+        title: 'Мінскае Сувораўскае ваеннае вучылішча',
+        text: 'Мінскае Сувораўскае ваеннае вучылішча.'
       },
     ],
   },

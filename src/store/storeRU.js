@@ -45,24 +45,24 @@ const architects = [
         src: 'https://minsknews.by/wp-content/uploads/2018/05/APD_8846-1.jpg',
         width: 2,
         height: 2,
-        title: '',
-        text: ''
+        title: 'Памятник-монумент на пл. Победы',
+        text: 'Памятник-монумент на пл. Победы.'
       },
       {
         num: 3,
         src: 'https://minsk-old-new.com/assets/images/Image/streets/krasnoarmeyskaya/krasnoarmeyskaya-024.jpg',
         width: 2,
         height: 2,
-        title: '',
-        text: ''
+        title: 'Здание ЦК ЛКСМБ',
+        text: 'Здание ЦК ЛКСМБ.'
       },
       {
         num: 4,
         src: 'https://planetabelarus.by/upload/resize_cache/iblock/901/1330_887_18e21fe612b4afb807a26ecc22279a1d9/901c0376763ffee6a3fb245ea62fba25.jpg',
         width: 4,
         height: 3,
-        title: '',
-        text: ''
+        title: 'Минское Суворовское военное училище',
+        text: 'Минское Суворовское военное училище.'
       },
     ],
   },
