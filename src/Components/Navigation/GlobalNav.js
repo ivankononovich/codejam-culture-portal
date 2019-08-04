@@ -156,7 +156,7 @@ class GlobalNav extends Component {
                 <meta name="description" content={SEO.description} />
               </Helmet>
                 <Router>
-                    <AppBar position="fixed">
+                    <AppBar position="fixed" style={{zIndex: '1'}}>
                         <Toolbar style={styles.menuBar}>
                             <MediaQuery query="(max-device-width: 600px)">
                                 <MobileMenu
