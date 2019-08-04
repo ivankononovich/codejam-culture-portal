@@ -276,7 +276,7 @@ const architects = [
       {date: '2004', text: 'Memorial complex to the murdered Jews in Gorodeya'},
     ],
     video: {
-      id: 'lxMfVdAml1A'
+      id: 'P2-yBJvcJUo'
     },
     mapData: {
       center: [53.906840, 27.571457],

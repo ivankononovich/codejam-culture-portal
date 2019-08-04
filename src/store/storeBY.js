@@ -287,7 +287,7 @@ const architects = [
       {date: '2004', text: 'Мемарыяльны комплекс загінуўшым яўрэям у г.п. Гарадзея'},
     ],
     video: {
-      id: 'lxMfVdAml1A'
+      id: 'P2-yBJvcJUo'
     },
     mapData: {
       center: [53.906840, 27.571457],

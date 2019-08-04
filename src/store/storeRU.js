@@ -277,7 +277,7 @@ const architects = [
       {date: '2004', text: 'Мемориальный комплекс погибшим евреям г. п. Городея'},
     ],
     video: {
-      id: 'lxMfVdAml1A'
+      id: 'P2-yBJvcJUo'
     },
     mapData: {
       center: [53.906840, 27.571457],
