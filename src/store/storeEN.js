@@ -524,7 +524,7 @@ const portalDescription = {
     '<p>Belarus has a huge historical heritage. And today, new masterpieces of architecture are being created and restored.</p>' +
     '<p>This portal is about people who created the history of Belorussian architecture with their own hands.</p>',
   architectOfTheDay: 'Architect Of The Day',
-  img: 'https://i.ibb.co/TgCCcg8/total.png',
+  img: 'https://i.ibb.co/Brsc9Sw/main-Picture.png',
 };
 
 const architectPageLanguage = {

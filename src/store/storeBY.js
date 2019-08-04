@@ -536,7 +536,7 @@ const portalDescription = {
     '<p>Беларусь мае вялікую гістарычную спадчыну. І сёння ствараюцца новыя і рэстаўруюцца старадаўнія шэдэўры архітэктуры.</p>' +
     '<p>Гэты партал пра людзей, якія стварылі гістрыю беларускай архітэктуры сваімі рукамі.</p>',
   architectOfTheDay: 'Архітэктар дня',
-  img: 'https://i.ibb.co/TgCCcg8/total.png',
+  img: 'https://i.ibb.co/Brsc9Sw/main-Picture.png',
 };
 
 const architectPageLanguage = {

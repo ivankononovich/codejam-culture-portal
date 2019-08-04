@@ -526,7 +526,7 @@ const portalDescription= {
     '<p>Беларусь имеет огромное историческое наследие. И сегодня создаются новые и реставрируются старинные шедевры архитектуры.</p>' +
     '<p>Этот портал о людях, сотворивших историю белорусской архитектуры своими руками.</p>',
   architectOfTheDay: 'Архитектор дня',
-  img: 'https://i.ibb.co/TgCCcg8/total.png',
+  img: 'https://i.ibb.co/Brsc9Sw/main-Picture.png',
 };
 
 const architectPageLanguage = {
