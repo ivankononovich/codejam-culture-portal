@@ -9,6 +9,8 @@ const useStyles = makeStyles({
       top: 'auto',
       bottom: 0,
       flexShrink: 0,
+      paddingRight: '0 !important',
+      zIndex: '1',
     },
     container: {
       display: 'flex',
