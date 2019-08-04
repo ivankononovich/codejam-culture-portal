@@ -23,9 +23,11 @@ const useStyles = makeStyles(theme => ({
     color: '#000',
     fontSize: '16px',
     fontWeight: 'bold',
+    textAlign:'center',
   },
   rowProjectName: {
     borderRight: '1px solid rgba(224, 224, 224, 1)',
+    textAlign:'justify',
   },
 }));
 

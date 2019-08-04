@@ -11,6 +11,11 @@ const useStyles = makeStyles(theme => ({
   },
   header: {
     marginBottom: 15,
+    fontFamily: 'Georgia, sans-serif',
+    fontStyle: 'italic',
+    color: '#22236a',
+    textShadow: '1px 1px 2px black, 0 0 25px white, 0 0 5px #7289c8',
+    textAlign: 'center',
   },
   card: {
     display: 'flex',
@@ -21,6 +26,7 @@ const useStyles = makeStyles(theme => ({
   },
   content: {
     flex: '1 0 auto',
+    background: '#92A9E6',
   },
   cover: {
     width: 151,
@@ -36,12 +42,14 @@ const useStyles = makeStyles(theme => ({
     width: 38,
   },
   architectImage: {
-    maxWidth: 800,
-    maxHeight: 300
+    maxHeight: 250,
+    borderRadius: '15px',
+    margin: 5,
+    contain: 'content',
   },
   link: {
     cursor: 'pointer',
-    color: '#3F51B5',
+    color: '#e0f2f0',
     textDecoration: 'none',
   },
   cardActionsMobile: {
@@ -54,6 +62,25 @@ const useStyles = makeStyles(theme => ({
     justifyContent: 'center',
     margin: '10px 0',
   },
+  architectCard: {
+    background: '#92A9E6',
+  },
+  architectName: {
+    fontFamily: 'Georgia, sans-serif',
+    color: '#252674',
+    fontWeight: 'bold',
+  },
+  architectContent: {
+    fontFamily: 'Georgia, sans-serif',
+    fontStyle: 'italic',
+    textAlign: 'justify',
+    fontWeight: 'bold',
+  },
+
+  cardLeftPart: {
+    background: '#92a9e6',
+  }
+
 }));
 
 const getArchitectOfTheDay = architects => {
@@ -86,7 +113,7 @@ const getArchitectOfTheDay = architects => {
   const indexOfArchitect = dateDifferences.indexOf(targetDate);
 
   return architects[indexOfArchitect];
-}
+};
 
 const ArchitectOfTheDay = props => {
   const { portalDescription: { architectOfTheDay }, architectOfTheDayButton, architects } = props;
@@ -109,14 +136,14 @@ const ArchitectOfTheDay = props => {
             title={name}
           />
 
-          <CardContent>
-            <Typography component="h5" variant="h5">
+          <CardContent className={classes.architectCard}>
+            <Typography  className={classes.architectName} component="h5" variant="h5">
               {name}
             </Typography>
-            <Typography variant="subtitle1" color="textSecondary">
+            <Typography className={classes.architectContent} variant="subtitle1" color="textSecondary">
               {born} - {deceased}
             </Typography>
-            <Typography>
+            <Typography className={classes.architectContent}>
               {description}
             </Typography>
           </CardContent>
@@ -126,7 +153,7 @@ const ArchitectOfTheDay = props => {
               className={classes.link}
               to={`/${url}`}
             >
-              <Button variant="outlined" size="medium" color="primary">
+              <Button variant="contained" size="medium" color="primary">
                 {architectOfTheDayButton}
               </Button>
             </Link>
@@ -137,7 +164,7 @@ const ArchitectOfTheDay = props => {
 
       <MediaQuery query="(min-device-width: 570px)">
         <Card className={classes.card}>
-          <div style={{ minWidth: 240 }}>
+          <div className={classes.cardLeftPart} style={{ minWidth: 240 }}>
             <CardMedia
               className={classes.architectImage}
               component="img"
@@ -151,7 +178,7 @@ const ArchitectOfTheDay = props => {
                 className={classes.link}
                 to={`/${url}`}
               >
-                <Button variant="outlined" size="medium" color="primary">
+                <Button variant="contained" size="medium" color="primary">
                   {architectOfTheDayButton}
                 </Button>
               </Link>
@@ -160,13 +187,13 @@ const ArchitectOfTheDay = props => {
 
           <div className={classes.details}>
             <CardContent className={classes.content}>
-              <Typography component="h5" variant="h5">
+              <Typography  className={classes.architectName} component="h5" variant="h5">
                 {name}
               </Typography>
-              <Typography variant="subtitle1" color="textSecondary">
+              <Typography className={classes.architectContent} variant="subtitle1" color="textSecondary">
                 {born} - {deceased}
               </Typography>
-              <Typography>
+              <Typography className={classes.architectContent}>
                 {description}
               </Typography>
             </CardContent>
@@ -176,6 +203,6 @@ const ArchitectOfTheDay = props => {
 
     </section>
   );
-}
+};
 
 export default ArchitectOfTheDay;
