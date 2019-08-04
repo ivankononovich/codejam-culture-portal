@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import { Card, CardContent, CardMedia, Typography, CardActions, Button } from '@material-ui/core';
 
-import GetArchitectOfTheDay from './GetArchitectOfTheDay';
-
 const useStyles = makeStyles(theme => ({
   container: {
     margin: '70px auto 35px auto',
@@ -58,12 +56,43 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
+const getArchitectOfTheDay = architects => {
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
+  const allDates = [];
+
+  architects.forEach(architect => {
+    const bornDate = architect.bornDate.slice(0, -4).concat(currentYear);
+
+    const dateToCompare = new Date(bornDate);
+    allDates.push(dateToCompare);
+  });
+
+  const dateDifferences = allDates.map(dateToCompare =>
+    currentDate.getTime() - dateToCompare.getTime()
+  );
+
+  const closestDate = [...dateDifferences];
+
+  const targetDate = closestDate
+    .filter(date =>
+      date >= 0
+    )
+    .sort(
+      (a, b) => b - a
+    )
+    .pop();
+
+  const indexOfArchitect = dateDifferences.indexOf(targetDate);
+
+  return architects[indexOfArchitect];
+}
+
 const ArchitectOfTheDay = props => {
   const { portalDescription: { architectOfTheDay }, architectOfTheDayButton, architects } = props;
   const classes = useStyles();
-  const architect = GetArchitectOfTheDay(architects);
+  const architect = getArchitectOfTheDay(architects);
   const { url, name, born, deceased, description, image } = architect;
-
 
   return (
     <section className={classes.container}>
