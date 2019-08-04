@@ -6,8 +6,8 @@ export default (props) => {
   return (
   <>
     <Container maxWidth="lg">
-      <Typography 
-        variant="h5"
+      <Typography
+        variant="h6"
         component="p"
         gutterBottom
         align="justify"

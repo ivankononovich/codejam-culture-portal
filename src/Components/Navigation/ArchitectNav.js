@@ -5,8 +5,12 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
     item: {
-        fontSize: '2rem',
+        fontSize: '2.1vw',
+        fontFamily: 'FANTASY',
     },
+  listItem: {
+        marginLeft: "25%",
+  },
 });
 
 export default (props) => {
@@ -17,24 +21,24 @@ export default (props) => {
     <>
         <Container maxWidth="lg">
             <List>
-            {architectsSorted.map((architector, i) =>
-                <ListItem
+            {architectsSorted.map((architect, i) =>
+                <ListItem className={classes.listItem}
                     key={i}
                 >
                     <ListItemAvatar>
                         <Avatar
-                            alt={architector.name}
-                            src={architector.image}
+                            alt={architect.name}
+                            src={architect.image}
                         />
                     </ListItemAvatar>
                     <Link
                         component={RouterLink}
-                        to={`/${architector.url}`}
+                        to={`/${architect.url}`}
                         underline="hover"
                     >
                         <ListItemText
                             classes={{primary: classes.item}}
-                            primary={architector.name}
+                            primary={architect.name}
                         />
                     </Link>
                 </ListItem>

@@ -24,8 +24,8 @@ const architects = [
       {date: '1962', text: 'According to the designs of the architect, the Pioneer cinema and the Museum of the Great Patriotic War were built.'},
       {date: '1969', text: 'The memorial complex \'Zislov\' was opened.'},
     ],
-    video: { 
-      id: 'lxMfVdAml1A' 
+    video: {
+      id: 'lxMfVdAml1A'
     },
     mapData: {
       center: [53.906840, 27.571457],
@@ -37,8 +37,8 @@ const architects = [
         src: 'https://naviny.by/media/2015.09_w1/yacub.jpg',
         width: 4,
         height: 3,
-        title: 'Памятник Якубу Колосу',
-        text: 'Памятник писателю Якубу Колосу. Построен в каком-то там году  к какому-то там событию.'
+        title: '',
+        text: ''
       },
       {
         num: 2,
@@ -94,8 +94,8 @@ const architects = [
       {date: '1968', text: 'Designed the republican palace of the young technicians.'},
       {date: '1970-1980', text: 'She did the architectural planning work of the Minsk water cascade - the Drozdy and Krynytsya reservoirs.'},
     ],
-    video: { 
-      id: 'lxMfVdAml1A' 
+    video: {
+      id: 'FCQd9J67N0o'
     },
     mapData: {
       center: [53.906840, 27.571457],
@@ -202,8 +202,8 @@ const architects = [
       {date: '1950', text: 'The state Bank of the USSR'},
       {date: '1946—1954', text: 'Houses and bridge over the river Svisloch, Sports complex \'Dynamo\''},
     ],
-    video: { 
-      id: 'mrfadR51D0I' 
+    video: {
+      id: 'mrfadR51D0I'
     },
     mapData: {
       center: [53.898869, 27.554819],
@@ -275,8 +275,8 @@ const architects = [
       {date: '1990', text: 'Authorship of Minsk metro station «Nemiga»'},
       {date: '2004', text: 'Memorial complex to the murdered Jews in Gorodeya'},
     ],
-    video: { 
-      id: 'lxMfVdAml1A' 
+    video: {
+      id: 'lxMfVdAml1A'
     },
     mapData: {
       center: [53.906840, 27.571457],
@@ -348,8 +348,8 @@ const architects = [
       {date: '1980', text: 'The complex of buildings of the hotel \'Orbita\' on Pushkin Avenue'},
       {date: '1990', text: 'Metro station \'Pushkinskaya\''},
     ],
-    video: { 
-      id: 'jL_MPmr0U-U' 
+    video: {
+      id: 'jL_MPmr0U-U'
     },
     mapData: {
       center: [53.937772, 27.669495],
@@ -406,7 +406,7 @@ const architects = [
       {date: '1768', text: 'Was invited to Warsaw, where he studied the Castrum Doloris of Queen Marie Leszczyńska and the rebuilding project of the St.Jan church.'},
       {date: '1771', text: 'Became an architect of the Skarbovaya commission of The Grand Duchy of Lithuania. Was recommended to the Grodno headman Anthony Tizengauz and was hired as a royal architect, with a fixed salary of 600 zlotys. In The Polish–Lithuanian Commonwealth de Sacco receives a number of military titles of The Grand Duchy of Lithuania.'},
       {date: '1771 - 1780', text: 'Completed a number of orders from local magnates, having designed several well-known palace and park ensembles and city residences, in particular: the Volovichi magnates Palace in Svyatsk, the Khreptovichi Palace in Shchorsy, the Tizengauz Palaces in Postavy and Vilnius (presumably).'}
-    ],    
+    ],
     project: [
       {date: 'XVIII century', text: 'The Palace in Tsyonzheni'},
       {date: 'XVIII century', text: 'The Khreptovichi Palace in Shchorsy'},
@@ -415,8 +415,8 @@ const architects = [
       {date: 'XVIII century', text: 'The Tizengauz Palace'},
       {date: 'XVIII century', text: 'The Palace in Mosar'},
     ],
-    video: { 
-      id: 'TkaLjjNj8Ls' 
+    video: {
+      id: 'TkaLjjNj8Ls'
     },
     mapData: {
       center: [53.684727, 23.834317],
@@ -456,7 +456,7 @@ const architects = [
         text: 'The Palace in Svyatsk'
       },
       {
-        num: 5,        
+        num: 5,
         src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG/1280px-%D0%A2%D0%B5%D0%B0%D1%82%D1%80_%D0%BA%D1%83%D0%BA%D0%BE%D0%BB_%D0%B2_%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE.JPG',
         width: 4,
         height: 3,
@@ -473,54 +473,62 @@ const developers = [
     name: 'Ivan Kononovich',
     github: 'https://github.com/ivankononovich',
     image: 'https://avatars0.githubusercontent.com/u/41195901?s=400&v=4',
-    contribution: 'Created the basic structure of the project. Implemented the transition between pages using react router. Implemented a website translation into three languages ​​(the whole team wrote the text).',
+    contribution: '➤Created the basic structure of the project.\n ➤Implemented the transition between pages using react router.\n ➤Implemented a website translation into three languages (the whole team wrote the text).',
   },
   {
     id: 'D2',
     name: 'Evgeni Matveyonok',
     github: 'https://github.com/ins21',
     image: 'https://ins21.github.io/rsschool-2019Q1-cv/assets/images/1.png',
-    contribution: 'Created the Architect page component and its layout using Material UI. Added the TimeLine component and the Map component. Translated the pages of two architects into Belarusian and English.',
+    contribution: '➤Created the Architect page component and its layout using Material UI. \n ➤Added the TimeLine component and the Map component. \n ➤Translated the pages of two architects into Belarusian and English.',
   },
   {
     id: 'D3',
     name: 'Katerina Zhadko',
     github: 'https://github.com/cathzetjo',
     image: 'https://avatars3.githubusercontent.com/u/44948376?s=460&v=4',
-    contribution: 'in progress...',
+    contribution: '➤Component Developers page. Plus Layout and styles according Material UI for Developers page.\n' +
+      ' ➤Component PhotoGallery - gallery on architects pages.\n' +
+      ' ➤Content on the page of architect Usova Lubov with translation.\n' +
+      ' ➤Content and picture on Home page.',
   },
   {
     id: 'D4',
     name: 'Arthur Rubchenko',
     github: 'https://github.com/Arthur199212',
     image: 'https://avatars0.githubusercontent.com/u/46008463?s=460&v=4',
-    contribution: 'He has created the menu bar and the architect of the day components. The architect of the day is selected by birth date. The menu is responsive and was implemented using the Material-UI.',
+    contribution: '➤Created the menu bar and the architect of the day components.\n ➤The architect of the day is selected by birth date.\n ➤The menu is responsive and was implemented using the Material-UI.',
   },
   {
     id: 'D5',
     name: 'Dmitriy Porhomenko',
     github: 'https://github.com/DmitriyParhomenko',
     image: 'https://avatars0.githubusercontent.com/u/37816988?s=460&v=4',
-    contribution: ' Created two components which use Material UI: table of projects on the website of the architect and the modal window displaying a YouTube video. Both components are adaptive. For a table, a horizontal scroll appears in the adaptive. Has worked style the entire site.',
+    contribution: '➤Created two components which use Material UI: table of projects on the website of the architect and the modal window displaying a YouTube video.\n ➤Both components are adaptive. For a table, a horizontal scroll appears in the adaptive.\n ➤Corrected style for the entire site.',
   },
   {
     id: 'D6',
     name: 'Pavel Khomich',
     github: 'https://github.com/pashax0',
     image: 'https://avatars3.githubusercontent.com/u/17899361?s=460&v=4',
-    contribution: 'Created component footer showing information about the developers. The implementation of the search component on the page of architects with showing of results. Components are made using Material UI. Basic SEO optimization.',
+    contribution: '➤Created component footer showing information about the developers.\n ➤The implementation of the search component on the page of architects with showing of results. Components are made using Material UI.\n ➤Basic SEO optimization.',
   }
 ];
 
 const portalDescription = {
   title: 'Architects of Belarus',
-  description: '<p>The various styles of Belarusian churches, castles, palaces and fortresses reflect the influence of both Eastern and Western culture. Despite the complex history of wars and destruction, many architectural values ​​of Belarus have been preserved.</ p><p> Different trends in art and religion have influenced the formation of the architecture of Belarus. In the country you can find examples of Romanesque and Gothic, Baroque and Classicism, modern and eclectic. There are many examples of modern architecture.</p><p>The architect is a qualified specialist who carries out architectural design (organization of the architectural environment), including the design of buildings, including planning and interior solutions. Get closer to the Belarusian architects and their work on our portal!</p>',
+  description: '<p>The country\'s architecture it is some kind of image of the state, it can reveal the historical heritage, talk about tastes, preferences and living standards of the state.</p>' +
+    '<p>The architecture of Belarus is a true testament to its rich history. Monuments of history, architectural structures are connected with medieval, East European and Russian art. They absorbed national and European trends in the development of architecture. Castles of Belarus are unique masterpieces.</p>' +
+    '<p>Many buildings in the country are made in the Byzantine-Balkan style, which makes them more pronounced against the background of modern buildings. Baroque monumental monuments, palaces in Grodno, Mogilev are distinguished by sophistication and sophistication. The palace ensembles in Gomel belong to the monuments of classicism.</p>' +
+    '<p>The architecture of Belarus is associated with its historical events, interweaving of artistic styles. The variety of styles makes the country even more vibrant and picturesque.</p>' +
+    '<p>Belarus has a huge historical heritage. And today, new masterpieces of architecture are being created and restored.</p>' +
+    '<p>This portal is about people who created the history of Belorussian architecture with their own hands.</p>',
   architectOfTheDay: 'Architect Of The Day',
-  img: 'https://vedaj.by/images/mainimg.png',
+  img: 'https://i.ibb.co/TgCCcg8/total.png',
 };
 
 const architectPageLanguage = {
-  years: 'Years of life', 
+  years: 'Years of life',
   bio: 'Biography',
   projects: 'Projects',
   projectHeader: {
@@ -546,6 +554,6 @@ export default {
   architectsNav: 'Architects',
   developersList: 'Developers',
   homePageLink: 'Home',
-  searchLabel: 'Name or place',
+  searchLabel: 'Name or place of birth',
   architectOfTheDayButton: 'Learn more',
 }

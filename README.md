@@ -53,6 +53,17 @@ Basic (40) + Normal (130) + Extra (20) - Fines (0) = **190**
 | 2h | Refactor of MenuBar and Architect Of The Day |
 | 4h | Add button and responsive to Architect Of The Day |
 
+**Katerina Zhadko**
+
+| Time spent | Feature |
+|-------------|-------------|
+| 2h | Searching information, photos and video about architect Usova Lubov|
+| 5h | Create Developers page component, add layout and styles using Material UI |
+| 3h | Create Gallery component |
+| 1h | Add content about architect Usova Lubov on 3 languages  |
+| 1h | Create picture for Home page. Add picture and content on Home page  |
+| 2h | Refactoring  |
+
 **Ivan Kononovich**
 
 | Time spent | Feature |

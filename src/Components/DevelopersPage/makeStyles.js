@@ -26,6 +26,7 @@ const useStyles = makeStyles(theme => ({
   },
   contribution: {
     textAlign: 'justify',
+    whiteSpace: 'pre-line',
   },
   actions: {
     justifyContent: 'center',
