@@ -4,9 +4,21 @@ import { Container, Link, List, ListItem, ListItemAvatar, ListItemText, Avatar }
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
+  '@global': {
+    '*::-webkit-scrollbar': {
+      width: '1em'
+    },
+    '*::-webkit-scrollbar-track': {
+      '-webkit-box-shadow': 'inset 0 0 6px rgba(0,0,0,0.2)'
+    },
+    '*::-webkit-scrollbar-thumb': {
+      backgroundColor: 'rgba(26, 24, 58, .6)',
+      outline: '1px solid #a4bcd1'
+    },
+  },
     item: {
-        fontSize: '2.1vw',
-        fontFamily: 'FANTASY',
+        fontSize: '24px',
+        fontFamily: 'Impact, sans-serif',
     },
   listItem: {
         paddingLeft: "25%",
