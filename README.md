@@ -2,7 +2,7 @@
 
 1. [Link to the task](https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/codejam-culture-portal.md)
 2. [Link to the hosted Web App](http://ivankononovich.github.io/codejam-culture-portal)
-3. Deadline 23:59 04.08.2019 / Date of assignment XX:XX 04.08.2019
+3. Deadline 23:59 04.08.2019 / Date of assignment 22:00 04.08.2019
 4. Summary is below
 
 
@@ -60,8 +60,9 @@ Basic (40) + Normal (130) + Extra (20) - Fines (0) = **190**
 | 2h | Searching information, photos and video about architect Usova Lubov|
 | 5h | Create Developers page component, add layout and styles using Material UI |
 | 3h | Create Gallery component |
-| 1h | Add content about architect Usova Lubov on 3 languages  |
+| 2h | Add content about architect Usova Lubov on 3 languages  |
 | 1h | Create picture for Home page. Add picture and content on Home page  |
+| 2h | Style correction for the whole site  |
 | 2h | Refactoring  |
 
 **Ivan Kononovich**
