@@ -9,7 +9,7 @@ const useStyles = makeStyles({
         fontFamily: 'FANTASY',
     },
   listItem: {
-        marginLeft: "25%",
+        paddingLeft: "25%",
   },
 });
 
